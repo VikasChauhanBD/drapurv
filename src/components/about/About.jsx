@@ -35,7 +35,7 @@ function About() {
           viewport={{ once: true }}
         >
           {/* <NavLink>Know More..</NavLink> */}
-          <button class="glow-on-hover" type="button">
+          <button class="about-glow-on-hover" type="button">
             Know More..
           </button>
           <p>

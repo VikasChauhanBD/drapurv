@@ -61,7 +61,7 @@
   background-color: #00c0ff;
 } */
 
-.glow-on-hover {
+.header-glow-on-hover {
   font-size: 18px;
   font-weight: 600;
   padding: 1rem 1.5rem;
@@ -75,7 +75,7 @@
   border-radius: 50px;
 }
 
-.glow-on-hover:before {
+.header-glow-on-hover:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -103,19 +103,19 @@
   border-radius: 50px;
 }
 
-.glow-on-hover:active {
+.header-glow-on-hover:active {
   color: #fff;
 }
 
-.glow-on-hover:active:after {
+.header-glow-on-hover:active:after {
   background: transparent;
 }
 
-.glow-on-hover:hover:before {
+.header-glow-on-hover:hover:before {
   opacity: 1;
 }
 
-.glow-on-hover:after {
+.header-glow-on-hover:after {
   z-index: -1;
   content: "";
   position: absolute;

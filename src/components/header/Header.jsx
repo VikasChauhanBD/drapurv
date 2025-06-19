@@ -33,7 +33,7 @@ function Header() {
           </h5>
           <br />
           {/* <NavLink>Get Connected</NavLink> */}
-          <button class="glow-on-hover" type="button">
+          <button class="header-glow-on-hover" type="button">
             Get Connected
           </button>
         </div>

@@ -49,7 +49,7 @@
   color: white;
 } */
 
-.glow-on-hover {
+.about-glow-on-hover {
   font-size: 18px;
   font-weight: 600;
   padding: 1rem 1.5rem;
@@ -63,7 +63,7 @@
   border-radius: 50px;
 }
 
-.glow-on-hover:before {
+.about-glow-on-hover:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -85,25 +85,25 @@
   filter: blur(5px);
   width: calc(100% + 10px);
   height: calc(100% + 10px);
-  animation: glowing 20s linear infinite;
+  animation: about-glowing 20s linear infinite;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   border-radius: 50px;
 }
 
-.glow-on-hover:active {
+.about-glow-on-hover:active {
   color: #00c0ff;
 }
 
-.glow-on-hover:active:after {
+.about-glow-on-hover:active:after {
   background: transparent;
 }
 
-.glow-on-hover:hover:before {
+.about-glow-on-hover:hover:before {
   opacity: 1;
 }
 
-.glow-on-hover:after {
+.about-glow-on-hover:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -115,7 +115,7 @@
   border-radius: 50px;
 }
 
-@keyframes glowing {
+@keyframes about-glowing {
   0% {
     background-position: 0 0;
   }

@@ -34,7 +34,7 @@ function EducationKnowMore() {
           viewport={{ once: true }}
         >
           {/* <NavLink>Know More..</NavLink> */}
-          <button class="glow-on-hover" type="button">
+          <button class="educationKM-glow-on-hover" type="button">
             Know More..
           </button>
           <p>
@@ -59,7 +59,7 @@ function EducationKnowMore() {
           viewport={{ once: true }}
         >
           {/* <NavLink>Know More..</NavLink> */}
-          <button class="glow-on-hover" type="button">
+          <button class="educationKM-glow-on-hover" type="button">
             Know More..
           </button>
           <p>
