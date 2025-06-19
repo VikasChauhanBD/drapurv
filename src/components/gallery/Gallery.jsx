@@ -1,0 +1,34 @@
+import { React, useEffect } from "react";
+import "./Gallery.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Gallery1 from "../../assets/images/gallery1.png";
+import Gallery2 from "../../assets/images/gallery2.png";
+import Gallery3 from "../../assets/images/gallery3.png";
+import Gallery4 from "../../assets/images/gallery4.png";
+import Gallery5 from "../../assets/images/gallery5.png";
+import Gallery6 from "../../assets/images/gallery6.png";
+
+function Gallery() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, offset: 200 });
+  }, []);
+
+  return (
+    <div id="gallery" className="gallery-main-container">
+      {/* <div className="gallery-inner-container"> */}
+      <h1>Gallery</h1>
+      <div className="gallery-images">
+        <img src={Gallery1} alt="" />
+        <img src={Gallery2} alt="" />
+        <img src={Gallery3} alt="" />
+        <img src={Gallery4} alt="" />
+        <img src={Gallery5} alt="" />
+        <img src={Gallery6} alt="" />
+      </div>
+      {/* </div> */}
+    </div>
+  );
+}
+
+export default Gallery;

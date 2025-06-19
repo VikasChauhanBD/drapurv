@@ -1,0 +1,107 @@
+.vjc-main-container {
+  width: 80%;
+  margin-left: 20%;
+  background-color: #e5f4fb;
+}
+
+.vjc-main-container h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #131a2e;
+  text-transform: uppercase;
+}
+
+.vjc-inner-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clinic-subtitle {
+  font-size: 24px;
+  color: #005a87;
+  margin: 24px 0;
+  font-weight: 600;
+  animation: pulseText 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseText {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.clinic-text {
+  font-size: 20px;
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.clinic-address {
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid #2e4392;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 16px;
+  /* box-shadow: 0 0 12px rgba(46, 67, 146, 0.3); */
+}
+
+.clinic-address-text {
+  width: 25%;
+  text-align: start;
+}
+
+.clinic-address-text h4 {
+  font-size: 1.5rem;
+  padding-bottom: 8px;
+}
+
+.clinic-address-text p {
+  font-size: 18px;
+  color: black;
+  line-height: 1.6;
+}
+
+.clinic-address-map {
+  width: 70%;
+  height: 250px;
+}
+
+.clinic-address-map iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+/* ------------------------------------ Responsive Style ------------------------- */
+
+@media (max-width: 1440px) {
+  .vjc-inner-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 968px) {
+  .vjc-main-container {
+    width: 100%;
+    margin-left: 0%;
+    padding: 4rem 2.5%;
+  }
+}
+
+@media (max-width: 568px) {
+  .clinic-address {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .clinic-address-text,
+  .clinic-address-map {
+    width: 100%;
+  }
+}

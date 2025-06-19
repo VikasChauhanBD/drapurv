@@ -1,0 +1,59 @@
+.gallery-main-container {
+  width: 80%;
+  margin-left: 20%;
+  padding: 2rem 0;
+  background-color: #e5f4fb;
+}
+
+.gallery-main-container h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #131a2e;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+.gallery-images {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-images img {
+  width: 32%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+
+/* ------------------------------------ Responsive Style ------------------------- */
+
+@media (max-width: 1440px) {
+  .gallery-images {
+    width: 90%;
+  }
+}
+
+/* @media (max-width: 1024px) {
+  .gallery-images {
+    width: 90%;
+  }
+} */
+
+@media (max-width: 968px) {
+  .gallery-main-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 568px) {
+  .gallery-images {
+    width: 95%;
+  }
+
+  .gallery-images img {
+    width: 48%;
+  }
+}

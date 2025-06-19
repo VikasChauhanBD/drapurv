@@ -1,0 +1,124 @@
+.studentTM-main-container {
+  width: 80%;
+  margin-left: 20%;
+  height: 100%;
+  padding-top: 2rem;
+  background-color: #e5f4fb;
+  /* background-image: url(../../assets/images/student-testimonial-bg.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat; */
+}
+
+.studentTM-content {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-radius: 12px;
+  border: 2px solid #2e4392;
+  padding: 2.5rem 0 1rem 0;
+  position: relative;
+}
+
+.studentTM-main-container h1 {
+  border-radius: 33px;
+  background: #2e4392;
+  color: white;
+  text-transform: uppercase;
+  font-size: 28px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem;
+  white-space: nowrap;
+}
+
+.studentTM-cards {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  overflow-x: scroll;
+  padding-top: 4rem;
+}
+
+.studentTM-card {
+  position: relative;
+  min-width: 350px;
+  text-align: center;
+  margin: 0 0 32px 20px;
+  border: 2px solid #2e4392;
+  border-radius: 10px;
+  padding: 80px 10px 10px 10px;
+}
+
+.studentTM-image {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid #2e4392;
+}
+
+.studentTM-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.studentTM-card h3 {
+  font-size: 20px;
+  padding: 1rem 0;
+}
+
+.studentTM-card p {
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.studentTM-card:first-of-type {
+  margin-left: 0;
+}
+
+.studentTM-cards::-webkit-scrollbar {
+  display: none;
+}
+
+/* ------------------------------------ Responsive Style ------------------------- */
+
+@media (max-width: 1440px) {
+  .studentTM-content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 968px) {
+  .studentTM-main-container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .studentTM-cards {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .studentTM-main-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .studentTM-card {
+    min-width: 300px;
+  }
+}
