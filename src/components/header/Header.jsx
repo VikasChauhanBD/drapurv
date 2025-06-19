@@ -32,7 +32,10 @@ function Header() {
             <Cursor />
           </h5>
           <br />
-          <NavLink>Get Connected</NavLink>
+          {/* <NavLink>Get Connected</NavLink> */}
+          <button class="glow-on-hover" type="button">
+            Get Connected
+          </button>
         </div>
       </div>
     </div>

@@ -33,7 +33,10 @@ function EducationKnowMore() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <NavLink>Know More..</NavLink>
+          {/* <NavLink>Know More..</NavLink> */}
+          <button class="glow-on-hover" type="button">
+            Know More..
+          </button>
           <p>
             eConceptual – India’s Leading MedTech Platform for Residency
             Students Founded with a vision by Dr. Apurv Mehra, eConceptual is a
@@ -55,7 +58,10 @@ function EducationKnowMore() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <NavLink>Know More..</NavLink>
+          {/* <NavLink>Know More..</NavLink> */}
+          <button class="glow-on-hover" type="button">
+            Know More..
+          </button>
           <p>
             Cerebellum Academy – Shaping the Clinicians of Tomorrow Founded by
             pioneering faculty, Cerebellum Academy is a dedicated platform for

@@ -34,7 +34,10 @@ function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <NavLink>Know More..</NavLink>
+          {/* <NavLink>Know More..</NavLink> */}
+          <button class="glow-on-hover" type="button">
+            Know More..
+          </button>
           <p>
             Dr. Apurv Mehra is one of India’s foremost orthopaedic surgeons,
             with over 22 years of experience in advanced orthopaedic care. He

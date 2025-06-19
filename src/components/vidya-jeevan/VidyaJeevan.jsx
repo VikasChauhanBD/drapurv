@@ -15,7 +15,6 @@ function VidyaJeevan() {
 
   return (
     <div id="vidya-jeevan-experience-center" className="vidya-main-container">
-      {/* <div className="vidya-inner-container"> */}
       <h1>Vidya Jeevan</h1>
       <h2>
         A dedicated Learning Hub For NEETPG, INICET and Orthopedics Residency
@@ -43,7 +42,10 @@ function VidyaJeevan() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <NavLink>Know More..</NavLink>
+          {/* <NavLink>Know More..</NavLink> */}
+          <button class="glow-on-hover" type="button">
+            Know More..
+          </button>
           <p>
             A focused learning hub designed exclusively for NEET PG and INICET
             aspirants.Vidyajeevan empowers future doctors to maximize their
@@ -56,7 +58,6 @@ function VidyaJeevan() {
           </p>
         </motion.div>
       </div>
-      {/* </div> */}
     </div>
   );
 }
