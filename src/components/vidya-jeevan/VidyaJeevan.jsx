@@ -4,7 +4,8 @@ import { NavLink } from "react-router-dom";
 import { motion } from "motion/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import VidyaImage1 from "../../assets/images/vj-main-image.png";
+// import VidyaImage1 from "../../assets/images/vj-main-image.png";
+import VidyaImage1 from "../../assets/images/vj-main-image-2.jpg";
 import VidyaImage2 from "../../assets/images/vj-image.png";
 
 function VidyaJeevan() {
@@ -16,6 +17,10 @@ function VidyaJeevan() {
     <div id="vidya-jeevan-experience-center" className="vidya-main-container">
       {/* <div className="vidya-inner-container"> */}
       <h1>Vidya Jeevan</h1>
+      <h2>
+        A dedicated Learning Hub For NEETPG, INICET and Orthopedics Residency
+        Students
+      </h2>
       <div className="vidya-main-image">
         <img src={VidyaImage1} alt="" />
       </div>

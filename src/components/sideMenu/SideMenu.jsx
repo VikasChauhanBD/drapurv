@@ -83,17 +83,17 @@ function SideMenu() {
           </NavLink>
 
           <NavLink
-            to="#leading-educator"
-            className={activeLink === "leading-educator"}
-            onClick={() => scrollToSection("leading-educator")}
+            to="#education"
+            className={activeLink === "education"}
+            onClick={() => scrollToSection("education")}
           >
             LEADING EDUCATOR
           </NavLink>
 
           <NavLink
-            to="#entrepreneur"
-            className={activeLink === "entrepreneur"}
-            onClick={() => scrollToSection("entrepreneur")}
+            to="#education-know-more"
+            className={activeLink === "education-know-more"}
+            onClick={() => scrollToSection("education-know-more")}
           >
             ENTREPRENEUR
           </NavLink>
