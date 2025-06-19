@@ -14,7 +14,7 @@ function About() {
 
   return (
     <div id="about" className="about-main-container">
-      <h1>India’s Best Robotic Knee Replacement Surgeon</h1>
+      <h1>Renowned for Precision in Robotic Joint Replacement</h1>
 
       <div className="about-content">
         <motion.div

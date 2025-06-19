@@ -58,14 +58,17 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .patient-swiper-slide {
+    width: 400px;
+    height: 300px;
+  }
+}
+
 @media (max-width: 968px) {
   .patient-swiper-container {
     width: 100%;
     margin-left: 0;
-  }
-
-  .studentTM-cards {
-    width: 95%;
   }
 }
 
@@ -75,12 +78,16 @@
   }
 
   .patient-swiper-slide {
-    width: 410px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
   }
 }
 
 @media (max-width: 468px) {
+  .patient-swiper-container h1 {
+    font-size: 1rem;
+  }
+
   .patient-swiper-slide {
     width: 300px;
     height: 300px;
