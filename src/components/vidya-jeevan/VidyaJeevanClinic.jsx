@@ -57,10 +57,7 @@ function VidyaJeevanClinic() {
   return (
     <div id="vidya-jeevan-clinic" className="vjc-main-container">
       <h1>Vidya Jeevan Clinic for Orthopedics</h1>
-      <p className="vjc-subtitle">
-        <FaQuoteLeft /> Most Trusted Centre for Ethical Practice{" "}
-        <FaQuoteRight />
-      </p>
+      <p className="vjc-subtitle">Most Trusted Centre for Ethical Practice </p>
 
       <div className="vjc-inner-container">
         <div className="vjc-card">
@@ -78,6 +75,9 @@ function VidyaJeevanClinic() {
               world-class consultation, and compassionate guidance — all under
               one roof.
             </p>
+            <button class="vjc-glow-on-hover" type="button">
+              Book Your Appointment..
+            </button>
           </div>
 
           <div className="vjc-images-swiper">
