@@ -5,8 +5,8 @@ import { motion } from "motion/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import VidyaImage1 from "../../assets/images/vj-main-image.png";
-import VidyaImage1 from "../../assets/images/vj-main-image-2.jpg";
-import VidyaImage2 from "../../assets/images/vj-image.png";
+import VidyaImage1 from "../../assets/images/vidya-jeevan-images/vj-main-image-2.jpg";
+import VidyaImage2 from "../../assets/images/vidya-jeevan-images/vj-image.png";
 
 function VidyaJeevan() {
   useEffect(() => {

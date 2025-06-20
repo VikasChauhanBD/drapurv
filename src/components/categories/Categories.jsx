@@ -3,12 +3,12 @@ import "./Categories.css";
 import VanillaTilt from "vanilla-tilt";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Bone1 from "../../assets/images/bone-1.png";
-import Bone2 from "../../assets/images/bone-2.png";
-import Bone3 from "../../assets/images/bone-3.png";
-import Bone4 from "../../assets/images/bone-4.png";
-import Bone5 from "../../assets/images/bone-5.png";
-import Bone6 from "../../assets/images/bone-6.png";
+import Bone1 from "../../assets/images/categories-images/bone-1.png";
+import Bone2 from "../../assets/images/categories-images/bone-2.png";
+import Bone3 from "../../assets/images/categories-images/bone-3.png";
+import Bone4 from "../../assets/images/categories-images/bone-4.png";
+import Bone5 from "../../assets/images/categories-images/bone-5.png";
+import Bone6 from "../../assets/images/categories-images/bone-6.png";
 
 function Categories() {
   useEffect(() => {
@@ -64,7 +64,13 @@ function Categories() {
 
   return (
     <div id="categories" className="categories-main-container">
+      <h1>Expertise That Covers Every Step</h1>
       <div className="categories-cards">
+        <p className="categories-subtitle">
+          Whether it's pain relief, surgical precision, or long-term recovery —
+          our extended specialties ensure you're in the best hands, every step
+          of the way.
+        </p>
         {categoriesData.map((data, index) => (
           <div key={index} className="categories-card tilt">
             <img src={data.image} alt="bone image" />

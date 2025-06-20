@@ -14,35 +14,66 @@
 .vjc-inner-container {
   width: 80%;
   margin: 0 auto;
-  text-align: center;
 }
 
-.clinic-subtitle {
+.vjc-subtitle {
+  width: 580px;
+  margin: 24px auto;
   font-size: 24px;
-  color: #005a87;
-  margin: 24px 0;
+  color: black;
+  background-color: #00c0ff;
+  padding: 10px;
   font-weight: 600;
-  animation: pulseText 1.5s ease-in-out infinite;
+  text-align: center;
+  border-radius: 15px;
 }
 
-@keyframes pulseText {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
+.vjc-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
 }
 
-.clinic-text {
+.vjc-content {
+  width: 49%;
+  padding: 16px 0;
+}
+
+.vjc-text {
   font-size: 20px;
   color: black;
   line-height: 1.6;
   margin-bottom: 15px;
 }
 
-.clinic-address {
+.vjc-images-swiper {
+  width: 49%;
+  position: relative;
+}
+
+.vjc-swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px !important;
+  height: 300px !important;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.vjc-swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.vjc-swiper-slide-active img {
+  filter: grayscale(0%);
+}
+
+.vjc-address {
   display: flex;
   justify-content: space-between;
   border: 4px solid #2e4392;
@@ -51,28 +82,27 @@
   margin-top: 16px;
 }
 
-.clinic-address-text {
+.vjc-address-text {
   width: 25%;
-  text-align: start;
 }
 
-.clinic-address-text h4 {
+.vjc-address-text h4 {
   font-size: 1.5rem;
   padding-bottom: 8px;
 }
 
-.clinic-address-text p {
+.vjc-address-text p {
   font-size: 18px;
   color: black;
   line-height: 1.6;
 }
 
-.clinic-address-map {
+.vjc-address-map {
   width: 70%;
   height: 250px;
 }
 
-.clinic-address-map iframe {
+.vjc-address-map iframe {
   width: 100%;
   height: 100%;
   border-radius: 15px;
@@ -91,22 +121,44 @@
     margin-left: 0%;
     padding: 4rem 2.5%;
   }
+
+  .vjc-card {
+    flex-wrap: wrap-reverse;
+  }
+
+  .vjc-content {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .vjc-images-swiper {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
   .vjc-main-container {
-    padding: 4rem 0;
+    padding: 1rem 0 2rem 0;
+  }
+
+  .vjc-main-container h1 {
+    font-size: 1.5rem;
   }
 }
 
 @media (max-width: 568px) {
-  .clinic-address {
+  .vjc-subtitle {
+    width: 95%;
+    font-size: 20px;
+  }
+
+  .vjc-address {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .clinic-address-text,
-  .clinic-address-map {
+  .vjc-address-text,
+  .vjc-address-map {
     width: 100%;
   }
 }

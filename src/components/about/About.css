@@ -145,21 +145,22 @@
 }
 
 @media (max-width: 1024px) {
-  .about-main-container h1 {
-    font-size: 1.5rem;
-    padding: 0 1rem;
-  }
 }
 
 @media (max-width: 968px) {
   .about-main-container {
     margin-left: 0;
     width: 100%;
-    padding: 4rem 0;
+    padding: 2.5rem 0 2rem 0;
   }
 }
 
 @media (max-width: 768px) {
+  .about-main-container h1 {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+
   .about-content {
     flex-wrap: wrap;
     padding: 0;

@@ -2,12 +2,12 @@ import { React, useEffect } from "react";
 import "./Gallery.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Gallery1 from "../../assets/images/gallery1.png";
-import Gallery2 from "../../assets/images/gallery2.png";
-import Gallery3 from "../../assets/images/gallery3.png";
-import Gallery4 from "../../assets/images/gallery4.png";
-import Gallery5 from "../../assets/images/gallery5.png";
-import Gallery6 from "../../assets/images/gallery6.png";
+import Gallery1 from "../../assets/images/gallery-images/gallery1.png";
+import Gallery2 from "../../assets/images/gallery-images/gallery2.png";
+import Gallery3 from "../../assets/images/gallery-images/gallery3.png";
+import Gallery4 from "../../assets/images/gallery-images/gallery4.png";
+import Gallery5 from "../../assets/images/gallery-images/gallery5.png";
+import Gallery6 from "../../assets/images/gallery-images/gallery6.png";
 
 function Gallery() {
   useEffect(() => {
