@@ -9,15 +9,15 @@ import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import VJC1 from "../../assets/images/vidya-jeevan-images/vjc-1.jpg";
-import VJC2 from "../../assets/images/vidya-jeevan-images/vjc-2.jpg";
-import VJC3 from "../../assets/images/vidya-jeevan-images/vjc-3.jpg";
-import VJC4 from "../../assets/images/vidya-jeevan-images/vjc-4.jpg";
-import VJC5 from "../../assets/images/vidya-jeevan-images/vjc-5.jpg";
-import VJC6 from "../../assets/images/vidya-jeevan-images/vjc-6.jpg";
-import VJC7 from "../../assets/images/vidya-jeevan-images/vjc-7.jpg";
-import VJC8 from "../../assets/images/vidya-jeevan-images/vjc-8.jpg";
-import VJC9 from "../../assets/images/vidya-jeevan-images/vjc-9.jpg";
+import VJC1 from "../../assets/images/vidya-jeevan-images/vjc-1.JPG";
+import VJC2 from "../../assets/images/vidya-jeevan-images/vjc-2.JPG";
+import VJC3 from "../../assets/images/vidya-jeevan-images/vjc-3.JPG";
+import VJC4 from "../../assets/images/vidya-jeevan-images/vjc-4.JPG";
+import VJC5 from "../../assets/images/vidya-jeevan-images/vjc-5.JPG";
+import VJC6 from "../../assets/images/vidya-jeevan-images/vjc-6.JPG";
+import VJC7 from "../../assets/images/vidya-jeevan-images/vjc-7.JPG";
+import VJC8 from "../../assets/images/vidya-jeevan-images/vjc-8.JPG";
+import VJC9 from "../../assets/images/vidya-jeevan-images/vjc-9.JPG";
 
 const clinicData = [
   {
