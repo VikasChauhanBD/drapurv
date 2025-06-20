@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import CBA_Logo from "../../assets/images/cba-logo.png";
 import EC_logo from "../../assets/images/ec-logo.png";
 import { useEffect } from "react";
-import Demo from "../../assets/images/demo-2.jpg";
+import Demo from "../../assets/images/education-banner.png";
 import { motion } from "motion/react";
 
 function Education() {
