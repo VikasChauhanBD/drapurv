@@ -12,7 +12,6 @@ import EducationKnowMore from "./components/medical-education/EducationKnowMore"
 import VidyaJeevan from "./components/vidya-jeevan/VidyaJeevan";
 import StudentsTestimonial from "./components/students-testimonial/StudentsTestimonial";
 import Gallery from "./components/gallery/Gallery";
-import WhoWeAre from "./components/testing/WhoWeAre";
 
 function App() {
   return (
@@ -58,10 +57,6 @@ function App() {
         <Gallery />
       </section>
     </Router>
-
-    // <div className="App">
-    //   <WhoWeAre />
-    // </div>
   );
 }
 
