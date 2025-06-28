@@ -42,10 +42,6 @@ function VidyaJeevan() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          {/* <NavLink>Know More..</NavLink> */}
-          <button class="vidya-glow-on-hover" type="button">
-            Know More..
-          </button>
           <p>
             A focused learning hub designed exclusively for NEET PG and INICET
             aspirants.Vidyajeevan empowers future doctors to maximize their
@@ -56,6 +52,9 @@ function VidyaJeevan() {
             knowledge with real-world surgical exposure and advanced procedural
             training.
           </p>
+          <button class="vidya-glow-on-hover" type="button">
+            Know More..
+          </button>
         </motion.div>
       </div>
     </div>

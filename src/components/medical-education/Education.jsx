@@ -1,11 +1,7 @@
 import React from "react";
 import "./Education.css";
-import { NavLink } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import CBA_Logo from "../../assets/images/cba-logo.png";
-import EC_logo from "../../assets/images/ec-logo.png";
 import { useEffect } from "react";
 import Demo from "../../assets/images/education-banner.png";
 import { motion } from "motion/react";
@@ -16,42 +12,6 @@ function Education() {
   }, []);
 
   return (
-    // <div id="education" className="education-main-container">
-    //   <h1>Contributions to Medical Education</h1>
-
-    //   <div className="education-cards">
-    //     <div className="education-card1">
-    //       <div className="education-logo1">
-    //           <img src={CBA_Logo} alt="logo" />
-    //         </div>
-    //       <div className="education-info1">
-    //         <p>
-    //           Cerebellum Academy is the visionary creation of five of India’s
-    //           most renowned medical educators — celebrated not just for their
-    //           academic excellence, but also as prolific authors and powerful
-    //           motivators who have inspired millions of medical aspirants.
-    //         </p>
-    //       </div>
-    //     </div>
-
-    //     <div className="education-card2">
-    //       <div className="education-logo2">
-    //           <img src={EC_logo} alt="logo" />
-    //         </div>
-    //       <div className="education-info2">
-    //         <p>
-    //           eConceptual is a next-generation medical learning platform
-    //           designed to empower postgraduate medical students with advanced
-    //           clinical and surgical education. Built with a vision to bridge the
-    //           gap between knowledge and real-world practice, eConceptual offers
-    //           a dynamic and accessible learning environment guided by some of
-    //           India’s most respected medical educators.
-    //         </p>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
     <div id="education" className="education-main-container">
       <h1>Contributions to Medical Education</h1>
 

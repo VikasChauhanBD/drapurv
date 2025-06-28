@@ -7,7 +7,7 @@
 .vjc-main-container h1 {
   font-size: 2rem;
   text-align: center;
-  color: #131a2e;
+  color: #333333;
   text-transform: uppercase;
 }
 
@@ -20,7 +20,7 @@
   width: 500px;
   margin: 24px auto;
   font-size: 24px;
-  color: black;
+  color: #333333;
   background-color: #00c0ff;
   padding: 10px;
   font-weight: 600;
@@ -42,7 +42,7 @@
 
 .vjc-text {
   font-size: 20px;
-  color: black;
+  color: #333333;
   line-height: 1.6;
   margin-bottom: 15px;
 }

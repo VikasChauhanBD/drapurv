@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import { NavLink } from "react-router-dom";
 import { motion } from "motion/react";
 import Image from "../../assets/images/about-image.png";
 import AOS from "aos";
@@ -34,10 +33,6 @@ function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          {/* <NavLink>Know More..</NavLink> */}
-          <button class="about-glow-on-hover" type="button">
-            Know More..
-          </button>
           <p>
             Dr. Apurv Mehra is one of India’s foremost orthopaedic surgeons,
             with over 22 years of experience in advanced orthopaedic care. He
@@ -55,6 +50,9 @@ function About() {
             ensures that every individual receives honest, compassionate, and
             evidence-based care.
           </p>
+          <button class="about-glow-on-hover" type="button">
+            Know More..
+          </button>
         </motion.div>
       </div>
     </div>

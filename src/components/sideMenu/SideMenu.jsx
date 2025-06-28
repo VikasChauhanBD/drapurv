@@ -79,7 +79,7 @@ function SideMenu() {
             className={activeLink === "about"}
             onClick={() => scrollToSection("about")}
           >
-            ABOUT
+            About
           </NavLink>
 
           <NavLink
@@ -87,7 +87,7 @@ function SideMenu() {
             className={activeLink === "education"}
             onClick={() => scrollToSection("education")}
           >
-            LEADING EDUCATOR
+            Leading Educator
           </NavLink>
 
           <NavLink
@@ -95,7 +95,7 @@ function SideMenu() {
             className={activeLink === "education-know-more"}
             onClick={() => scrollToSection("education-know-more")}
           >
-            ENTREPRENEUR
+            Entrepreneur
           </NavLink>
 
           <NavLink
@@ -103,7 +103,7 @@ function SideMenu() {
             className={activeLink === "best-selling-author"}
             onClick={() => scrollToSection("best-selling-author")}
           >
-            BEST SELLING AUTHOR
+            Best Selling Author
           </NavLink>
 
           <NavLink
@@ -111,7 +111,7 @@ function SideMenu() {
             className={activeLink === "vidya-jeevan-clinic"}
             onClick={() => scrollToSection("vidya-jeevan-clinic")}
           >
-            VIDYA JEEVAN CLINIC
+            Vidya Jeevan Clinic
           </NavLink>
 
           <NavLink
@@ -119,7 +119,7 @@ function SideMenu() {
             className={activeLink === "vidya-jeevan-experience-center"}
             onClick={() => scrollToSection("vidya-jeevan-experience-center")}
           >
-            VIDYA JEEVAN EXPERIENCE CENTER
+            Vidya Jeevan Experience Center
           </NavLink>
 
           <NavLink
@@ -127,7 +127,7 @@ function SideMenu() {
             className={activeLink === "contact"}
             onClick={() => scrollToSection("contact")}
           >
-            CONTACT
+            Contact
           </NavLink>
         </div>
 

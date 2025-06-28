@@ -11,6 +11,7 @@
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 2rem;
+  color: #333333;
 }
 
 .education-card {
@@ -26,7 +27,6 @@
   width: 49%;
   padding: 16px;
   color: white;
-  /* color: black; */
 }
 
 .education-content h2 {

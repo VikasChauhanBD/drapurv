@@ -8,7 +8,7 @@
 .about-main-container h1 {
   font-size: 2rem;
   text-align: center;
-  color: #131a2e;
+  color: #333333;
   text-transform: uppercase;
 }
 
@@ -32,22 +32,8 @@
 .about-para {
   width: 50%;
   padding-top: 1rem;
+  color: #333333;
 }
-
-/* .about-para a {
-  text-decoration: none;
-  font-weight: 600;
-  color: black;
-  background-color: #00c0ff;
-  padding: 15px 25px;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.about-para a:hover {
-  background-color: #2e4392;
-  color: white;
-} */
 
 .about-glow-on-hover {
   font-size: 18px;
@@ -55,12 +41,13 @@
   padding: 1rem 1.5rem;
   border: none;
   outline: none;
-  color: #000000;
+  color: #333333;
   background: #00c0ff;
   cursor: pointer;
   position: relative;
   z-index: 0;
   border-radius: 50px;
+  margin-top: 24px;
 }
 
 .about-glow-on-hover:before {

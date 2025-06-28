@@ -1,6 +1,5 @@
 import React from "react";
 import "./EducationKnowMore.css";
-import { NavLink } from "react-router-dom";
 import { motion } from "motion/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -33,10 +32,6 @@ function EducationKnowMore() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          {/* <NavLink>Know More..</NavLink> */}
-          <button class="educationKM-glow-on-hover" type="button">
-            Know More..
-          </button>
           <p>
             eConceptual – India’s Leading MedTech Platform for Residency
             Students Founded with a vision by Dr. Apurv Mehra, eConceptual is a
@@ -47,6 +42,9 @@ function EducationKnowMore() {
             not only lead in India but stand tall on the global stage through
             exceptional skill and academic excellence.
           </p>
+          <button class="educationKM-glow-on-hover" type="button">
+            Know More..
+          </button>
         </motion.div>
       </div>
 
@@ -58,10 +56,6 @@ function EducationKnowMore() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          {/* <NavLink>Know More..</NavLink> */}
-          <button class="educationKM-glow-on-hover" type="button">
-            Know More..
-          </button>
           <p>
             Cerebellum Academy – Shaping the Clinicians of Tomorrow Founded by
             pioneering faculty, Cerebellum Academy is a dedicated platform for
@@ -71,6 +65,9 @@ function EducationKnowMore() {
             future doctors not just to clear exams, but to lead as
             compassionate, competent clinicians.
           </p>
+          <button class="educationKM-glow-on-hover" type="button">
+            Know More..
+          </button>
         </motion.div>
 
         <motion.div
