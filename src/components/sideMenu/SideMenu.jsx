@@ -11,6 +11,7 @@ import {
 import { SiX } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink, useNavigate } from "react-router-dom";
+// import SideBarBG from '../../assets/images/side-bar-bg.png'
 
 function SideMenu() {
   const [showNav, setShowNav] = useState(false);

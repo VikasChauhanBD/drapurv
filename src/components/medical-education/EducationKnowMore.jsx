@@ -3,8 +3,8 @@ import "./EducationKnowMore.css";
 import { motion } from "motion/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Education_CBA from "../../assets/images/education-cba.png";
-import Education_EC from "../../assets/images/education_ec.png";
+import Education_CBA from "../../assets/images/education-cba.webp";
+import Education_EC from "../../assets/images/education_ec.webp";
 import { useEffect } from "react";
 
 function EducationKnowMore() {

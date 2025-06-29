@@ -46,28 +46,13 @@
   margin-bottom: 1.5rem;
 }
 
-/* .header-banner-content a {
-  text-decoration: none;
-  font-weight: 600;
-  color: #2e4392;
-  background-color: white;
-  padding: 15px 20px;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.header-banner-content a:hover {
-  color: white;
-  background-color: #00c0ff;
-} */
-
 .header-glow-on-hover {
   font-size: 18px;
   font-weight: 600;
   padding: 1rem 1.5rem;
   border: none;
   outline: none;
-  color: #2e4392;
+  color: #425d92;
   background: #ffffff;
   cursor: pointer;
   position: relative;

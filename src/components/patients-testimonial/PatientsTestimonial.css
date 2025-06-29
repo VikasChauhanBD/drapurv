@@ -10,14 +10,14 @@
   width: 80%;
   margin: auto;
   border-radius: 12px;
-  border: 2px solid #2e4392;
+  border: 2px solid #425d92;
   padding: 5rem 0 1rem 0;
   position: relative;
 }
 
 .patient-swiper-container h1 {
   border-radius: 33px;
-  background: #2e4392;
+  background: #425d92;
   color: white;
   text-transform: uppercase;
   font-size: 28px;
