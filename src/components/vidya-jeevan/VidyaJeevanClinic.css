@@ -53,7 +53,7 @@
   padding: 1rem 1.5rem;
   border: none;
   outline: none;
-  color: #000000;
+  color: #333333;
   background: #00c0ff;
   cursor: pointer;
   position: relative;
@@ -167,11 +167,12 @@
 .vjc-address-text h4 {
   font-size: 1.5rem;
   padding-bottom: 8px;
+  color: #333333;
 }
 
 .vjc-address-text p {
   font-size: 18px;
-  color: black;
+  color: #333333;
   line-height: 1.6;
 }
 
