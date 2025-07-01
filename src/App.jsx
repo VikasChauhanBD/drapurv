@@ -9,6 +9,7 @@ import Categories from "./components/categories/Categories";
 import PatientsTestimonial from "./components/patients-testimonial/PatientsTestimonial";
 import Education from "./components/medical-education/Education";
 import EducationKnowMore from "./components/medical-education/EducationKnowMore";
+import Knowledge from "./components/knowledge/knowledge";
 import VidyaJeevan from "./components/vidya-jeevan/VidyaJeevan";
 import StudentsTestimonial from "./components/students-testimonial/StudentsTestimonial";
 import Gallery from "./components/gallery/Gallery";
@@ -43,6 +44,10 @@ function App() {
 
       <section id="education-know-more">
         <EducationKnowMore />
+      </section>
+
+      <section id="knowledge">
+        <Knowledge />
       </section>
 
       <section id="vidya-jeevan-experience-center">

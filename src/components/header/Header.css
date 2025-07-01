@@ -8,16 +8,31 @@
   width: 80%;
   margin-left: 20%;
   height: 100vh;
-  background-image: url(../../assets/images/banner.png);
-  background-size: cover;
-  background-position: top center;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-banner .slick-slider,
+.header-banner .slick-list,
+.header-banner .slick-track,
+.header-banner .slick-slide {
+  height: 100vh !important;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header-banner img {
+  height: 100vh !important;
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .header-banner-content {
+  position: absolute;
   width: 45%;
   margin-left: 3.5rem;
   color: white;
@@ -133,8 +148,8 @@
 }
 
 @media (max-width: 1024px) {
-  .header-banner {
-    background-position: right;
+  .header-banner img {
+    object-position: right;
   }
 
   .header-banner-content {
@@ -157,13 +172,9 @@
 }
 
 @media (max-width: 600px) {
-  .header-banner {
-    justify-content: end;
-    padding-bottom: 5rem;
-  }
-
   .header-banner-content h1 {
     font-size: 2.5rem;
+    line-height: 40px;
   }
 
   .header-banner-content h4 {

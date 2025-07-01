@@ -1,9 +1,23 @@
 import React from "react";
 import "./Header.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { NavLink } from "react-router-dom";
+import BG1 from "../../assets/images/banner.png";
+import BG2 from "../../assets/images/banner2.jpg";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Header() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+  };
+
   const [text] = useTypewriter({
     words: [
       "Motivational Speaker",
@@ -17,6 +31,10 @@ function Header() {
   return (
     <div id="" className="header-container">
       <div className="header-banner">
+        <Slider {...settings}>
+          <img src={BG1} alt="" />
+          <img src={BG2} alt="" />
+        </Slider>
         <div className="header-banner-content">
           <h1>DR. APURV MEHRA</h1>
           <h4>MBBS | MS | MD | DNB (Orthopaedics) | DIP.SCOT - Belgium</h4>
@@ -32,7 +50,6 @@ function Header() {
             <Cursor />
           </h5>
           <br />
-          {/* <NavLink>Get Connected</NavLink> */}
           <button class="header-glow-on-hover" type="button">
             Get Connected
           </button>
