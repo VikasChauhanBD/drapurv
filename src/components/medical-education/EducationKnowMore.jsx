@@ -16,39 +16,42 @@ function EducationKnowMore() {
     <div id="education-know-more" className="educationKM-main-container">
       <div className="educationKM-content1">
         <motion.div
-          className="educationKM-image1"
+          className="educationKM-para1"
           initial={{ opacity: 0.2, y: -100 }}
+          transition={{ duration: 2 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
+          <p>
+            <strong>
+              <span>eConceptual</span>
+            </strong>{" "}
+            – India’s Leading MedTech Platform for Residency Students Founded
+            with a vision by Dr. Apurv Mehra, eConceptual is a pioneering
+            initiative created to empower India’s postgraduate medical residents
+            with world-class clinical and surgical training. With expert
+            mentorship from India’s most respected faculty, the platform aims to
+            shape globally competent doctors—professionals who not only lead in
+            India but stand tall on the global stage through exceptional skill
+            and academic excellence.
+          </p>
+          {/* <button class="educationKM-glow-on-hover" type="button">
+            Know More..
+          </button> */}
+        </motion.div>
+
+        <motion.div
+          className="educationKM-image1"
+          initial={{ opacity: 0.2, y: 100 }}
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
           <img src={Education_EC} alt="education image" />
         </motion.div>
-
-        <motion.div
-          className="educationKM-para1"
-          initial={{ opacity: 0.2, y: 100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
-          <p>
-            <strong>eConceptual</strong> – India’s Leading MedTech Platform for
-            Residency Students Founded with a vision by Dr. Apurv Mehra,
-            eConceptual is a pioneering initiative created to empower India’s
-            postgraduate medical residents with world-class clinical and
-            surgical training. With expert mentorship from India’s most
-            respected faculty, the platform aims to shape globally competent
-            doctors—professionals who not only lead in India but stand tall on
-            the global stage through exceptional skill and academic excellence.
-          </p>
-          <button class="educationKM-glow-on-hover" type="button">
-            Know More..
-          </button>
-        </motion.div>
       </div>
 
-      <div className="educationKM-content2">
+      {/* <div className="educationKM-content2">
         <motion.div
           className="educationKM-para2"
           initial={{ opacity: 0.2, y: -100 }}
@@ -79,7 +82,7 @@ function EducationKnowMore() {
         >
           <img src={Education_CBA} alt="education image" />
         </motion.div>
-      </div>
+      </div> */}
     </div>
   );
 }

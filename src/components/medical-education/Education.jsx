@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Demo from "../../assets/images/education-banner.png";
+import Demo1 from "../../assets/images/Logo-copy2.webp";
 import { motion } from "motion/react";
 
 function Education() {
@@ -60,7 +61,7 @@ function Education() {
         </div>
 
         <div className="education-image">
-          <img src={Demo} alt="" />
+          <img src={Demo1} alt="" />
         </div>
       </div>
     </div>

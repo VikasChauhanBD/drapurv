@@ -42,8 +42,8 @@ function Header() {
             Leading Orthopedician & Robotic Joint Replacement Surgeon, Renowned
             Educator, Founder eConceptual, Co-Founder Cerebellum, Founder Vidya
             Jeevan Education Centre, Founder Vidya Jeevan Clinic for
-            Orthopedics, Bestselling Author of Medical PG Books & Motivational
-            Speaker
+            Orthopedics, Bestselling Author of Medical PG Books, Motivational
+            Speaker & Trusted Name in Robotic Knee and Hip Surgery
           </p>
           <h5 className="header-typeWriter">
             {text}

@@ -10,6 +10,8 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  border-bottom: 4px solid #425d92;
+  border-radius: 0 0 30px 30px;
 }
 
 .knowledge-phone-wrapper1 {
@@ -68,11 +70,20 @@
   font-size: 20px;
 }
 
+.knowledge-para span {
+  font-size: 24px;
+  color: #425d92;
+}
+
 /* ------------------------------------ Responsive Style ------------------------- */
 
 @media (max-width: 1440px) {
   .knowledge-inner-div {
     width: 90%;
+  }
+
+  .knowledge-para {
+    width: 60%;
   }
 }
 

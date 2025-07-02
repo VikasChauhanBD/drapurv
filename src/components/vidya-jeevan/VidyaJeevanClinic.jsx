@@ -7,8 +7,8 @@ import { Navigation, Autoplay, EffectCoverflow } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
-import { FaMapLocationDot } from "react-icons/fa6";
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+// import { FaMapLocationDot } from "react-icons/fa6";
+// import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import VJC1 from "../../assets/images/vidya-jeevan-images/vjc-1.JPG";
 import VJC2 from "../../assets/images/vidya-jeevan-images/vjc-2.JPG";
 import VJC3 from "../../assets/images/vidya-jeevan-images/vjc-3.JPG";
@@ -110,7 +110,7 @@ function VidyaJeevanClinic() {
           </div>
         </div>
 
-        <div className="vjc-address">
+        {/* <div className="vjc-address">
           <div className="vjc-address-text">
             <h4>
               <FaMapLocationDot /> Address:
@@ -131,7 +131,7 @@ function VidyaJeevanClinic() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

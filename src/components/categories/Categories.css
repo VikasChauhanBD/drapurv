@@ -41,6 +41,7 @@
   text-align: center;
   transition: background-color 0.2s ease-in-out 0.2s;
   cursor: pointer;
+  background-image: url(../../assets/images/side-bar-bg.png);
 }
 
 .categories-card:hover {
