@@ -1,30 +1,28 @@
-.categories-main-container {
+.specialities-main-container {
   width: 80%;
   margin-left: 20%;
-  padding: 2rem 0;
+  padding: 3.5rem 0 2rem 0;
   background-color: #e5f4fb;
 }
 
-.categories-main-container h1 {
+.specialities-main-container h1 {
   font-size: 2rem;
   color: #333333;
   text-transform: uppercase;
-  padding-top: 2rem;
   text-align: center;
 }
 
-.categories-cards {
+.specialities-cards {
   width: 80%;
-  margin: 1rem auto;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.categories-subtitle {
-  font-size: 24px;
-  color: white;
-  background-color: #425d92;
+.specialities-subtitle {
+  font-size: 20px;
+  color: #333333;
   margin: 12px 0 24px 0;
   padding: 10px;
   font-weight: 500;
@@ -32,68 +30,68 @@
   border-radius: 10px;
 }
 
-.categories-card {
+.specialities-card {
   width: 31%;
-  background-color: #425d92;
+  background-color: white;
   border-radius: 10px;
   padding: 1.5rem 0;
   margin-bottom: 2rem;
   text-align: center;
   transition: background-color 0.2s ease-in-out 0.2s;
   cursor: pointer;
-  background-image: url(../../assets/images/side-bar-bg.png);
 }
 
-.categories-card:hover {
-  background-color: #00c0ff;
+.specialities-card img {
+  width: 75px;
 }
 
-.categories-card img {
-  width: 150px;
-}
-
-.categories-card h5 {
-  color: white;
+.specialities-card h5 {
+  color: #333333;
   padding: 12px 24px 0 24px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* ------------------------------------ Responsive Style ------------------------- */
 
 @media (max-width: 1440px) {
-  .categories-cards {
+  .specialities-cards {
     width: 90%;
   }
 }
 
 @media (max-width: 968px) {
-  .categories-main-container {
+  .specialities-main-container {
     margin-left: 0;
     width: 100%;
   }
 
-  .categories-cards {
+  .specialities-cards {
     width: 95%;
   }
 }
 
 @media (max-width: 768px) {
-  .categories-main-container h1 {
+  .specialities-main-container h1 {
     font-size: 1.5rem;
     padding-top: 0;
   }
 
-  .categories-subtitle {
+  .specialities-subtitle {
     font-size: 18px;
   }
 
-  .categories-card {
+  .specialities-card {
     width: 48%;
   }
 }
 
 @media (max-width: 568px) {
-  .categories-card {
+  .specialities-card {
     width: 98%;
+  }
+
+  .specialities-card h5 {
+    font-size: 1rem;
   }
 }

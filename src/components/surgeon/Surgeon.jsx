@@ -1,33 +1,34 @@
 import React from "react";
-import "./About.css";
+import "./Surgeon.css";
 import { motion } from "motion/react";
-import Image from "../../assets/images/about-image.png";
+import Image from "../../assets/images/surgeon-image.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-function About() {
+function Surgeon() {
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200 });
   }, []);
 
   return (
-    <div id="about" className="about-main-container">
-      <h1>Renowned for Precision in Robotic Joint Replacement</h1>
+    <div id="leading-surgeon" className="surgeon-main-container">
+      <h1>Trusted Name in Robotic Knee & Hip Replacement </h1>
+      <h2>Known for precision. Chosen for compassion & care.</h2>
 
-      <div className="about-content">
+      <div className="surgeon-content">
         <motion.div
-          className="about-image"
+          className="surgeon-image"
           initial={{ opacity: 0.2, y: -100 }}
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <img src={Image} alt="about image" />
+          <img src={Image} alt="surgeon image" />
         </motion.div>
 
         <motion.div
-          className="about-para"
+          className="surgeon-para"
           initial={{ opacity: 0.2, y: 100 }}
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +51,7 @@ function About() {
             ensures that every individual receives honest, compassionate, and
             evidence-based care.
           </p>
-          <button class="about-glow-on-hover" type="button">
+          <button class="surgeon-btn" type="button">
             Know More..
           </button>
         </motion.div>
@@ -59,4 +60,4 @@ function About() {
   );
 }
 
-export default About;
+export default Surgeon;

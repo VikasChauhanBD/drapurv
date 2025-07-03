@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Education_CBA from "../../assets/images/education-cba.webp";
 import Education_EC from "../../assets/images/education_ec.webp";
+import phoneImg from "../../assets/images/mobile-mockup.png";
 import { useEffect } from "react";
 
 function EducationKnowMore() {
@@ -51,38 +52,44 @@ function EducationKnowMore() {
         </motion.div>
       </div>
 
-      {/* <div className="educationKM-content2">
+      <div className="educationKM-content2">
         <motion.div
-          className="educationKM-para2"
+          className="educationKM-image2"
           initial={{ opacity: 0.2, y: -100 }}
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <p>
-            <strong>Cerebellum Academy</strong> – Shaping the Clinicians of
-            Tomorrow Founded by pioneering faculty, Cerebellum Academy is a
-            dedicated platform for NEETPG, INICET, and FMGE aspirants. In an era
-            of rising competition and self-doubt, we focus on building strong
-            medical concepts, strategic problem-solving skills, and clinical
-            confidence—equipping future doctors not just to clear exams, but to
-            lead as compassionate, competent clinicians.
-          </p>
-          <button class="educationKM-glow-on-hover" type="button">
-            Know More..
-          </button>
+          <img src={phoneImg} alt="Cerebellum mobile app interface" />
         </motion.div>
 
+        {/* <div className="educationKM-content2-phone-wrapper2">
+                <img src={Education_CBA} alt="Cerebellum mobile app interface" />
+              </div> */}
+
         <motion.div
-          className="educationKM-image2"
+          className="educationKM-hero-wrapper"
           initial={{ opacity: 0.2, y: 100 }}
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <img src={Education_CBA} alt="education image" />
+          <div className="educationKM-para2">
+            <p>
+              <strong>
+                <span>Cerebellum Academy</span> – Shaping the Clinicians of
+                Tomorrow
+              </strong>{" "}
+              Founded by pioneering faculty, Cerebellum Academy is a dedicated
+              platform for NEET‑PG, INICET, and FMGE aspirants. In an era of
+              rising competition & self‑doubt, We focus on building strong
+              medical concepts & problem‑solving skills. We foster clinical
+              confidence - equipping future doctors not just to clear exams,but
+              to lead as compassionate, competent clinicians.
+            </p>
+          </div>
         </motion.div>
-      </div> */}
+      </div>
     </div>
   );
 }

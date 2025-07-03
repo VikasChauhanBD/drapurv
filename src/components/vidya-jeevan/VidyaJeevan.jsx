@@ -5,8 +5,10 @@ import { motion } from "motion/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import VidyaImage1 from "../../assets/images/vj-main-image.png";
-import VidyaImage1 from "../../assets/images/vidya-jeevan-images/vj-main-image-2.jpg";
-import VidyaImage2 from "../../assets/images/vidya-jeevan-images/vj-image.png";
+// import VidyaImage1 from "../../assets/images/vidya-jeevan-images/vj-main-image-2.jpg";
+import VidyaImage1 from "../../assets/images/vidya-jeevan-images/vj-main-image-5.png";
+import VidyaImage2 from "../../assets/images/vidya-jeevan-images/vj-main-image-4.png";
+import VidyaImage from "../../assets/images/vidya-jeevan-images/vj-image.png";
 
 function VidyaJeevan() {
   useEffect(() => {
@@ -22,6 +24,7 @@ function VidyaJeevan() {
       </h2>
       <div className="vidya-main-image">
         <img src={VidyaImage1} alt="" />
+        <img src={VidyaImage2} alt="" />
       </div>
 
       <div className="vidya-content">
@@ -32,7 +35,7 @@ function VidyaJeevan() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <img src={VidyaImage2} alt="vidya image" />
+          <img src={VidyaImage} alt="vidya image" />
         </motion.div>
 
         <motion.div
@@ -52,7 +55,7 @@ function VidyaJeevan() {
             knowledge with real-world surgical exposure and advanced procedural
             training.
           </p>
-          <button class="vidya-glow-on-hover" type="button">
+          <button class="vidya-btn" type="button">
             Know More..
           </button>
         </motion.div>

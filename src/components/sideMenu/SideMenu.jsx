@@ -74,21 +74,29 @@ function SideMenu() {
       </div>
 
       <nav className={showNav ? "mobile-nav-content" : "sidemenu-web"}>
-        <div className="sidemenu-web-content">
+        <div className="sidemenu-web-content-1">
           <NavLink
-            to="#about"
-            className={activeLink === "about"}
-            onClick={() => scrollToSection("about")}
+            to="#meet"
+            className={activeLink === "meet"}
+            onClick={() => scrollToSection("meet")}
           >
             About
           </NavLink>
 
           <NavLink
-            to="#education"
-            className={activeLink === "education"}
-            onClick={() => scrollToSection("education")}
+            to="#leading-surgeon"
+            className={activeLink === "leading-surgeon"}
+            onClick={() => scrollToSection("leading-surgeon")}
           >
-            Leading Educator
+            Leading Surgeon
+          </NavLink>
+
+          <NavLink
+            to="#educator"
+            className={activeLink === "educator"}
+            onClick={() => scrollToSection("educator")}
+          >
+            Educator
           </NavLink>
 
           <NavLink
@@ -106,7 +114,9 @@ function SideMenu() {
           >
             Best Selling Author
           </NavLink>
+        </div>
 
+        <div className="sidemenu-web-content-2">
           <NavLink
             to="#vidya-jeevan-clinic"
             className={activeLink === "vidya-jeevan-clinic"}
@@ -124,11 +134,11 @@ function SideMenu() {
           </NavLink>
 
           <NavLink
-            to="#contact"
-            className={activeLink === "contact"}
-            onClick={() => scrollToSection("contact")}
+            to="#gallery"
+            className={activeLink === "gallery"}
+            onClick={() => scrollToSection("gallery")}
           >
-            Contact
+            Gallery
           </NavLink>
         </div>
 
@@ -160,9 +170,9 @@ function SideMenu() {
           >
             <FaInstagram />
           </NavLink>
-          <NavLink to="" target="_blank">
+          {/* <NavLink to="" target="_blank">
             <FaPhone />
-          </NavLink>
+          </NavLink> */}
         </div>
       </nav>
 

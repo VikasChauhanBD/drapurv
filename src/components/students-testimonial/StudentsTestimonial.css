@@ -2,7 +2,7 @@
   width: 80%;
   margin-left: 20%;
   height: 100%;
-  padding-top: 2rem;
+  padding: 5rem 0 2.5rem 0;
   background-color: #e5f4fb;
 }
 
@@ -11,15 +11,15 @@
   width: 80%;
   margin: auto;
   border-radius: 12px;
-  border: 2px solid #425d92;
+  border: 2px solid #c8baff;
   padding: 2.5rem 0 1rem 0;
   position: relative;
 }
 
 .studentTM-main-container h1 {
   border-radius: 33px;
-  background: #425d92;
-  color: white;
+  background: #c8baff;
+  color: #333333;
   text-transform: uppercase;
   font-size: 28px;
   position: absolute;
@@ -44,25 +44,25 @@
   min-width: 350px;
   text-align: center;
   margin: 0 0 32px 20px;
-  border: 2px solid #425d92;
+  border: 2px solid #c8baff;
   border-radius: 10px;
   padding: 80px 10px 10px 10px;
 }
 
 .studentTM-image {
   position: absolute;
-  top: -35px;
+  top: -50px;
   left: 50%;
   transform: translateX(-50%);
   width: 120px;
   height: 120px;
-  background-color: #fff;
+  /* background-color: transparent; */
   border-radius: 50%;
   font-size: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 8px solid #425d92;
+  border: 10px solid #c8baff;
 }
 
 .studentTM-image img {

@@ -60,9 +60,15 @@ function Education() {
           </motion.p>
         </div>
 
-        <div className="education-image">
+        <motion.div
+          className="education-image"
+          initial={{ opacity: 0.2, y: -100 }}
+          transition={{ duration: 2 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+        >
           <img src={Demo1} alt="" />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

@@ -1,16 +1,16 @@
 import { React, useEffect } from "react";
-import "./Categories.css";
+import "./Specialities.css";
 import VanillaTilt from "vanilla-tilt";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Bone1 from "../../assets/images/categories-images/bone-1.png";
-import Bone2 from "../../assets/images/categories-images/bone-2.png";
-import Bone3 from "../../assets/images/categories-images/bone-3.png";
-import Bone4 from "../../assets/images/categories-images/bone-4.png";
-import Bone5 from "../../assets/images/categories-images/bone-5.png";
-import Bone6 from "../../assets/images/categories-images/bone-6.png";
+import Bone1 from "../../assets/images/specialities-images/bone-1.png";
+import Bone2 from "../../assets/images/specialities-images/bone-2.png";
+import Bone3 from "../../assets/images/specialities-images/bone-3.png";
+import Bone4 from "../../assets/images/specialities-images/bone-4.png";
+import Bone5 from "../../assets/images/specialities-images/bone-5.png";
+import Bone6 from "../../assets/images/specialities-images/bone-6.png";
 
-function Categories() {
+function Specialities() {
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200 });
   }, []);
@@ -35,7 +35,7 @@ function Categories() {
     }
   }, []);
 
-  const categoriesData = [
+  const specialitiesData = [
     {
       image: Bone1,
       topic: "Robotic Total Knee Replacement",
@@ -63,16 +63,17 @@ function Categories() {
   ];
 
   return (
-    <div id="categories" className="categories-main-container">
-      <h1>Expertise That Covers Every Step</h1>
-      <div className="categories-cards">
-        <p className="categories-subtitle">
-          Whether it's pain relief, surgical precision, or long-term recovery —
-          our extended specialties ensure you're in the best hands, every step
-          of the way.
+    <div id="specialities" className="specialities-main-container">
+      <h1>From Bones to Joints—Complete Orthopedic Solutions</h1>
+      <div className="specialities-cards">
+        <p className="specialities-subtitle">
+          From Fractures to Robotic Joint Replacements—Complete Orthopedic
+          Expertise <br /> Dr. Apurv Mehra combines years of surgical experience
+          with advanced robotic technology to deliver precise care, faster
+          recovery, and long-term results you can rely on
         </p>
-        {categoriesData.map((data, index) => (
-          <div key={index} className="categories-card tilt">
+        {specialitiesData.map((data, index) => (
+          <div key={index} className="specialities-card tilt">
             <img src={data.image} alt="bone image" />
             <h5>{data.topic}</h5>
           </div>
@@ -82,4 +83,4 @@ function Categories() {
   );
 }
 
-export default Categories;
+export default Specialities;

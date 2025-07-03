@@ -1,0 +1,123 @@
+.surgeon-main-container {
+  width: 80%;
+  margin-left: 20%;
+  padding-top: 4rem;
+  background-color: #ffffff;
+}
+
+.surgeon-main-container h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.surgeon-main-container h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #333333;
+  padding-top: 1rem;
+  /* font-weight: 500; */
+}
+
+.surgeon-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.surgeon-image {
+  width: 50%;
+  text-align: center;
+}
+
+.surgeon-image img {
+  width: 90%;
+}
+
+.surgeon-para {
+  width: 50%;
+  color: #333333;
+}
+
+.surgeon-para p {
+  font-size: 18px;
+  padding-bottom: 1rem;
+}
+
+.surgeon-btn {
+  color: #333333;
+  background: #ffffff;
+  padding: 10px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  border: none;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------------------------ Responsive Style ------------------------- */
+
+@media (max-width: 1440px) {
+  .surgeon-content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .surgeon-main-container {
+    padding: 4rem 0 1rem 0;
+  }
+
+  .surgeon-para {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 968px) {
+  .surgeon-main-container {
+    margin-left: 0;
+    width: 100%;
+    padding: 2.5rem 0 2rem 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .surgeon-main-container h1 {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .surgeon-content {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .surgeon-image {
+    width: 100%;
+  }
+
+  .surgeon-para {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 568px) {
+  .surgeon-main-container h1 {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .surgeon-para {
+    padding: 0;
+  }
+
+  .surgeon-para p {
+    font-size: 1rem;
+  }
+}

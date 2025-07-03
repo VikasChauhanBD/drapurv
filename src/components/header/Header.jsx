@@ -3,6 +3,7 @@ import "./Header.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BG1 from "../../assets/images/banner.png";
 import BG2 from "../../assets/images/banner2.jpg";
+import BG3 from "../../assets/images/banner3.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -34,6 +35,7 @@ function Header() {
         <Slider {...settings}>
           <img src={BG1} alt="" />
           <img src={BG2} alt="" />
+          <img src={BG3} alt="" />
         </Slider>
         <div className="header-banner-content">
           <h1>DR. APURV MEHRA</h1>
@@ -42,15 +44,15 @@ function Header() {
             Leading Orthopedician & Robotic Joint Replacement Surgeon, Renowned
             Educator, Founder eConceptual, Co-Founder Cerebellum, Founder Vidya
             Jeevan Education Centre, Founder Vidya Jeevan Clinic for
-            Orthopedics, Bestselling Author of Medical PG Books, Motivational
-            Speaker & Trusted Name in Robotic Knee and Hip Surgery
+            Orthopedics, Bestselling Author of Medical PG Books & Motivational
+            Speaker
           </p>
           <h5 className="header-typeWriter">
             {text}
             <Cursor />
           </h5>
           <br />
-          <button class="header-glow-on-hover" type="button">
+          <button className="header-btn" type="button">
             Get Connected
           </button>
         </div>
