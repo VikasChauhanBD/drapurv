@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import SideMenu from "./components/sideMenu/SideMenu";
 import Header from "./components/header/Header";
-import Meet from "./components/meet-sir/Meet";
+import About from "./components/about/About";
 import Surgeon from "./components/surgeon/Surgeon";
 import VidyaJeevanClinic from "./components/vidya-jeevan/VidyaJeevanClinic";
 import Specialities from "./components/specialities/Specialities";
@@ -23,8 +23,8 @@ function App() {
         <Header />
       </section>
 
-      <section id="meet">
-        <Meet />
+      <section id="about">
+        <About />
       </section>
 
       <section id="leading-surgeon">

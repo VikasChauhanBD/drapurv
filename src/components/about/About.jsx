@@ -1,23 +1,23 @@
 import React from "react";
-import "./Meet.css";
+import "./About.css";
 import { motion } from "motion/react";
-import Image from "../../assets/images/meet-image.jpg";
+import Image from "../../assets/images/about-image.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-function Meet() {
+function About() {
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200 });
   }, []);
 
   return (
-    <div id="meet" className="meet-main-container">
-      <div className="meet-content">
+    <div id="about" className="about-main-container">
+      <div className="about-content">
         <motion.div
-          className="meet-para"
+          className="about-para"
           initial={{ opacity: 0.2, y: -100 }}
-          transition={{ duration: 2 }}
+          transition={{ duration: 4 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
@@ -46,23 +46,23 @@ function Meet() {
             confidence, dignity, and hope.
           </p>
 
-          <button className="meet-btn" type="button">
+          <button className="about-btn" type="button">
             Know More..
           </button>
         </motion.div>
 
         <motion.div
-          className="meet-image"
+          className="about-image"
           initial={{ opacity: 0.2, y: 100 }}
           transition={{ duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <img src={Image} alt="meet image" />
+          <img src={Image} alt="about image" />
         </motion.div>
       </div>
     </div>
   );
 }
 
-export default Meet;
+export default About;

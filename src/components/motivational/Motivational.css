@@ -1,8 +1,11 @@
 .motivational-main-container {
   width: 80%;
   margin-left: 20%;
-  padding-top: 4rem;
+  padding: 4rem 0;
+  text-align: center;
   background-color: #e5f4fb;
-  height: 700px;
-  border: 1px solid black;
+}
+
+.motivational-main-container image {
+  width: 80%;
 }

@@ -1,52 +1,52 @@
-.meet-main-container {
+.about-main-container {
   width: 80%;
   margin-left: 20%;
-  padding: 2.5rem 0;
+  padding: 4rem 0;
   background-color: #e5f4fb;
 }
 
-.meet-content {
+.about-content {
   width: 80%;
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
 
-.meet-main-container h2 {
+.about-main-container h2 {
   font-size: 1.5rem;
   color: #333333;
   text-transform: uppercase;
   padding-bottom: 1rem;
 }
 
-.meet-main-container h1 {
+.about-main-container h1 {
   font-size: 2rem;
   color: #333333;
   text-transform: uppercase;
 }
 
-.meet-para {
+.about-para {
   width: 50%;
   color: #333333;
 }
 
-.meet-image {
+.about-image {
   width: 50%;
   text-align: center;
 }
 
-.meet-image img {
+.about-image img {
   width: 90%;
   border-radius: 10px;
   border: 1px solid white;
 }
 
-.meet-para p {
+.about-para p {
   padding: 2rem 0;
   font-size: 18px;
 }
 
-.meet-btn {
+.about-btn {
   color: #333333;
   background: #ffffff;
   padding: 10px 16px;
@@ -63,7 +63,7 @@
 /* ------------------------------------ Responsive Style ------------------------- */
 
 @media (max-width: 1440px) {
-  .meet-content {
+  .about-content {
     width: 90%;
   }
 }
@@ -72,7 +72,7 @@
 }
 
 @media (max-width: 968px) {
-  .meet-main-container {
+  .about-main-container {
     margin-left: 0;
     width: 100%;
     padding: 2.5rem 0 0 0;
@@ -80,35 +80,35 @@
 }
 
 @media (max-width: 768px) {
-  .meet-content {
+  .about-content {
     flex-wrap: wrap;
     padding: 0;
   }
 
-  .meet-image {
+  .about-image {
     width: 100%;
   }
 
-  .meet-para {
+  .about-para {
     width: 100%;
     padding: 1rem;
   }
 }
 
 @media (max-width: 568px) {
-  .meet-main-container h2 {
+  .about-main-container h2 {
     font-size: 1.25rem;
   }
 
-  .meet-main-container h1 {
+  .about-main-container h1 {
     font-size: 1.5rem;
   }
 
-  .meet-para {
+  .about-para {
     padding: 0;
   }
 
-  .meet-para p {
+  .about-para p {
     font-size: 1rem;
   }
 }

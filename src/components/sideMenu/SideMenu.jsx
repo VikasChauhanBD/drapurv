@@ -76,9 +76,9 @@ function SideMenu() {
       <nav className={showNav ? "mobile-nav-content" : "sidemenu-web"}>
         <div className="sidemenu-web-content-1">
           <NavLink
-            to="#meet"
-            className={activeLink === "meet"}
-            onClick={() => scrollToSection("meet")}
+            to="#about"
+            className={activeLink === "about"}
+            onClick={() => scrollToSection("about")}
           >
             About
           </NavLink>
@@ -92,9 +92,9 @@ function SideMenu() {
           </NavLink>
 
           <NavLink
-            to="#educator"
-            className={activeLink === "educator"}
-            onClick={() => scrollToSection("educator")}
+            to="#specialities"
+            className={activeLink === "specialities"}
+            onClick={() => scrollToSection("specialities")}
           >
             Educator
           </NavLink>

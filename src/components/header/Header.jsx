@@ -17,6 +17,7 @@ function Header() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
+    pauseOnHover: false,
   };
 
   const [text] = useTypewriter({

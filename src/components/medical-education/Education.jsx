@@ -3,7 +3,7 @@ import "./Education.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Demo from "../../assets/images/education-banner.png";
+import Demo from "../../assets/images/ec-cba.webp";
 import Demo1 from "../../assets/images/Logo-copy2.webp";
 import { motion } from "motion/react";
 
@@ -67,7 +67,7 @@ function Education() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <img src={Demo1} alt="" />
+          <img src={Demo} alt="" />
         </motion.div>
       </div>
     </div>
