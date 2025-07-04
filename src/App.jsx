@@ -43,7 +43,7 @@ function App() {
         <PatientsTestimonial />
       </section>
 
-      <section id="education">
+      <section id="ec-cba">
         <Education />
       </section>
 

@@ -100,17 +100,17 @@ function SideMenu() {
           </NavLink>
 
           <NavLink
-            to="#education-know-more"
-            className={activeLink === "education-know-more"}
-            onClick={() => scrollToSection("education-know-more")}
+            to="#ec-cba"
+            className={activeLink === "ec-cba"}
+            onClick={() => scrollToSection("ec-cba")}
           >
             Entrepreneur
           </NavLink>
 
           <NavLink
-            to="#best-selling-author"
-            className={activeLink === "best-selling-author"}
-            onClick={() => scrollToSection("best-selling-author")}
+            to="#motivational"
+            className={activeLink === "motivational"}
+            onClick={() => scrollToSection("motivational")}
           >
             Best Selling Author
           </NavLink>

@@ -13,7 +13,7 @@ function Education() {
   }, []);
 
   return (
-    <div id="education" className="education-main-container">
+    <div id="ec-cba" className="education-main-container">
       <h1>Contributions to Medical Education</h1>
 
       <div className="education-card">

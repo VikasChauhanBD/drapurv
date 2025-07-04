@@ -7,31 +7,27 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "./PatientsTestimonial.css";
-import Gallery1 from "../../assets/images/gallery-images/gallery1.png";
-import Gallery2 from "../../assets/images/gallery-images/gallery2.png";
-import Gallery3 from "../../assets/images/gallery-images/gallery3.png";
-import Gallery4 from "../../assets/images/gallery-images/gallery4.png";
-import Gallery5 from "../../assets/images/gallery-images/gallery5.png";
-import Gallery6 from "../../assets/images/gallery-images/gallery6.png";
+import Patients1 from "../../assets/images/patients-stories/ps-1.jpg";
+import Patients2 from "../../assets/images/patients-stories/ps-2.jpg";
+import Patients3 from "../../assets/images/patients-stories/ps-3.jpg";
+import Patients4 from "../../assets/images/patients-stories/ps-4.jpg";
+import Patients5 from "../../assets/images/patients-stories/ps-5.jpg";
 
 const patientsData = [
   {
-    image: Gallery1,
+    image: Patients1,
   },
   {
-    image: Gallery2,
+    image: Patients2,
   },
   {
-    image: Gallery3,
+    image: Patients3,
   },
   {
-    image: Gallery4,
+    image: Patients4,
   },
   {
-    image: Gallery5,
-  },
-  {
-    image: Gallery6,
+    image: Patients5,
   },
 ];
 
@@ -51,7 +47,7 @@ function PatientsTestimonial() {
           slidesPerView="auto"
           loop={true}
           autoplay={{
-            delay: 2500,
+            delay: 5000,
             disableOnInteraction: false,
           }}
           coverflowEffect={{

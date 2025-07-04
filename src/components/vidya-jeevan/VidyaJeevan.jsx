@@ -6,8 +6,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 // import VidyaImage1 from "../../assets/images/vj-main-image.png";
 // import VidyaImage1 from "../../assets/images/vidya-jeevan-images/vj-main-image-2.jpg";
-import VidyaImage1 from "../../assets/images/vidya-jeevan-images/vj-main-image-5.png";
-import VidyaImage2 from "../../assets/images/vidya-jeevan-images/vj-main-image-4.png";
+// import VidyaImage1 from "../../assets/images/vidya-jeevan-images/vj-main-image-5.png";
+// import VidyaImage2 from "../../assets/images/vidya-jeevan-images/vj-main-image-4.png";
 import VidyaImage from "../../assets/images/vidya-jeevan-images/vj-image.png";
 
 function VidyaJeevan() {
@@ -22,10 +22,10 @@ function VidyaJeevan() {
         A dedicated Learning Hub For NEETPG, INICET and Orthopedics Residency
         Students
       </h2>
-      <div className="vidya-main-image">
+      {/* <div className="vidya-main-image">
         <img src={VidyaImage1} alt="" />
         <img src={VidyaImage2} alt="" />
-      </div>
+      </div> */}
 
       <div className="vidya-content">
         <motion.div
