@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import ScrollProgressBar from "./components/scrollProgressBar/ScrollProgressBar";
+// import ScrollProgressBar from "./components/scrollProgressBar/ScrollProgressBar";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Surgeon from "./components/surgeon/Surgeon";
@@ -15,6 +15,7 @@ import VidyaJeevan from "./components/vidyaJeevan/VidyaJeevan";
 import StudentsTestimonial from "./components/studentsTestimonial/StudentsTestimonial";
 import Gallery from "./components/gallery/Gallery";
 import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -70,6 +71,8 @@ function App() {
       </section>
 
       <ScrollToTopButton />
+
+      <Footer />
     </Router>
   );
 }

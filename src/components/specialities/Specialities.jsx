@@ -1,9 +1,7 @@
 import { React, useEffect } from "react";
 import "./Specialities.css";
-import VanillaTilt from "vanilla-tilt";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { motion } from "motion/react";
 import Bone1 from "../../assets/images/specialities-images/bone-1.png";
 import Bone2 from "../../assets/images/specialities-images/bone-2.png";
 import Bone3 from "../../assets/images/specialities-images/bone-3.png";
@@ -14,26 +12,6 @@ import Bone6 from "../../assets/images/specialities-images/bone-6.png";
 function Specialities() {
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200 });
-  }, []);
-
-  useEffect(() => {
-    const isTouchDevice = () => {
-      return "ontouchstart" in window || navigator.maxTouchPoints > 0;
-    };
-
-    if (!isTouchDevice()) {
-      const categories = document.querySelectorAll(".tilt");
-      categories.forEach((element) => {
-        VanillaTilt.init(element, {
-          max: 25,
-          speed: 400,
-          reverse: true,
-          glare: true,
-          scale: 1.1,
-          "max-glare": 0.3,
-        });
-      });
-    }
   }, []);
 
   const specialitiesData = [
@@ -74,23 +52,9 @@ function Specialities() {
           recovery, and long-term results you can rely on
         </p>
         {specialitiesData.map((data, index) => (
-          <div key={index} className="specialities-card tilt">
-            <motion.img
-              initial={{ opacity: 0.2, y: -100 }}
-              transition={{ duration: 2 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              src={data.image}
-              alt="bone image"
-            />
-            <motion.h5
-              initial={{ opacity: 0.2, y: 100 }}
-              transition={{ duration: 2 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-            >
-              {data.topic}
-            </motion.h5>
+          <div key={index} className="specialities-card">
+            <img src={data.image} alt="bone image" />
+            <h5>{data.topic}</h5>
           </div>
         ))}
       </div>

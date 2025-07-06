@@ -18,7 +18,6 @@ function Gallery() {
 
   return (
     <div id="gallery" className="gallery-main-container">
-      {/* <div className="gallery-inner-container"> */}
       <h1>Gallery</h1>
       <div className="gallery-images">
         <img src={Gallery1} alt="" />
@@ -30,7 +29,6 @@ function Gallery() {
         <img src={Gallery7} alt="" />
         <img src={Gallery8} alt="" />
       </div>
-      {/* </div> */}
     </div>
   );
 }

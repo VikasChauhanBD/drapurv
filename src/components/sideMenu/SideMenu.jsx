@@ -162,9 +162,6 @@ function SideMenu() {
           >
             <FaInstagram />
           </NavLink>
-          {/* <NavLink to="" target="_blank">
-            <FaPhone />
-          </NavLink> */}
         </div>
       </nav>
 
