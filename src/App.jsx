@@ -1,24 +1,26 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import SideMenu from "./components/sideMenu/SideMenu";
+import ScrollProgressBar from "./components/scrollProgressBar/ScrollProgressBar";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Surgeon from "./components/surgeon/Surgeon";
-import VidyaJeevanClinic from "./components/vidya-jeevan/VidyaJeevanClinic";
+import VidyaJeevanClinic from "./components/vidyaJeevan/VidyaJeevanClinic";
 import Specialities from "./components/specialities/Specialities";
-import PatientsTestimonial from "./components/patients-testimonial/PatientsTestimonial";
-import Education from "./components/medical-education/Education";
-import EducationKnowMore from "./components/medical-education/EducationKnowMore";
+import PatientsTestimonial from "./components/patientsTestimonial/PatientsTestimonial";
+import Education from "./components/medicalEducation/Education";
+import EducationKnowMore from "./components/medicalEducation/EducationKnowMore";
 import Motivational from "./components/motivational/Motivational";
-import VidyaJeevan from "./components/vidya-jeevan/VidyaJeevan";
-import StudentsTestimonial from "./components/students-testimonial/StudentsTestimonial";
+import VidyaJeevan from "./components/vidyaJeevan/VidyaJeevan";
+import StudentsTestimonial from "./components/studentsTestimonial/StudentsTestimonial";
 import Gallery from "./components/gallery/Gallery";
+import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton";
 
 function App() {
   return (
     <Router>
-      <SideMenu />
+      {/* <ScrollProgressBar /> */}
+
       <section id="">
         <Header />
       </section>
@@ -66,6 +68,8 @@ function App() {
       <section id="gallery">
         <Gallery />
       </section>
+
+      <ScrollToTopButton />
     </Router>
   );
 }

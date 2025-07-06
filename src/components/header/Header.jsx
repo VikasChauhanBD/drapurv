@@ -1,12 +1,13 @@
 import React from "react";
 import "./Header.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import BG1 from "../../assets/images/banner.png";
+import BG1 from "../../assets/images/banner1.jpeg";
 import BG2 from "../../assets/images/banner2.jpg";
-import BG3 from "../../assets/images/banner3.jpg";
+import BG3 from "../../assets/images/banner3.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import SideMenu from "../sideMenu/SideMenu";
 
 function Header() {
   const settings = {
@@ -32,6 +33,7 @@ function Header() {
 
   return (
     <div id="" className="header-container">
+      <SideMenu />
       <div className="header-banner">
         <Slider {...settings}>
           <img src={BG1} alt="" />

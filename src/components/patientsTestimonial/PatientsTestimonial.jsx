@@ -7,24 +7,40 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "./PatientsTestimonial.css";
-import Patients1 from "../../assets/images/patients-stories/ps-1.jpg";
-import Patients2 from "../../assets/images/patients-stories/ps-2.jpg";
-import Patients3 from "../../assets/images/patients-stories/ps-3.jpg";
-import Patients4 from "../../assets/images/patients-stories/ps-4.jpg";
-import Patients5 from "../../assets/images/patients-stories/ps-5.jpg";
+// import Patients1 from "../../assets/images/patients-stories/ps-1.jpg";
+// import Patients2 from "../../assets/images/patients-stories/ps-2.jpg";
+// import Patients3 from "../../assets/images/patients-stories/ps-3.jpg";
+// import Patients4 from "../../assets/images/patients-stories/ps-4.jpg";
+// import Patients5 from "../../assets/images/patients-stories/ps-5.jpg";
+import Patients5 from "../../assets/images/patients-stories/ps-demo.jpg";
 
 const patientsData = [
   {
-    image: Patients1,
+    image: Patients5,
   },
   {
-    image: Patients2,
+    image: Patients5,
   },
   {
-    image: Patients3,
+    image: Patients5,
   },
   {
-    image: Patients4,
+    image: Patients5,
+  },
+  {
+    image: Patients5,
+  },
+  {
+    image: Patients5,
+  },
+  {
+    image: Patients5,
+  },
+  {
+    image: Patients5,
+  },
+  {
+    image: Patients5,
   },
   {
     image: Patients5,

@@ -1,8 +1,7 @@
 .educationKM-main-container {
-  width: 80%;
-  margin-left: 20%;
+  width: 100%;
   padding-bottom: 2rem;
-  background-color: #ffffff;
+  background-color: rgb(252, 250, 250);
 }
 
 .educationKM-main-container h1 {
@@ -39,86 +38,6 @@
   justify-content: center;
 }
 
-/* .educationKM-glow-on-hover {
-  font-size: 18px;
-  font-weight: 600;
-  width: 180px;
-  padding: 1rem 1.5rem;
-  border: none;
-  outline: none;
-  color: #333333;
-  background: #00c0ff;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 50px;
-  margin-top: 24px;
-}
-
-.educationKM-glow-on-hover:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  width: calc(100% + 10px);
-  height: calc(100% + 10px);
-  animation: educationKM-glowing 20s linear infinite;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 50px;
-}
-
-.educationKM-glow-on-hover:active {
-  color: #00c0ff;
-}
-
-.educationKM-glow-on-hover:active:after {
-  background: transparent;
-}
-
-.educationKM-glow-on-hover:hover:before {
-  opacity: 1;
-}
-
-.educationKM-glow-on-hover:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #00c0ff;
-  left: 0;
-  top: 0;
-  border-radius: 50px;
-}
-
-@keyframes educationKM-glowing {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-} */
-
 .educationKM-para1 p {
   padding-top: 2rem;
   font-size: 18px;
@@ -133,6 +52,7 @@
 .educationKM-content2 {
   width: 80%;
   margin: 2rem auto;
+  padding-top: 2rem;
   display: flex;
   justify-content: space-between;
   border-bottom: 4px solid #425d92;
@@ -141,23 +61,12 @@
 
 .educationKM-image2 {
   width: 25%;
-  height: 500px;
 }
 
 .educationKM-image2 img {
   width: 100%;
   height: 100%;
 }
-
-/* .knowledge-hero-wrapper {
-  width: 70%;
-  background-image: url(../../assets/images/no1-person.png);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-} */
 
 .educationKM-hero-wrapper {
   width: 70%;
@@ -226,22 +135,14 @@
   }
 }
 
-@media (max-width: 968px) {
-  .educationKM-main-container {
-    width: 100%;
-    margin-left: 0;
-    padding: 0 0 2rem 0;
-  }
-}
-
 @media (max-width: 768px) {
   .educationKM-content1 {
     flex-wrap: wrap-reverse;
   }
 
   .educationKM-image1 {
-    width: 75%;
-    margin: 0 auto;
+    width: 80%;
+    margin: auto;
     text-align: center;
   }
 
@@ -284,5 +185,10 @@
 
   .educationKM-para2 p {
     font-size: 1rem;
+  }
+
+  .educationKM-para1 span,
+  .educationKM-para2 span {
+    font-size: 20px;
   }
 }

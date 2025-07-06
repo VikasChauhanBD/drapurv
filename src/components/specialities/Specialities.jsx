@@ -3,6 +3,7 @@ import "./Specialities.css";
 import VanillaTilt from "vanilla-tilt";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { motion } from "motion/react";
 import Bone1 from "../../assets/images/specialities-images/bone-1.png";
 import Bone2 from "../../assets/images/specialities-images/bone-2.png";
 import Bone3 from "../../assets/images/specialities-images/bone-3.png";
@@ -74,8 +75,22 @@ function Specialities() {
         </p>
         {specialitiesData.map((data, index) => (
           <div key={index} className="specialities-card tilt">
-            <img src={data.image} alt="bone image" />
-            <h5>{data.topic}</h5>
+            <motion.img
+              initial={{ opacity: 0.2, y: -100 }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              src={data.image}
+              alt="bone image"
+            />
+            <motion.h5
+              initial={{ opacity: 0.2, y: 100 }}
+              transition={{ duration: 2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              {data.topic}
+            </motion.h5>
           </div>
         ))}
       </div>

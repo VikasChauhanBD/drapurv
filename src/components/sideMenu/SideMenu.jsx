@@ -1,17 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./SideMenu.css";
 import Logo from "../../assets/images/logo.png";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaLinkedin,
-  FaPhone,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { SiX } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink, useNavigate } from "react-router-dom";
-// import SideBarBG from '../../assets/images/side-bar-bg.png'
 
 function SideMenu() {
   const [showNav, setShowNav] = useState(false);
@@ -74,7 +67,7 @@ function SideMenu() {
       </div>
 
       <nav className={showNav ? "mobile-nav-content" : "sidemenu-web"}>
-        <div className="sidemenu-web-content-1">
+        <div className="sidemenu-web-content">
           <NavLink
             to="#about"
             className={activeLink === "about"}
@@ -114,13 +107,12 @@ function SideMenu() {
           >
             Best Selling Author
           </NavLink>
-        </div>
 
-        <div className="sidemenu-web-content-2">
           <NavLink
             to="#vidya-jeevan-clinic"
             className={activeLink === "vidya-jeevan-clinic"}
             onClick={() => scrollToSection("vidya-jeevan-clinic")}
+            style={{ paddingTop: "1rem" }}
           >
             Vidya Jeevan Clinic
           </NavLink>

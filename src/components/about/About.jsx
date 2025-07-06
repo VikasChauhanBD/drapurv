@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { motion } from "motion/react";
-import Image from "../../assets/images/about-image.jpg";
+import Image from "../../assets/images/about-image.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

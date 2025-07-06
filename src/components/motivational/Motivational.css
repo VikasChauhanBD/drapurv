@@ -1,45 +1,17 @@
 .motivational-main-container {
-  width: 80%;
-  margin-left: 20%;
-  padding: 4rem 0;
+  width: 100%;
   text-align: center;
-  background-color: #e5f4fb;
 }
 
 .motivational-main-container img {
-  width: 80%;
-}
-
-.motivational-main-container2 {
-  width: 80%;
-  margin-left: 20%;
-  /* padding: 4rem 0; */
-  text-align: center;
-  background-color: #e5f4fb;
-}
-
-.motivational-main-container2 img {
   width: 100%;
 }
 
 /* ------------------------------------ Responsive Style ------------------------- */
 
-@media (max-width: 1440px) {
-  .motivational-main-container img {
-    width: 90%;
-  }
-}
-
 @media (max-width: 968px) {
   .motivational-main-container {
     width: 100%;
-    margin-left: 0%;
-  }
-
-  .motivational-main-container2 {
-    width: 100%;
-    margin-left: 0%;
-    margin-bottom: 2rem;
   }
 }
 

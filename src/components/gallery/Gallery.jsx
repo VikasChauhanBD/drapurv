@@ -7,7 +7,9 @@ import Gallery2 from "../../assets/images/gallery-images/gallery2.png";
 import Gallery3 from "../../assets/images/gallery-images/gallery3.png";
 import Gallery4 from "../../assets/images/gallery-images/gallery4.png";
 import Gallery5 from "../../assets/images/gallery-images/gallery5.png";
-import Gallery6 from "../../assets/images/gallery-images/gallery6.png";
+import Gallery6 from "../../assets/images/gallery-images/gallery6.jpg";
+import Gallery7 from "../../assets/images/gallery-images/gallery7.jpg";
+import Gallery8 from "../../assets/images/gallery-images/gallery8.JPG";
 
 function Gallery() {
   useEffect(() => {
@@ -25,6 +27,8 @@ function Gallery() {
         <img src={Gallery4} alt="" />
         <img src={Gallery5} alt="" />
         <img src={Gallery6} alt="" />
+        <img src={Gallery7} alt="" />
+        <img src={Gallery8} alt="" />
       </div>
       {/* </div> */}
     </div>

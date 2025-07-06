@@ -5,19 +5,14 @@ import { NavLink } from "react-router-dom";
 
 function Motivational() {
   return (
-    <>
-      <div id="motivational" className="motivational-main-container">
-        <NavLink>
-          <img src={Banner} alt="" />
-        </NavLink>
-      </div>
-
-      <div id="motivational" className="motivational-main-container2">
-        <NavLink>
-          <img src={Banner} alt="" />
-        </NavLink>
-      </div>
-    </>
+    <div id="motivational" className="motivational-main-container">
+      <NavLink
+        to="https://www.youtube.com/playlist?list=PLPlijGAHvv9_iuV44Em4aR696G7PnamHO"
+        target="_blank"
+      >
+        <img src={Banner} alt="" />
+      </NavLink>
+    </div>
   );
 }
 
