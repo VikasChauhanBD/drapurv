@@ -9,7 +9,7 @@ import Gallery4 from "../../assets/images/gallery-images/gallery4.png";
 import Gallery5 from "../../assets/images/gallery-images/gallery5.png";
 import Gallery6 from "../../assets/images/gallery-images/gallery6.jpg";
 import Gallery7 from "../../assets/images/gallery-images/gallery7.jpg";
-import Gallery8 from "../../assets/images/gallery-images/gallery8.JPG";
+import Gallery8 from "../../assets/images/gallery-images/gallery8.jpg";
 
 function Gallery() {
   useEffect(() => {
