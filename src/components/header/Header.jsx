@@ -4,6 +4,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BG1 from "../../assets/images/banner1.webp";
 import BG2 from "../../assets/images/banner2.jpg";
 import BG3 from "../../assets/images/banner3.webp";
+import BG4 from "../../assets/images/banner4.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -39,6 +40,7 @@ function Header() {
           <img src={BG1} alt="" />
           <img src={BG2} alt="" />
           <img src={BG3} alt="" />
+          <img src={BG4} alt="" />
         </Slider>
         <div className="header-banner-content">
           <h1>DR. APURV MEHRA</h1>
