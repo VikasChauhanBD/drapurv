@@ -4,10 +4,6 @@ import { NavLink } from "react-router-dom";
 import { motion } from "motion/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-// import VidyaImage1 from "../../assets/images/vj-main-image.png";
-// import VidyaImage1 from "../../assets/images/vidya-jeevan-images/vj-main-image-2.jpg";
-// import VidyaImage1 from "../../assets/images/vidya-jeevan-images/vj-main-image-5.png";
-// import VidyaImage2 from "../../assets/images/vidya-jeevan-images/vj-main-image-4.png";
 import VidyaImage from "../../assets/images/vidya-jeevan-images/vj-image.png";
 
 function VidyaJeevan() {
@@ -22,10 +18,6 @@ function VidyaJeevan() {
         A dedicated Learning Hub For NEETPG, INICET and Orthopedics Residency
         Students
       </h2>
-      {/* <div className="vidya-main-image">
-        <img src={VidyaImage1} alt="" />
-        <img src={VidyaImage2} alt="" />
-      </div> */}
 
       <div className="vidya-content">
         <motion.div
@@ -55,7 +47,7 @@ function VidyaJeevan() {
             knowledge with real-world surgical exposure and advanced procedural
             training.
           </p>
-          <button class="vidya-btn" type="button">
+          <button className="vidya-btn" type="button">
             Know More..
           </button>
         </motion.div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import BG1 from "../../assets/images/banner1.jpeg";
+import BG1 from "../../assets/images/banner1.webp";
 import BG2 from "../../assets/images/banner2.jpg";
 import BG3 from "../../assets/images/banner3.webp";
 import Slider from "react-slick";

@@ -51,7 +51,7 @@ function Surgeon() {
             ensures that every individual receives honest, compassionate, and
             evidence-based care.
           </p>
-          <button class="surgeon-btn" type="button">
+          <button className="surgeon-btn" type="button">
             Know More..
           </button>
         </motion.div>

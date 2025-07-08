@@ -33,7 +33,7 @@
   height: 100vh !important;
   width: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
   pointer-events: none;
 }
 
