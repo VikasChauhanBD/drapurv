@@ -1,9 +1,7 @@
 import React from "react";
 import "./EducationKnowMore.css";
-import { motion } from "motion/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Education_CBA from "../../assets/images/education-cba.webp";
 import Education_EC from "../../assets/images/education_ec.webp";
 import phoneImg from "../../assets/images/mobile-mockup.png";
 import { useEffect } from "react";
@@ -16,13 +14,7 @@ function EducationKnowMore() {
   return (
     <div id="education-know-more" className="educationKM-main-container">
       <div className="educationKM-content1">
-        <motion.div
-          className="educationKM-para1"
-          initial={{ opacity: 0.2, y: -100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="educationKM-para1">
           <p>
             <strong>
               <span>eConceptual</span>
@@ -36,44 +28,19 @@ function EducationKnowMore() {
             India but stand tall on the global stage through exceptional skill
             and academic excellence.
           </p>
-          {/* <button class="educationKM-glow-on-hover" type="button">
-            Know More..
-          </button> */}
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="educationKM-image1"
-          initial={{ opacity: 0.2, y: 100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="educationKM-image1">
           <img src={Education_EC} alt="education image" />
-        </motion.div>
+        </div>
       </div>
 
       <div className="educationKM-content2">
-        <motion.div
-          className="educationKM-image2"
-          initial={{ opacity: 0.2, y: -100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="educationKM-image2">
           <img src={phoneImg} alt="Cerebellum mobile app interface" />
-        </motion.div>
+        </div>
 
-        {/* <div className="educationKM-content2-phone-wrapper2">
-                <img src={Education_CBA} alt="Cerebellum mobile app interface" />
-              </div> */}
-
-        <motion.div
-          className="educationKM-hero-wrapper"
-          initial={{ opacity: 0.2, y: 100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="educationKM-hero-wrapper">
           <div className="educationKM-para2">
             <p>
               <strong>
@@ -88,7 +55,7 @@ function EducationKnowMore() {
               to lead as compassionate, competent clinicians.
             </p>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

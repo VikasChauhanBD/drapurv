@@ -1,7 +1,5 @@
 import { React, useEffect } from "react";
 import "./VidyaJeevan.css";
-import { NavLink } from "react-router-dom";
-import { motion } from "motion/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import VidyaImage from "../../assets/images/vidya-jeevan-images/vj-image.png";
@@ -20,23 +18,11 @@ function VidyaJeevan() {
       </h2>
 
       <div className="vidya-content">
-        <motion.div
-          className="vidya-image"
-          initial={{ opacity: 0.2, y: -100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="vidya-image">
           <img src={VidyaImage} alt="vidya image" />
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="vidya-para"
-          initial={{ opacity: 0.2, y: 100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="vidya-para">
           <p>
             A focused learning hub designed exclusively for NEET PG and INICET
             aspirants.Vidyajeevan empowers future doctors to maximize their
@@ -50,7 +36,7 @@ function VidyaJeevan() {
           <button className="vidya-btn" type="button">
             Know More..
           </button>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

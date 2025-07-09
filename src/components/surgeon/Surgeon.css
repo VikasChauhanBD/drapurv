@@ -112,6 +112,14 @@
     padding: 1rem;
   }
 
+  .surgeon-image {
+    width: 100%;
+  }
+
+  .surgeon-image img {
+    width: 100%;
+  }
+
   .surgeon-para {
     padding: 0;
   }

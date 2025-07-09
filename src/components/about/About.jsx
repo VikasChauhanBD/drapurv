@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import { motion } from "motion/react";
 import Image from "../../assets/images/about-image.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,13 +13,7 @@ function About() {
   return (
     <div id="about" className="about-main-container">
       <div className="about-content">
-        <motion.div
-          className="about-para"
-          initial={{ opacity: 0.2, y: -100 }}
-          transition={{ duration: 4 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="about-para">
           <h2>Meet</h2>
           <h1>Dr. Apurv Mehra</h1>
           <p>
@@ -49,17 +42,11 @@ function About() {
           <button className="about-btn" type="button">
             Know More..
           </button>
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="about-image"
-          initial={{ opacity: 0.2, y: 100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="about-image">
           <img src={Image} alt="about image" />
-        </motion.div>
+        </div>
       </div>
     </div>
   );

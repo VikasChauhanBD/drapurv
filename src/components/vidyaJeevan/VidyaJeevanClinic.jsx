@@ -6,7 +6,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import VJC from "../../assets/images/vidya-jeevan-images/vjc.webp";
-import { motion } from "motion/react";
 
 function VidyaJeevanClinic() {
   useEffect(() => {
@@ -19,13 +18,7 @@ function VidyaJeevanClinic() {
       <p className="vjc-subtitle">Most Trusted Centre for Ethical Practice </p>
 
       <div className="vjc-card">
-        <motion.div
-          className="vjc-content"
-          initial={{ opacity: 0.2, y: -100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="vjc-content">
           <p className="vjc-text">
             At the heart of <strong>Dr. Apurv Mehra’s</strong> practice lies
             Vidya Jeevan Clinic — a space built not just to treat patients, but
@@ -41,17 +34,11 @@ function VidyaJeevanClinic() {
           <button className="vjc-btn" type="button">
             Book Your Appointment..
           </button>
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="vjc-image"
-          initial={{ opacity: 0.2, y: 100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="vjc-image">
           <img src={VJC} alt="" />
-        </motion.div>
+        </div>
       </div>
     </div>
   );

@@ -104,6 +104,14 @@
     font-size: 1.5rem;
   }
 
+  .about-image {
+    width: 100%;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+
   .about-para {
     padding: 0;
   }

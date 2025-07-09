@@ -178,6 +178,16 @@
 }
 
 @media (max-width: 568px) {
+  .educationKM-image1,
+  .educationKM-image2 {
+    width: 100%;
+  }
+
+  .educationKM-image1 img,
+  .educationKM-image2 img {
+    width: 100%;
+  }
+
   .educationKM-para1 p {
     padding-top: 1rem;
     font-size: 1rem;

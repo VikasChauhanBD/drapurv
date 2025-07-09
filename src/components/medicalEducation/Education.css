@@ -93,4 +93,8 @@
   .education-content h2 {
     font-size: 1.5rem;
   }
+
+  .education-image {
+    width: 100%;
+  }
 }

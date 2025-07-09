@@ -1,6 +1,5 @@
 import React from "react";
 import "./Surgeon.css";
-import { motion } from "motion/react";
 import Image from "../../assets/images/surgeon-image.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -17,23 +16,11 @@ function Surgeon() {
       <h2>Known for precision. Chosen for compassion & care.</h2>
 
       <div className="surgeon-content">
-        <motion.div
-          className="surgeon-image"
-          initial={{ opacity: 0.2, y: -100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="surgeon-image">
           <img src={Image} alt="surgeon image" />
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="surgeon-para"
-          initial={{ opacity: 0.2, y: 100 }}
-          transition={{ duration: 2 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-        >
+        <div className="surgeon-para">
           <p>
             Dr. Apurv Mehra is one of India’s foremost orthopaedic surgeons,
             with over 22 years of experience in advanced orthopaedic care. He
@@ -54,7 +41,7 @@ function Surgeon() {
           <button className="surgeon-btn" type="button">
             Know More..
           </button>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
