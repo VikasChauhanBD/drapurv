@@ -21,7 +21,7 @@ import VJ11 from "../images/vidya-jeevan-images/vj-11.jpg";
 import VJ12 from "../images/vidya-jeevan-images/vj-12.jpg";
 import VJ13 from "../images/vidya-jeevan-images/vj-13.jpg";
 import VJC1 from "../images/vidya-jeevan-center-images/vjc-1.JPG";
-import VJC2 from "../images/vidya-jeevan-center-images/vjc-2.jpg";
+import VJC2 from "../images/vidya-jeevan-center-images/vjc-2.JPG";
 import VJC3 from "../images/vidya-jeevan-center-images/vjc-3.JPG";
 import VJC4 from "../images/vidya-jeevan-center-images/vjc-4.JPG";
 import VJC5 from "../images/vidya-jeevan-center-images/vjc-5.JPG";
