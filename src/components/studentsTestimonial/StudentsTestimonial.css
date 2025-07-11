@@ -3,14 +3,13 @@
   height: 100%;
   padding: 5rem 0 2.5rem 0;
   background-color: #ffffff;
+  text-align: center;
 }
 
 .studentTM-content {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: auto;
-  border-radius: 12px;
-  border: 2px solid #afb7c0;
   padding: 2.5rem 0 1rem 0;
   position: relative;
 }
@@ -21,7 +20,8 @@
   color: #333333;
   border: 1px solid #afb7c0;
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 2rem;
+  text-align: center;
   position: absolute;
   top: -30px;
   left: 50%;
@@ -91,13 +91,28 @@
   display: none;
 }
 
-/* ------------------------------------ Responsive Style ------------------------- */
-
-@media (max-width: 1440px) {
-  .studentTM-content {
-    width: 90%;
-  }
+.studentTM-btn {
+  width: 240px;
+  color: #333333;
+  background: #ffffff;
+  padding: 10px 16px;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  border: none;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
+
+.studentTM-btn:hover {
+  color: #ffffff;
+  background-color: #333333;
+}
+
+/* ------------------------------------ Responsive Style ------------------------- */
 
 @media (max-width: 968px) {
   .studentTM-main-container {
@@ -112,6 +127,7 @@
 @media (max-width: 768px) {
   .studentTM-main-container h1 {
     font-size: 1.5rem;
+    padding: 1rem;
   }
 
   .studentTM-card {

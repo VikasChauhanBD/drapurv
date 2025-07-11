@@ -1,0 +1,113 @@
+.footer-mobile,
+.lower-footer-mobile {
+  display: none;
+}
+
+/* ------------------------------------ Responsive Style ------------------------- */
+
+@media (max-width: 568px) {
+  .footer-mobile {
+    display: block;
+    width: 100%;
+    background-color: #333333;
+    padding: 1rem;
+    color: white;
+  }
+
+  .footer-mobile h2 {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  .footer-mobile h2 span {
+    font-size: 14px;
+    margin-left: auto;
+  }
+
+  .footer-mobile-quick-links ul,
+  .footer-mobile-social-media-links {
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .footer-mobile-quick-links ul li {
+    padding: 6px 0;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-left: 1rem; */
+  }
+
+  /* .footer-mobile-quick-links li::before {
+    content: ">";
+    position: absolute;
+    left: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+  } */
+
+  .footer-mobile-social-media-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+  }
+
+  .footer-mobile-contact-us h2 {
+    margin-top: 20px;
+  }
+
+  .footer-mobile-contact-info {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+
+  .footer-mobile-contact-info h4 {
+    font-weight: 100;
+  }
+  .mobile-location-icon {
+    font-size: 40px;
+    margin-top: 4px;
+  }
+
+  .footer-quick-links ul,
+  .footer-mobile-social-media-links {
+    transition: all 0.3s ease;
+  }
+
+  .lower-footer-mobile {
+    display: block;
+    width: 100%;
+    background-color: #333333;
+  }
+
+  .lower-footer-mobile hr {
+    width: 100%;
+    height: 2px;
+    border: 0;
+    background-color: rgb(129, 129, 129);
+  }
+
+  .lower-footer-mobile p {
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px 0;
+  }
+}

@@ -16,6 +16,7 @@ import StudentsTestimonial from "./components/studentsTestimonial/StudentsTestim
 import Gallery from "./components/gallery/Gallery";
 import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton";
 import Footer from "./components/footer/Footer";
+import MobileFooter from "./components/mobileFooter/MobileFooter";
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
       <ScrollToTopButton />
 
       <Footer />
+      <MobileFooter />
     </Router>
   );
 }

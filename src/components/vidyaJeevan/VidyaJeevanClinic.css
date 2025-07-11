@@ -1,7 +1,7 @@
 .vjc-main-container {
   width: 100%;
   padding: 4rem 0 2rem 0;
-  background-color: rgb(252, 250, 250);
+  background-color: #ffffff;
 }
 
 .vjc-main-container h1 {
@@ -9,15 +9,15 @@
   text-align: center;
   color: #333333;
   text-transform: uppercase;
-  padding-bottom: 1rem;
 }
 
 .vjc-subtitle {
-  font-size: 20px;
+  font-size: 1.5rem;
   color: #333333;
   padding: 10px;
-  font-weight: 600;
+  font-weight: 100;
   text-align: center;
+  padding: 1rem;
 }
 
 .vjc-card {
@@ -82,6 +82,10 @@
 @media (max-width: 768px) {
   .vjc-main-container h1 {
     font-size: 1.5rem;
+  }
+
+  .vjc-subtitle {
+    font-size: 20px;
   }
 
   .vjc-card {

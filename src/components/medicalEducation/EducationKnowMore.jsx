@@ -3,7 +3,7 @@ import "./EducationKnowMore.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Education_EC from "../../assets/images/education_ec.webp";
-import phoneImg from "../../assets/images/mobile-mockup.png";
+import phoneImg from "../../assets/images/new-mock-up.png";
 import { useEffect } from "react";
 
 function EducationKnowMore() {
@@ -14,20 +14,22 @@ function EducationKnowMore() {
   return (
     <div id="education-know-more" className="educationKM-main-container">
       <div className="educationKM-content1">
-        <div className="educationKM-para1">
-          <p>
-            <strong>
-              <span>eConceptual</span>
-            </strong>{" "}
-            – India’s Leading MedTech Platform for Residency Students Founded
-            with a vision by Dr. Apurv Mehra, eConceptual is a pioneering
-            initiative created to empower India’s postgraduate medical residents
-            with world-class clinical and surgical training. With expert
-            mentorship from India’s most respected faculty, the platform aims to
-            shape globally competent doctors—professionals who not only lead in
-            India but stand tall on the global stage through exceptional skill
-            and academic excellence.
-          </p>
+        <div className="educationKM-hero-wrapper1">
+          <div className="educationKM-para1">
+            <p>
+              <strong>
+                <span>eConceptual</span>
+              </strong>{" "}
+              – India’s Leading MedTech Platform for Residency Students Founded
+              with a vision by Dr. Apurv Mehra, eConceptual is a pioneering
+              initiative created to empower India’s postgraduate medical
+              residents with world-class clinical and surgical training. With
+              expert mentorship from India’s most respected faculty, the
+              platform aims to shape globally competent doctors—professionals
+              who not only lead in India but stand tall on the global stage
+              through exceptional skill and academic excellence.
+            </p>
+          </div>
         </div>
 
         <div className="educationKM-image1">
@@ -40,7 +42,7 @@ function EducationKnowMore() {
           <img src={phoneImg} alt="Cerebellum mobile app interface" />
         </div>
 
-        <div className="educationKM-hero-wrapper">
+        <div className="educationKM-hero-wrapper2">
           <div className="educationKM-para2">
             <p>
               <strong>

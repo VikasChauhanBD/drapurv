@@ -21,6 +21,29 @@
   border-radius: 0 0 30px 30px;
 }
 
+.educationKM-hero-wrapper1 {
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.educationKM-hero-wrapper1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../../assets/images/no1-ec.png);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+}
+
 .educationKM-image1 {
   width: 50%;
   text-align: end;
@@ -31,7 +54,7 @@
 }
 
 .educationKM-para1 {
-  width: 50%;
+  width: 100%;
   padding-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -68,7 +91,7 @@
   height: 100%;
 }
 
-.educationKM-hero-wrapper {
+.educationKM-hero-wrapper2 {
   width: 70%;
   position: relative;
   display: flex;
@@ -76,14 +99,14 @@
   z-index: 1;
 }
 
-.educationKM-hero-wrapper::before {
+.educationKM-hero-wrapper2::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url(../../assets/images/no1-person.png);
+  background-image: url(../../assets/images/no1-cba.png);
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -146,6 +169,10 @@
     text-align: center;
   }
 
+  .educationKM-hero-wrapper1 {
+    width: 100%;
+  }
+
   .educationKM-para1 {
     width: 100%;
     padding: 1rem;
@@ -162,7 +189,7 @@
     padding-bottom: 2rem;
   }
 
-  .educationKM-hero-wrapper {
+  .educationKM-hero-wrapper2 {
     width: 100%;
   }
 
@@ -171,7 +198,8 @@
     padding: 1rem;
   }
 
-  .educationKM-hero-wrapper::before {
+  .educationKM-hero-wrapper1::before,
+  .educationKM-hero-wrapper2::before {
     width: 100%;
     background-image: none;
   }
