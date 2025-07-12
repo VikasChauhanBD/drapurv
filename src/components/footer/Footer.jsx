@@ -1,12 +1,65 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Footer.css";
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { SiX } from "react-icons/si";
 import { FaMapLocationDot } from "react-icons/fa6";
 import FooterIcon from "../../assets/images/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Footer() {
+  const [showNav, setShowNav] = useState(false);
+  const navigate = useNavigate();
+
+  const handleButtonToggle = () => {
+    setShowNav(!showNav);
+  };
+
+  const handleCloseNav = () => {
+    setShowNav(false);
+  };
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const sectionPosition =
+        section.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = sectionPosition - 80; // 80 for navbar
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+
+    handleCloseNav();
+  };
+
+  const [activeLink, setActiveLink] = useState("");
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section[id]");
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+      sections.forEach((section) => {
+        const top = section.getBoundingClientRect().top + scrollPosition;
+        const height = section.offsetHeight;
+        if (
+          scrollPosition >= top - windowHeight * 0.5 &&
+          scrollPosition < top + height - windowHeight * 0.5
+        ) {
+          setActiveLink(section.id);
+        }
+      });
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    if (activeLink) {
+      navigate(`/${activeLink}`);
+    }
+  }, [activeLink, navigate]);
+
   return (
     <>
       <footer className="footer-container">
@@ -16,16 +69,37 @@ function Footer() {
 
         <div className="footer-quick-links">
           <h2>Quick Links</h2>
-          <ul>
-            <li>About</li>
-            <li>Leading Surgeon</li>
-            <li>Educator</li>
-            <li>Entrepreneur</li>
-            {/* <li> Best Selling Author</li>
-          <li>Vidya Jeevan Clinic</li>
-          <li>Vidya Jeevan Experience Center</li>
-          <li>Gallery</li> */}
-          </ul>
+          <NavLink
+            to="#about"
+            className={activeLink === "about"}
+            onClick={() => scrollToSection("about")}
+          >
+            About
+          </NavLink>
+
+          <NavLink
+            to="#leading-surgeon"
+            className={activeLink === "leading-surgeon"}
+            onClick={() => scrollToSection("leading-surgeon")}
+          >
+            Leading Surgeon
+          </NavLink>
+
+          <NavLink
+            to="#specialities"
+            className={activeLink === "specialities"}
+            onClick={() => scrollToSection("specialities")}
+          >
+            Educator
+          </NavLink>
+
+          <NavLink
+            to="#ec-cba"
+            className={activeLink === "ec-cba"}
+            onClick={() => scrollToSection("ec-cba")}
+          >
+            Entrepreneur
+          </NavLink>
         </div>
 
         <div className="footer-social-media">
