@@ -23,7 +23,7 @@ function App() {
     <Router>
       {/* <ScrollProgressBar /> */}
 
-      <section id="">
+      <section id=" ">
         <Header />
       </section>
 

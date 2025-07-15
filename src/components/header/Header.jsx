@@ -33,7 +33,7 @@ function Header() {
   });
 
   return (
-    <div id="" className="header-container">
+    <div id=" " className="header-container">
       <SideMenu />
       <div className="header-banner">
         <Slider {...settings}>
