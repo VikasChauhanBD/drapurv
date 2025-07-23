@@ -11,15 +11,15 @@
   align-items: center;
 }
 
-.about-main-container h2 {
-  font-size: 1.5rem;
+.about-main-container h1 {
+  font-size: 2rem;
   color: #333333;
   text-transform: uppercase;
   padding-bottom: 1rem;
 }
 
-.about-main-container h1 {
-  font-size: 2rem;
+.about-main-container h2 {
+  font-size: 1.25rem;
   color: #333333;
   text-transform: uppercase;
 }
@@ -97,7 +97,7 @@
 
 @media (max-width: 568px) {
   .about-main-container h2 {
-    font-size: 1.25rem;
+    font-size: 18px;
   }
 
   .about-main-container h1 {

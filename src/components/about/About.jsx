@@ -14,29 +14,45 @@ function About() {
     <div id="about" className="about-main-container">
       <div className="about-content">
         <div className="about-para">
-          <h2>Meet</h2>
-          <h1>Dr. Apurv Mehra</h1>
+          <h1>Meet Dr. Apurv Mehra</h1>
+          <h2>Where Expertise Meets Empathy</h2>
           <p>
-            At the heart of every successful surgery and every confident step a
-            patient takes after recovery, is the quiet commitment of a doctor
-            who truly cares. Dr. Apurv Mehra is one such name—trusted not just
-            for his skill in robotic knee and hip replacements, but for the
-            comfort, reassurance, and honesty he brings to every patient
-            interaction.
+            Behind every successful surgery and every confident step a patient
+            takes toward recovery stands a doctor who goes beyond the call of
+            duty—not just treating bodies, but touching lives. Dr. Apurv Mehra
+            is one such name.
             <br />
             <br />
-            For over 15 years, he has been more than just a surgeon. He’s been a
-            teacher, a mentor, and an inspiration to countless young
-            doctors—many of whom chose orthopedics simply because of him. Known
-            for blending the precision of modern technology with the warmth of
-            human connection, Dr. Mehra believes healing begins the moment a
-            patient feels heard.
+            Renowned for his excellence in{" "}
+            <b>robotic knee and hip replacement</b>, Dr. Mehra brings more than
+            just surgical skill to the table—he brings{" "}
+            <b>comfort, clarity, and compassion</b> to every patient he meets.
+            His patients often say that before healing even begins physically,
+            it begins the moment they sit across from him and feel truly heard.
             <br />
             <br />
-            Whether in the operating room, a classroom, or through his words
-            that move minds and hearts, Dr. Mehra continues to impact lives
-            every day—not just by restoring movement, but by bringing back
-            confidence, dignity, and hope.
+            For over <b>15 years</b>, Dr. Mehra has served not only as a surgeon
+            but as a mentor, teacher, and guide. He has inspired a generation of
+            young doctors, many of whom chose orthopedics simply because of his
+            influence. His commitment to <b>uplifting the profession</b> and
+            society at large is evident in every life he touches—be it in the
+            operating theatre, in classrooms, or in communities.
+            <br />
+            <br />
+            What sets him apart is his belief that{" "}
+            <b>technology should never replace human connection</b>. His
+            approach blends the <b>precision of robotic surgery</b> with the{" "}
+            <b>art of compassionate care</b>, ensuring that every patient not
+            only walks better—but lives better.
+            <br />
+            <br />
+            Whether you meet him as a doctor, a teacher, or simply a reassuring
+            presence during a difficult time -{" "}
+            <b>Dr. Apurv Mehra’s dedication is unmistakable</b>.
+            <br />
+            He heals not just joints, but journeys.
+            <br />
+            He restores not just mobility, but <b>hope and dignity</b>.
           </p>
 
           <button className="about-btn" type="button">
