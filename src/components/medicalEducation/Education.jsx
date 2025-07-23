@@ -12,30 +12,30 @@ function Education() {
 
   return (
     <div id="ec-cba" className="education-main-container">
-      <h1>Contributions to Medical Education</h1>
+      <h1>Legacy & Inspiration</h1>
+      <h2>Built on Belief, Values & Purpose</h2>
 
       <div className="education-card">
-        <div className="education-content">
-          <h2>Cerebellum Academy</h2>
-          <p>
-            Cerebellum Academy is the visionary creation of five of India’s most
-            renowned medical educators — celebrated not just for their academic
-            excellence, but also as prolific authors and powerful motivators who
-            have inspired millions of medical aspirants.
-          </p>
-          <h2>eConceptual</h2>
-          <p>
-            eConceptual is a next-generation medical learning platform designed
-            to empower postgraduate medical students with advanced clinical and
-            surgical education. Built with a vision to bridge the gap between
-            knowledge and real-world practice, eConceptual offers a dynamic and
-            accessible learning environment guided by some of India’s most
-            respected medical educators.
-          </p>
-        </div>
-
         <div className="education-image">
           <img src={Image} alt="" />
+        </div>
+
+        <div className="education-content">
+          <h3>Shaping Minds, Inspiring Generations</h3>
+          <h4>- A Legacy of Learning </h4>
+          <p>
+            For Dr. Apurv Mehra, being a doctor has never been just about
+            treating patients — it’s about{" "}
+            <b>uplifting the entire medical community</b>, especially the next
+            generation of doctors. Deeply influenced by the values instilled in
+            him by his grandmother, Dr. Mehra has always believed that{" "}
+            <b>knowledge must be shared, not stored</b> — and that true success
+            lies in giving back.
+            <br />
+            <br />
+            This belief led to the birth of two powerful educational platforms
+            that are transforming how medicine is taught and learned in India:
+          </p>
         </div>
       </div>
     </div>

@@ -16,18 +16,21 @@ function EducationKnowMore() {
       <div className="educationKM-content1">
         <div className="educationKM-hero-wrapper1">
           <div className="educationKM-para1">
+            <h3>eConceptual</h3>
+            <h4>Bridging the Gap Between Theory and Practice</h4>
             <p>
-              <strong>
-                <span>eConceptual</span>
-              </strong>{" "}
-              – India’s Leading MedTech Platform for Residency Students Founded
-              with a vision by Dr. Apurv Mehra, eConceptual is a pioneering
-              initiative created to empower India’s postgraduate medical
-              residents with world-class clinical and surgical training. With
-              expert mentorship from India’s most respected faculty, the
-              platform aims to shape globally competent doctors—professionals
-              who not only lead in India but stand tall on the global stage
-              through exceptional skill and academic excellence.
+              As medicine evolves, so must medical education. With this vision,
+              Dr. Mehra launched <b>eConceptual</b> — a next-generation platform
+              designed especially for{" "}
+              <b>MS/MD/DNB residents and budding clinicians</b>. Built with a
+              focus on <b>clinical reasoning, surgical judgment</b>, and
+              <b>real - world mentorship</b>, eConceptual offers students the
+              kind of learning that prepares them not just for exams — but for
+              life in the wards and operation theatres. Ranked as the{" "}
+              <b>No.1 academic app</b> in its category, it reflects Dr. Mehra’s
+              mission to create a community of doctors who are not only{" "}
+              <b>well - read</b>, but also
+              <b>well-prepared, confident, and compassionate.</b>
             </p>
           </div>
         </div>
@@ -44,20 +47,33 @@ function EducationKnowMore() {
 
         <div className="educationKM-hero-wrapper2">
           <div className="educationKM-para2">
+            <h3>Cerebellum Academy</h3>
+            <h4>Where Passion Meets Purpose in Medical Learning</h4>
             <p>
-              <strong>
-                <span>Cerebellum Academy</span> – Shaping the Clinicians of
-                Tomorrow
-              </strong>{" "}
-              Founded by pioneering faculty, Cerebellum Academy is a dedicated
-              platform for NEET‑PG, INICET, and FMGE aspirants. In an era of
-              rising competition & self‑doubt, We focus on building strong
-              medical concepts & problem‑solving skills. We foster clinical
-              confidence - equipping future doctors not just to clear exams,but
-              to lead as compassionate, competent clinicians.
+              Co - founded by Dr. Mehra and four of India’s most respected
+              medical educators, <b>Cerebellum Academy</b> has become a
+              household name among medical aspirants across the country. Known
+              for its <b>unmatched academic content, inspiring mentors</b>, and{" "}
+              <b>compassionate teaching style</b>, the platform has reached and
+              motivated <b>millions of students</b>, helping them believe in
+              themselves and rise to their true potential. It’s more than an
+              academy — it’s a movement.
             </p>
           </div>
         </div>
+      </div>
+
+      <div className="educationKM-last-para">
+        <span>
+          Through these initiatives, <b>Dr. Apurv Mehra</b> isn’t just teaching
+          medicine — he’s shaping mindsets, nurturing values, and helping build
+          a future where doctors lead with both <b>skill and soul</b>. Because
+          to him,{" "}
+          <b>
+            education is not just a profession — it’s a promise to serve society
+            better.
+          </b>
+        </span>
       </div>
     </div>
   );

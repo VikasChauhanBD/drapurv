@@ -61,15 +61,21 @@
   justify-content: center;
 }
 
-.educationKM-para1 p {
-  padding-top: 2rem;
-  font-size: 18px;
+.educationKM-para1 h3 {
+  font-size: 1.75rem;
+  padding-bottom: 1rem;
+  color: #425d92;
+}
+
+.educationKM-para1 h4 {
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
   color: #333333;
 }
 
-.educationKM-para1 span {
-  font-size: 24px;
-  color: #425d92;
+.educationKM-para1 p {
+  font-size: 18px;
+  color: #333333;
 }
 
 .educationKM-content2 {
@@ -119,13 +125,30 @@
   color: #333333;
 }
 
+.educationKM-para2 h3 {
+  font-size: 1.75rem;
+  padding-bottom: 1rem;
+  color: #425d92;
+}
+
+.educationKM-para2 h4 {
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+  color: #333333;
+}
+
 .educationKM-para2 p {
   font-size: 20px;
 }
 
-.educationKM-para2 span {
-  font-size: 24px;
-  color: #425d92;
+.educationKM-last-para {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.educationKM-main-container span {
+  font-size: 20px;
 }
 
 /* ------------------------------------ Responsive Style ------------------------- */
@@ -136,6 +159,10 @@
   }
 
   .educationKM-content2 {
+    width: 90%;
+  }
+
+  .educationKM-last-para {
     width: 90%;
   }
 
@@ -216,17 +243,19 @@
     width: 100%;
   }
 
-  .educationKM-para1 p {
-    padding-top: 1rem;
-    font-size: 1rem;
+  .educationKM-para1 h3,
+  .educationKM-para2 h3 {
+    font-size: 1.5rem;
   }
 
-  .educationKM-para2 p {
-    font-size: 1rem;
+  .educationKM-para1 h4,
+  .educationKM-para2 h4 {
+    font-size: 18px;
   }
 
-  .educationKM-para1 span,
-  .educationKM-para2 span {
-    font-size: 20px;
+  .educationKM-para1 p,
+  .educationKM-para2 p,
+  .educationKM-last-para span {
+    font-size: 1rem;
   }
 }

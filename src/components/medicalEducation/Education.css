@@ -9,8 +9,15 @@
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 2rem;
   color: #333333;
+}
+
+.education-main-container h2 {
+  font-size: 1.5rem;
+  color: #333333;
+  font-weight: 100;
+  text-align: center;
+  padding: 1rem 1rem 2rem 1rem;
 }
 
 .education-card {
@@ -29,8 +36,14 @@
   justify-content: center;
 }
 
-.education-content h2 {
-  font-size: 2rem;
+.education-content h3 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  color: #333333;
+}
+
+.education-content h4 {
+  font-size: 1.25rem;
   padding-bottom: 1rem;
   color: #333333;
 }
@@ -47,7 +60,7 @@
 }
 
 .education-image img {
-  width: 100%;
+  width: 75%;
   height: 100%;
 }
 
@@ -64,6 +77,19 @@
     font-size: 1.5rem;
     padding: 1rem;
   }
+
+  .education-main-container h2 {
+    font-size: 1.25rem;
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  .education-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .education-content h4 {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -72,7 +98,7 @@
   }
 
   .education-card {
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin-top: 1rem;
   }
 
