@@ -8,6 +8,7 @@ import Surgeon from "./components/surgeon/Surgeon";
 import VidyaJeevanClinic from "./components/vidyaJeevan/VidyaJeevanClinic";
 import Specialities from "./components/specialities/Specialities";
 import PatientsTestimonial from "./components/patientsTestimonial/PatientsTestimonial";
+import Devoted from "./components/devoted/Devoted";
 import Education from "./components/medicalEducation/Education";
 import EducationKnowMore from "./components/medicalEducation/EducationKnowMore";
 import Motivational from "./components/motivational/Motivational";
@@ -45,6 +46,10 @@ function App() {
 
       <section id="patients-testimonial">
         <PatientsTestimonial />
+      </section>
+
+      <section id="devoted">
+        <Devoted />
       </section>
 
       <section id="ec-cba">
