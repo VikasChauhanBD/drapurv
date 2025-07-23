@@ -21,23 +21,52 @@ function Surgeon() {
         </div>
 
         <div className="surgeon-para">
+          <h3>Dr. Apurv Mehra</h3>
+          <h4>A Name You Can Trust in Orthopaedic Care</h4>
           <p>
-            Dr. Apurv Mehra is one of India’s foremost orthopaedic surgeons,
-            with over 22 years of experience in advanced orthopaedic care. He
-            specializes in robotic knee replacement, complex joint surgeries,
-            and trauma management. Currently serving at Max Super Specialty
-            Hospital, Patparganj, he has made significant contributions to the
-            field of orthopaedics and medical education.
+            With over <b>22 years of experience</b>, Dr. Apurv Mehra is widely
+            regarded as one of <b>India’s leading orthopaedic surgeons</b> — a
+            trusted name for those seeking expert care with a human touch. He
+            specializes in{" "}
+            <b>robotic knee replacements, complex joint surgeries</b>, and{" "}
+            <b>trauma management</b>, and currently practices at{" "}
+            <b>Max Super Specialty Hospital, Patparganj</b>.
             <br />
             <br />
-            Dr. Mehra is known for his unwavering commitment to ethical medical
-            practice, ensuring 100% transparency with his patients. He believes
-            that trust is the foundation of doctor-patient relationships and
-            prioritizes clear communication, providing patients with a complete
-            understanding of their treatment options. His patient-first approach
-            ensures that every individual receives honest, compassionate, and
-            evidence-based care.
+            But what truly sets Dr. Mehra apart is not just his surgical
+            expertise — it’s his{" "}
+            <b>
+              deep commitment to ethical, transparent, and patient — centered
+              care.
+            </b>
+            <br />
+            <br />
+            Every patient who walks through his door is treated with{" "}
+            <b>respect, honesty, and compassion</b>. He takes the time to{" "}
+            <b>listen carefully</b>, explain every treatment option in clear,
+            simple language, and ensure patients feel empowered — not
+            overwhelmed — throughout their healing journey. His unwavering
+            belief is that{" "}
+            <b>trust is the foundation of every doctor-patient relationship</b>,
+            and he lives by it every single day.
+            <br />
+            <br />
+            Known for combining <b>cutting-edge technology</b> with a{" "}
+            <b>heartfelt approach to healing</b>, Dr. Mehra has earned the love
+            of thousands of patients and the respect of peers across the
+            country. He is also deeply involved in <b>medical education</b>,
+            inspiring and mentoring young doctors to uphold the highest
+            standards of care and integrity.
+            <br />
+            <br />
+            Whether you're looking for relief from long-standing joint pain,
+            exploring surgical options, or simply seeking honest advice —{" "}
+            <b>
+              Dr. Apurv Mehra offers more than just treatment. He offers hope,
+              clarity, and care that truly puts the patient first.
+            </b>
           </p>
+
           <button className="surgeon-btn" type="button">
             Know More..
           </button>
