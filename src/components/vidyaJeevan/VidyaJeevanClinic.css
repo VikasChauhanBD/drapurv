@@ -35,11 +35,11 @@
   justify-content: center;
 }
 
-.vjc-text {
+.vjc-content p {
   font-size: 20px;
   color: #333333;
   line-height: 1.6;
-  margin-bottom: 15px;
+  margin-bottom: 2rem;
 }
 
 .vjc-btn {
@@ -64,6 +64,7 @@
 
 .vjc-image {
   width: 49%;
+  margin: auto 0;
 }
 
 .vjc-image img {
