@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
-// import ScrollProgressBar from "./components/scrollProgressBar/ScrollProgressBar";
+import ScrollProgressBar from "./components/scrollProgressBar/ScrollProgressBar";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Surgeon from "./components/surgeon/Surgeon";
@@ -22,7 +22,7 @@ import MobileFooter from "./components/mobileFooter/MobileFooter";
 function App() {
   return (
     <Router>
-      {/* <ScrollProgressBar /> */}
+      <ScrollProgressBar />
 
       <section id=" ">
         <Header />
@@ -48,7 +48,7 @@ function App() {
         <PatientsTestimonial />
       </section>
 
-      <section id="devoted">
+      <section id="learning-and-leading">
         <Devoted />
       </section>
 

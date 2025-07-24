@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./StudentsTestimonial.css";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import AOS from "aos";
@@ -8,6 +8,8 @@ import studentsData from "../../assets/data/studentsReviews";
 
 function StudentsTestimonial() {
   const studentsListRef = useRef(null);
+  const scrollIntervalRef = useRef(null);
+  const [expandedIndex, setExpandedIndex] = useState(null); // 👈 track expanded review
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -15,56 +17,91 @@ function StudentsTestimonial() {
   }, []);
 
   useEffect(() => {
-    let scrollInterval;
-
-    const applyScrollEffect = () => {
-      scrollInterval = setInterval(() => {
-        if (studentsListRef.current) {
-          const { scrollLeft, scrollWidth, clientWidth } =
-            studentsListRef.current;
-
-          // Scroll the container horizontally
-          studentsListRef.current.scrollLeft += 1;
-
-          // Check if the scroll has reached the end
-          if (scrollLeft + clientWidth >= scrollWidth - 1) {
-            // Reset to the beginning
-            studentsListRef.current.scrollLeft = 0;
-          }
-        }
-      }, 20);
-    };
-
-    applyScrollEffect();
-
-    // Cleanup the interval on component unmount
-    return () => clearInterval(scrollInterval);
+    startScrolling();
+    return () => stopScrolling();
   }, []);
+
+  const startScrolling = () => {
+    stopScrolling();
+    scrollIntervalRef.current = setInterval(() => {
+      if (studentsListRef.current) {
+        const { scrollLeft, scrollWidth, clientWidth } =
+          studentsListRef.current;
+        studentsListRef.current.scrollLeft += 1;
+        if (scrollLeft + clientWidth >= scrollWidth - 1) {
+          studentsListRef.current.scrollLeft = 0;
+        }
+      }
+    }, 20);
+  };
+
+  const stopScrolling = () => {
+    if (scrollIntervalRef.current) {
+      clearInterval(scrollIntervalRef.current);
+      scrollIntervalRef.current = null;
+    }
+  };
+
+  const handleReadMore = (index) => {
+    setExpandedIndex((prev) => (prev === index ? null : index));
+  };
 
   return (
     <div id="students-testimonial" className="studentTM-main-container">
       <div className="studentTM-content">
-        <h1>Students Testimonial ❤️</h1>
+        <h1>What Students Say ❤️</h1>
+        <h2>
+          “You’ll come here expecting academic support — but you leave with
+          mentorship, clarity, and belief in yourself.”
+          <br />— One of the many heartfelt reviews from students across India
+        </h2>
+
         <div className="studentTM-cards" ref={studentsListRef}>
           {studentsData.map((data, index) => (
-            <div key={index} className="studentTM-card">
+            <div
+              key={index}
+              className="studentTM-card"
+              onMouseEnter={stopScrolling}
+              onMouseLeave={startScrolling}
+            >
               <div className="studentTM-image">
                 <img src={data.image} alt="" />
               </div>
               <h3>{data.name}</h3>
               <p>
                 <FaQuoteLeft />
-                {data.review}
+                {expandedIndex === index ? (
+                  <>
+                    {data.review}
+                    <span
+                      onClick={() => handleReadMore(index)}
+                      className="studentTM-read-less"
+                    >
+                      Read less{" "}
+                    </span>
+                  </>
+                ) : (
+                  <>
+                    {data.subReview}
+                    <span
+                      onClick={() => handleReadMore(index)}
+                      className="studentTM-read-more"
+                    >
+                      Read more{" "}
+                    </span>
+                  </>
+                )}
                 <FaQuoteRight />
               </p>
             </div>
           ))}
         </div>
       </div>
+
       <button
         onClick={() =>
           window.open(
-            "https://www.google.com/maps/place/Vidya+Jeevan/@28.4743648,77.4996851,17z/data=!4m18!1m9!3m8!1s0x390cc1248e395885:0x9099a001358dfd8f!2sVidya+Jeevan!8m2!3d28.4743601!4d77.50226!9m1!1b1!16s%2Fg%2F11w7l3p8v1!3m7!1s0x390cc1248e395885:0x9099a001358dfd8f!8m2!3d28.4743601!4d77.50226!9m1!1b1!16s%2Fg%2F11w7l3p8v1?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D",
+            "https://www.google.com/maps/place/Vidya+Jeevan/@28.4743648,77.4996851,17z/data=!4m18...",
             "_blank"
           )
         }

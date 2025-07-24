@@ -11,11 +11,8 @@ function VidyaJeevan() {
 
   return (
     <div id="vidya-jeevan-experience-center" className="vidya-main-container">
-      <h1>Vidya Jeevan</h1>
-      <h2>
-        A dedicated Learning Hub For NEETPG, INICET and Orthopedics Residency
-        Students
-      </h2>
+      <h1>VIDYA JEEVAN – An Educational Hub at Greater Noida</h1>
+      <h2>A Learning Centre Where Purpose Meets Preparation</h2>
 
       <div className="vidya-content">
         <div className="vidya-image">
@@ -24,15 +21,40 @@ function VidyaJeevan() {
 
         <div className="vidya-para">
           <p>
-            A focused learning hub designed exclusively for NEET PG and INICET
-            aspirants.Vidyajeevan empowers future doctors to maximize their
-            potential in India’s most competitive medical entrance exams. A
-            specialized platform for orthopedic residency students seeking
-            hands-on clinical excellence. Mentored by some of India’s most
-            respected orthopedic pioneers, this initiative bridges academic
-            knowledge with real-world surgical exposure and advanced procedural
-            training.
+            <b>Vidya Jeevan</b> is not just a learning hub — it’s a{" "}
+            <b>vision brought to life by Dr. Apurv Mehra</b>, rooted in his
+            belief that the right mentorship can shape not just successful
+            doctors, but compassionate healers.
+            <br />
+            <br />
+            Created as a <b>dedicated space for NEET PG, INICET aspirants</b>,
+            and
+            <b> residency students</b>, Vidya Jeevan offers a focused
+            environment where medical learning is both{" "}
+            <b>rigorous and real-world ready</b>. Students here receive more
+            than academic guidance — they gain access to
+            <b> hands - on clinical exposure, procedural training</b>, and the
+            kind of
+            <b> ethical mentorship</b> that shapes both skill and character.
+            <br />
+            <br />
+            At Vidya Jeevan, every session, workshop, and discussion is guided
+            by <b>India’s leading educators and mentors</b>, including Dr. Mehra
+            himself — ensuring that students are not only prepared for exams,
+            but for life in medicine.
+            <br />
+            <br />
+            Whether you're aiming to ace the country's most competitive entrance
+            exams or looking to grow into a confident, compassionate clinician —{" "}
+            <b>Vidya Jeevan is where that journey begins.</b>
+            <br />
+            <br />
+            <b>
+              A space where learning is sincere, guidance is personal, and every
+              student is treated with belief.
+            </b>
           </p>
+
           <button className="vidya-btn" type="button">
             Know More..
           </button>

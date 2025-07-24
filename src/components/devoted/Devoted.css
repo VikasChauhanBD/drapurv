@@ -67,6 +67,21 @@
   color: #333333;
 }
 
+.devoted-subcontent {
+  font-size: 20px;
+  padding-top: 1rem;
+  color: #333333;
+}
+
+.devoted-read-more {
+  font-size: 16px;
+  font-weight: 600;
+  color: #7b3fe4;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
 .devoted-image-container {
   width: 48%;
 }

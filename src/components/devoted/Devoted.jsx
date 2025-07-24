@@ -8,15 +8,22 @@ import Image5 from "../../assets/images/best-surgeon-images/surgeon4.png";
 
 function Devoted() {
   const [selectedDevoted, setSelectedDevoted] = useState(1);
+  const [expandedId, setExpandedId] = useState(null);
 
   const handleDevotedChange = (id) => {
     setSelectedDevoted(id);
+  };
+
+  const toggleExpanded = (id) => {
+    setExpandedId((prev) => (prev === id ? null : id));
   };
 
   const devotedData = [
     {
       id: 1,
       title: "A Globally Acclaimed Educator",
+      subContent:
+        "Dr. Apurv Mehra is recognized both nationally and internationally as a leading faculty",
       content:
         "Dr. Apurv Mehra is recognized both nationally and internationally as a leading faculty in orthopaedics. Known for his clarity, energy, and student-first approach, he has taught and mentored thousands of medical aspirants across India and beyond. His sessions go beyond theory — helping students believe in themselves, push their limits, and dream bigger.",
       image: Image1,
@@ -24,6 +31,8 @@ function Devoted() {
     {
       id: 2,
       title: "Teaching with Heart & Humour",
+      subContent:
+        "What truly sets Dr. Mehra apart is his <b>unique style of teaching</b> — a powerful",
       content:
         "What truly sets Dr. Mehra apart is his <b>unique style of teaching</b> — a powerful mix of knowledge, humor, and heart. His legendary Ortho Dhoom Dhadaka lectures have become a rite of passage for PG aspirants, widely recommended by toppers year after year. He doesn’t just teach medicine — he inspires a mindset, a discipline, and a sense of purpose.",
       image: Image2,
@@ -31,6 +40,8 @@ function Devoted() {
     {
       id: 3,
       title: "Author of Trusted Bestsellers",
+      subContent:
+        "A gifted communicator on and off the stage, Dr. Mehra is also the author of several",
       content:
         "A gifted communicator on and off the stage, Dr. Mehra is also the author of several <b>international bestsellers</b>, including Orthopedics Quick Review, NEET PG: The Next Level, and AIIMS: The Precise Version. These books are valued by students across South-East Asia for their clarity, precision, and exam relevance.",
       image: Image3,
@@ -38,6 +49,8 @@ function Devoted() {
     {
       id: 4,
       title: "Founder of Transformative Platforms",
+      subContent:
+        "As a visionary entrepreneur, Dr. Mehra co - founded <b>Cerebellum Academy</b> and",
       content:
         "As a visionary entrepreneur, Dr. Mehra co - founded <b>Cerebellum Academy</b> and <b>eConceptual</b> — two platforms that have redefined how medical students learn in the digital age. These initiatives provide <b>cutting-edge content, real-world mentorship</b>, and a deeply <b>motivational learning environment</b>, bridging the gap between theory and clinical practice.",
       image: Image4,
@@ -45,6 +58,8 @@ function Devoted() {
     {
       id: 5,
       title: "More Than a Mentor — A Movement",
+      subContent:
+        "For many students, Dr. Apurv Mehra is more than just a teacher — he’s a <b>mentor</b>",
       content:
         "For many students, Dr. Apurv Mehra is more than just a teacher — he’s a <b>mentor, a role model, and a spark that ignites change</b>. His ability to connect, uplift, and guide with sincerity has created a lasting impact that reaches far beyond classrooms and textbooks. His mission is simple yet profound: <b>to give back, through education, all that he has received.</b>",
       image: Image5,
@@ -52,7 +67,7 @@ function Devoted() {
   ];
 
   return (
-    <div id="devoted" className="devoted-main-container">
+    <div id="learning-and-leading" className="devoted-main-container">
       <h1>A Life Devoted to Learning & Leading</h1>
       <h2>Learning as a mission. Leading as a legacy</h2>
 
@@ -79,12 +94,27 @@ function Devoted() {
                 </h4>
               </div>
 
-              {selectedDevoted === data.id && (
-                <div
-                  className="active-devoted-content"
-                  dangerouslySetInnerHTML={{ __html: data.content }}
-                ></div>
-              )}
+              <div className="devoted-preview-content">
+                {expandedId === data.id ? (
+                  <div
+                    className="active-devoted-content"
+                    dangerouslySetInnerHTML={{ __html: data.content }}
+                  />
+                ) : (
+                  <>
+                    <div
+                      className="devoted-subcontent"
+                      dangerouslySetInnerHTML={{ __html: data.subContent }}
+                    />
+                    <span
+                      className="devoted-read-more"
+                      onClick={() => toggleExpanded(data.id)}
+                    >
+                      Read more
+                    </span>
+                  </>
+                )}
+              </div>
             </div>
           ))}
         </div>
