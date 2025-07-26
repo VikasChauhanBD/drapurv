@@ -118,7 +118,7 @@
   text-align: center;
 }
 
-.close-btn {
+.gallery-modal-close-btn {
   position: absolute;
   top: 15px;
   right: 20px;
@@ -146,6 +146,62 @@
   object-position: top;
   border-radius: 10px;
   margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.gallery-fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(15, 15, 15, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  flex-direction: column;
+}
+
+.gallery-fullscreen-image {
+  max-width: 90%;
+  max-height: 80vh;
+  object-fit: contain;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.gallery-fullscreen-nav-btn {
+  position: absolute;
+  top: 50%;
+  font-size: 3rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+  padding: 10px;
+  z-index: 10000;
+}
+
+.gallery-fullscreen-nav-btn.gallery-fullscreen-prev {
+  left: 20px;
+}
+
+.gallery-fullscreen-nav-btn.gallery-fullscreen-next {
+  right: 20px;
+}
+
+.gallery-fullscreen-overlay .gallery-fullscreen-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2.5rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10000;
 }
 
 /* ------------------------------------ Responsive Style ------------------------- */
@@ -169,6 +225,10 @@
 @media (max-width: 968px) {
   .gallery-modal {
     height: 85%;
+    margin-top: 6rem;
+  }
+
+  .gallery-fullscreen-overlay {
     margin-top: 6rem;
   }
 }

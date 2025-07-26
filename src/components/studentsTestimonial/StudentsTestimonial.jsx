@@ -43,7 +43,13 @@ function StudentsTestimonial() {
   };
 
   const handleReadMore = (index) => {
-    setExpandedIndex((prev) => (prev === index ? null : index));
+    setExpandedIndex((prev) => {
+      const isCollapsing = prev === index;
+      if (isCollapsing) {
+        startScrolling(); // Restart scrolling when collapsing
+      }
+      return isCollapsing ? null : index;
+    });
   };
 
   return (
@@ -69,15 +75,18 @@ function StudentsTestimonial() {
               </div>
               <h3>{data.name}</h3>
               <p>
-                <FaQuoteLeft />
                 {expandedIndex === index ? (
                   <>
+                    {" "}
+                    <FaQuoteLeft />
                     {data.review}
+                    <FaQuoteRight />
                     <span
                       onClick={() => handleReadMore(index)}
                       className="studentTM-read-less"
                     >
-                      Read less{" "}
+                      <br />
+                      Read less
                     </span>
                   </>
                 ) : (
@@ -87,11 +96,10 @@ function StudentsTestimonial() {
                       onClick={() => handleReadMore(index)}
                       className="studentTM-read-more"
                     >
-                      Read more{" "}
+                      <br /> Read more
                     </span>
                   </>
                 )}
-                <FaQuoteRight />
               </p>
             </div>
           ))}

@@ -1,18 +1,18 @@
-import Anshika_Trivedi from "../images/students-images/Anshika-Trivedi.jpeg";
-import Saurabh_Dhamdhere from "../images/students-images/Saurabh-Dhamdhere.jpeg";
-import Shubh_Dahiya from "../images/students-images/Shubh-Dahiya.jpeg";
-import Rupenika_Gaur from "../images/students-images/Rupenika-Gaur.jpeg";
-import Sahil_Sharma from "../images/students-images/Sahil-Sharma.jpeg";
-import Kanishka_Singh from "../images/students-images/Kanishka-Singh.jpeg";
-import Male_Avatar from "../images/students-images/male-avatar.jpg";
-import Female_Avatar from "../images/students-images/female-avatar.jpg";
+import Anshika_Trivedi from "../images/students-images/Anshika-Trivedi.png";
+import Saurabh_Dhamdhere from "../images/students-images/Saurabh-Dhamdhere.png";
+import Shubh_Dahiya from "../images/students-images/Shubh-Dahiya.png";
+import Rupenika_Gaur from "../images/students-images/Rupenika-Gaur.png";
+import Sahil_Sharma from "../images/students-images/Sahil-Sharma.png";
+import Kanishka_Singh from "../images/students-images/Kanishka-Singh.png";
+import Male_Avatar from "../images/students-images/male-avatar.png";
+import Female_Avatar from "../images/students-images/female-avatar.png";
 
 const studentsData = [
   {
     image: Anshika_Trivedi,
     name: "Anshika Trivedi",
     subReview:
-      " Vidya Jeewan – More Than Just a Place, An Experience. Some places change you, shape you, and fill you with the motivation you always longed ",
+      " Vidya Jeewan – More Than Just a Place, An Experience. Some places change you, shape you, and fill you with the motivation you always ",
     review:
       " Vidya Jeewan – More Than Just a Place, An Experience. Some places change you, shape you, and fill you with the motivation you always longed for. For me, that place was Vidya Jeewan.Choosing to be a part of it was the best decision I ever made.very morning, Apurv Sir’s powerful words set the tone for the day—his motivation wasn’t just about pushing forward; it was about believing in yourself. ",
   },
@@ -46,7 +46,7 @@ const studentsData = [
     subReview:
       " This is the best place to study. The teachers, the staff, the students everyone there is so good. I would like to thank Cerebellum Academy, Dr. ",
     review:
-      " This is the best place to study. The teachers, the staff, the students everyone there is so good. I would like to thank Cerebellum Academy, Dr. Gobind Rai Garg Sir (my favourite), Dr. Apurv Mehra Sir for making this beautiful place for us, Zainab Ma’am for everything she do for us to be better, and a big thanks to Dr. Ravi Sharma Sir for mentoring personally to whoever in self doubt. I can’t express how grateful I’m to be their student. Also I would like to thank Ashish Sir who manages everything so nicely, Mama ji for being so positive and always greeting us with smile. This place is literally my “Home away from home”. ",
+      " This is the best place to study. The teachers, the staff, the students everyone there is so good. I would like to thank Cerebellum Academy, Dr. Gobind Rai Garg Sir (my favourite), Dr. Apurv Mehra Sir for making this beautiful place for us, Zainab Ma’am for everything she do for us to be better, and a big thanks to Dr. Ravi Sharma Sir for mentoring personally to whoever in self doubt. I can’t express how grateful I’m to be their student. Also I would like to thank Ashish Sir who manages everything so nicely, Mama ji for being so positive and always greeting us with smile. This place is literally my “Home away from home. ",
   },
   {
     image: Sahil_Sharma,
@@ -54,7 +54,7 @@ const studentsData = [
     subReview:
       " Everyday Apurv sir used to come and used to motivate all of us in the early morning. He used to inspire everyone about life, to be a better person ",
     review:
-      " Everyday Apurv sir used to come and used to motivate all of us in the early morning. He used to inspire everyone about life, to be a better person and a good doctor. Ravi sir used to motivate everyone and clear everyone's query personally about everything. I have to say that I was lucky that I got the opportunity to be enrolled in the first ever Bootcamp. Thank you!! ",
+      " Everyday Apurv sir used to come and used to motivate all of us in the early morning. He used to inspire everyone about life, to be a better person and a good doctor. Ravi sir used to motivate everyone and clear everyone's query personally about everything. I have to say that I was lucky that I got the opportunity to be enrolled in the first ever Bootcamp. Thank you ",
   },
   {
     image: Male_Avatar,
