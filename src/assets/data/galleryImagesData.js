@@ -34,6 +34,10 @@ import VJC3 from "../images/vidya-jeevan-center-images/vjc-3.JPG";
 import VJC4 from "../images/vidya-jeevan-center-images/vjc-4.JPG";
 import VJC5 from "../images/vidya-jeevan-center-images/vjc-5.JPG";
 import VJC6 from "../images/vidya-jeevan-center-images/vjc-6.JPG";
+import VJC7 from "../images/vidya-jeevan-center-images/vjc-7.JPG";
+import VJC8 from "../images/vidya-jeevan-center-images/vjc-8.JPG";
+import VJC9 from "../images/vidya-jeevan-center-images/vjc-9.JPG";
+import VJC10 from "../images/vidya-jeevan-center-images/vjc-10.JPG";
 
 const galleryData = [
   {
@@ -78,7 +82,7 @@ const galleryData = [
   },
   {
     title: "Vidya Jeevan Exp. Center",
-    images: [VJC1, VJC2, VJC3, VJC4, VJC5, VJC6],
+    images: [VJC1, VJC2, VJC3, VJC4, VJC5, VJC6, VJC7, VJC8, VJC9, VJC10],
   },
 ];
 
