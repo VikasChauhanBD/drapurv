@@ -15,6 +15,14 @@ import Surgeon14 from "../images/best-surgeon-images/surgeon14.jpeg";
 import Surgeon15 from "../images/best-surgeon-images/surgeon15.jpeg";
 import Surgeon16 from "../images/best-surgeon-images/surgeon16.jpeg";
 import Surgeon17 from "../images/best-surgeon-images/surgeon17.jpeg";
+import Surgeon18 from "../images/best-surgeon-images/surgeon18.jpg";
+import Surgeon19 from "../images/best-surgeon-images/surgeon19.jpg";
+import Surgeon20 from "../images/best-surgeon-images/surgeon20.jpg";
+import Surgeon21 from "../images/best-surgeon-images/surgeon21.jpg";
+import Surgeon22 from "../images/best-surgeon-images/surgeon22.jpg";
+import Surgeon23 from "../images/best-surgeon-images/surgeon23.jpg";
+import Surgeon24 from "../images/best-surgeon-images/surgeon24.jpg";
+import Surgeon25 from "../images/best-surgeon-images/surgeon25.jpg";
 import VJ1 from "../images/vidya-jeevan-images/vj-1.jpg";
 import VJ2 from "../images/vidya-jeevan-images/vj-2.jpg";
 import VJ3 from "../images/vidya-jeevan-images/vj-3.jpg";
@@ -60,6 +68,14 @@ const galleryData = [
       Surgeon15,
       Surgeon16,
       Surgeon17,
+      Surgeon18,
+      Surgeon19,
+      Surgeon20,
+      Surgeon21,
+      Surgeon22,
+      Surgeon23,
+      Surgeon24,
+      Surgeon25,
     ],
   },
   {
