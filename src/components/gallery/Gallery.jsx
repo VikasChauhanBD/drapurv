@@ -3,7 +3,7 @@ import "./Gallery.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import galleryData from "../../assets/data/galleryImagesData";
-import PluseImage from "../../assets/images/pluse-icon.png";
+import PluseImage from "../../assets/images/gallery-icon.png";
 
 function Gallery() {
   const [selectedGallery, setSelectedGallery] = useState(null);

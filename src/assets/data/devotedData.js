@@ -1,6 +1,6 @@
 import Image1 from "../images/devoted-images/devoted-image-1.jpg";
 import Image2 from "../images/devoted-images/devoted-image-2.JPG";
-import Image3 from "../images/devoted-images/devoted-image-3.jpeg";
+import Image3 from "../images/devoted-images/devoted-image-3.png";
 import Image4 from "../images/devoted-images/devoted-image-4.jpeg";
 import Image5 from "../images/devoted-images/devoted-image-5.jpeg";
 

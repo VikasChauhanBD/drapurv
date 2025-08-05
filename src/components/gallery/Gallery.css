@@ -51,20 +51,21 @@
   margin-bottom: 1rem;
 }
 
-.thumbnail-image img {
+.thumbnail-image img,
+.thumbnail-image-icon {
   width: 48%;
   height: 180px;
   border-radius: 16px;
 }
 
-.thumbnail-image-icon {
+/* .thumbnail-image-icon {
   width: 48%;
   height: 180px;
   color: white;
   background-color: #bbbbbb;
   padding: 1rem;
   border-radius: 16px;
-}
+} */
 
 .gallery-hover-message {
   position: absolute;
