@@ -167,6 +167,10 @@
     margin: 0 auto;
   }
 
+  .devoted-image-wrapper {
+    height: auto;
+  }
+
   .devoted-image-inner {
     height: auto;
   }
