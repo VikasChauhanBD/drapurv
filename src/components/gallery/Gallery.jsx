@@ -3,7 +3,6 @@ import "./Gallery.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import galleryData from "../../assets/data/galleryImagesData";
-import PluseImage from "../../assets/images/gallery-icon.png";
 
 function Gallery() {
   const [selectedGallery, setSelectedGallery] = useState(null);
@@ -77,10 +76,9 @@ function Gallery() {
             onClick={() => setSelectedGallery(index)}
           >
             <div className="thumbnail-image">
-              {gallery.images.slice(0, 3).map((img, i) => (
+              {gallery.images.slice(0, 2).map((img, i) => (
                 <img key={i} src={img} alt={`thumb-${i}`} />
               ))}
-              <img className="thumbnail-image-icon" src={PluseImage} alt="" />
             </div>
 
             {showMessage && (
@@ -91,7 +89,9 @@ function Gallery() {
                 Click To See More
               </div>
             )}
-            <h2>{gallery.title}</h2>
+            <div className="thumbnail-title">
+              <h2 dangerouslySetInnerHTML={{ __html: gallery.title }} />
+            </div>
           </div>
         ))}
       </div>
@@ -103,7 +103,11 @@ function Gallery() {
             <button className="gallery-modal-close-btn" onClick={closeModal}>
               ×
             </button>
-            <h2>{galleryData[selectedGallery].title}</h2>
+            <h2
+              dangerouslySetInnerHTML={{
+                __html: galleryData[selectedGallery].title,
+              }}
+            />
             <div className="gallery-images-list">
               {galleryData[selectedGallery].images.map((img, i) => (
                 <img

@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
-import VJC from "../../assets/images/vidya-jeevan-center-images/vjc-image.png";
+import VJC from "../../assets/images/vjc-image.png";
 
 function VidyaJeevanClinic() {
   useEffect(() => {
