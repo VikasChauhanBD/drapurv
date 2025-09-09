@@ -55,9 +55,9 @@ function VidyaJeevan() {
             </b>
           </p>
 
-          <button className="vidya-btn" type="button">
+          {/* <button className="vidya-btn" type="button">
             Know More..
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

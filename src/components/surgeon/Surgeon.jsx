@@ -67,9 +67,9 @@ function Surgeon() {
             </b>
           </p>
 
-          <button className="surgeon-btn" type="button">
+          {/* <button className="surgeon-btn" type="button">
             Know More..
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

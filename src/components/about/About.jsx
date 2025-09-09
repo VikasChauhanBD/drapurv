@@ -55,9 +55,9 @@ function About() {
             He restores not just mobility, but <b>hope and dignity</b>.
           </p>
 
-          <button className="about-btn" type="button">
+          {/* <button className="about-btn" type="button">
             Know More..
-          </button>
+          </button> */}
         </div>
 
         <div className="about-image">

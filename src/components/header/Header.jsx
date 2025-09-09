@@ -57,9 +57,9 @@ function Header() {
             <Cursor />
           </h5>
           <br />
-          <button className="header-btn" type="button">
+          {/* <button className="header-btn" type="button">
             Get Connected
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

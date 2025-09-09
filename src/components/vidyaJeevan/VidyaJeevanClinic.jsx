@@ -65,9 +65,9 @@ function VidyaJeevanClinic() {
             </b>
           </p>
 
-          <button className="vjc-btn" type="button">
+          {/* <button className="vjc-btn" type="button">
             Book Your Appointment..
-          </button>
+          </button> */}
         </div>
 
         <div className="vjc-image">
