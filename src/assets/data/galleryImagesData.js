@@ -35,19 +35,31 @@ import Image34 from "../images/best-surgeon-images/image34.JPG";
 import Image35 from "../images/best-surgeon-images/image35.jpeg";
 import Image36 from "../images/best-surgeon-images/image36.jpeg";
 
-import VJ1 from "../images/vidya-jeevan-images/vj-1.jpg";
-import VJ2 from "../images/vidya-jeevan-images/vj-2.jpg";
-import VJ3 from "../images/vidya-jeevan-images/vj-3.jpg";
-import VJ4 from "../images/vidya-jeevan-images/vj-4.jpg";
-import VJ5 from "../images/vidya-jeevan-images/vj-5.jpg";
-import VJ6 from "../images/vidya-jeevan-images/vj-6.jpg";
-import VJ7 from "../images/vidya-jeevan-images/vj-7.jpg";
-import VJ8 from "../images/vidya-jeevan-images/vj-8.jpg";
-import VJ9 from "../images/vidya-jeevan-images/vj-9.jpg";
-import VJ10 from "../images/vidya-jeevan-images/vj-10.jpg";
-import VJ11 from "../images/vidya-jeevan-images/vj-11.jpg";
-import VJ12 from "../images/vidya-jeevan-images/vj-12.jpg";
-import VJ13 from "../images/vidya-jeevan-images/vj-13.jpg";
+import VJ1 from "../images/vidya-jeevan-images/vj-1.JPG";
+import VJ2 from "../images/vidya-jeevan-images/vj-2.JPG";
+import VJ3 from "../images/vidya-jeevan-images/vj-3.JPG";
+import VJ4 from "../images/vidya-jeevan-images/vj-4.JPG";
+import VJ5 from "../images/vidya-jeevan-images/vj-5.JPG";
+import VJ6 from "../images/vidya-jeevan-images/vj-6.JPG";
+import VJ7 from "../images/vidya-jeevan-images/vj-7.JPG";
+import VJ8 from "../images/vidya-jeevan-images/vj-8.JPG";
+import VJ9 from "../images/vidya-jeevan-images/vj-9.JPG";
+import VJ10 from "../images/vidya-jeevan-images/vj-10.JPG";
+import VJ11 from "../images/vidya-jeevan-images/vj-11.JPG";
+import VJ12 from "../images/vidya-jeevan-images/vj-12.JPG";
+import VJ13 from "../images/vidya-jeevan-images/vj-13.JPG";
+import VJ14 from "../images/vidya-jeevan-images/vj-14.JPG";
+import VJ15 from "../images/vidya-jeevan-images/vj-15.JPG";
+import VJ16 from "../images/vidya-jeevan-images/vj-16.JPG";
+import VJ17 from "../images/vidya-jeevan-images/vj-17.JPG";
+import VJ18 from "../images/vidya-jeevan-images/vj-18.JPG";
+import VJ19 from "../images/vidya-jeevan-images/vj-19.JPG";
+import VJ20 from "../images/vidya-jeevan-images/vj-20.JPG";
+import VJ21 from "../images/vidya-jeevan-images/vj-21.JPG";
+import VJ22 from "../images/vidya-jeevan-images/vj-22.JPG";
+import VJ23 from "../images/vidya-jeevan-images/vj-23.webp";
+import VJ24 from "../images/vidya-jeevan-images/vj-24.webp";
+import VJ25 from "../images/vidya-jeevan-images/vj-25.JPG";
 
 const galleryData = [
   {
@@ -107,6 +119,18 @@ const galleryData = [
       VJ11,
       VJ12,
       VJ13,
+      VJ14,
+      VJ15,
+      VJ16,
+      VJ17,
+      VJ18,
+      VJ19,
+      VJ20,
+      VJ21,
+      VJ22,
+      VJ23,
+      VJ24,
+      VJ25,
     ],
   },
 ];
