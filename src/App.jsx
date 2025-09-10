@@ -15,7 +15,7 @@ import EducationKnowMore from "./components/medicalEducation/EducationKnowMore";
 import Motivational from "./components/motivational/Motivational";
 import VidyaJeevan from "./components/vidyaJeevan/VidyaJeevan";
 import StudentsTestimonial from "./components/studentsTestimonial/StudentsTestimonial";
-import Gallery from "./components/gallery/Gallery";
+// import Gallery from "./components/gallery/Gallery";
 import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton";
 import Footer from "./components/footer/Footer";
 import MobileFooter from "./components/mobileFooter/MobileFooter";
@@ -77,9 +77,9 @@ function App() {
         <StudentsTestimonial />
       </section>
 
-      <section id="gallery">
+      {/* <section id="gallery">
         <Gallery />
-      </section>
+      </section> */}
 
       <ScrollToTopButton />
 
