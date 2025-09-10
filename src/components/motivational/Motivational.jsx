@@ -13,22 +13,22 @@ function Motivational() {
     {
       src: Image1,
       isSecond: false,
-      link: "https://www.youtube.com/playlist?list=PLPlijGAHvv9_iuV44Em4aR696G7PnamHO",
+      link: "https://www.youtube.com/watch?v=RgIzJ0XiIbo",
     },
     {
       src: Image3,
       isSecond: true,
-      link: "https://www.youtube.com/playlist?list=PLPlijGAHvv9_iuV44Em4aR696G7PnamHO",
+      link: "https://www.youtube.com/watch?v=yYRgQCLVRZ0",
     },
     {
       src: Image2,
       isSecond: false,
-      link: "https://www.youtube.com/playlist?list=PLPlijGAHvv9_iuV44Em4aR696G7PnamHO",
+      link: "https://www.youtube.com/watch?v=VqVa2xmNErU",
     },
     {
       src: Image4,
       isSecond: true,
-      link: "https://www.youtube.com/playlist?list=PLPlijGAHvv9_iuV44Em4aR696G7PnamHO",
+      link: "https://www.youtube.com/watch?v=4UepyNwl-ss",
     },
   ];
 
