@@ -8,14 +8,14 @@ import Surgeon from "./components/surgeon/Surgeon";
 import VidyaJeevanClinic from "./components/vidyaJeevan/VidyaJeevanClinic";
 import Specialities from "./components/specialities/Specialities";
 import PatientsTestimonial from "./components/patientsTestimonial/PatientsTestimonial";
-// import VidyaJeevanWarrior from "./components/vidyaJeevan/VidyaJeevanWarrior";
+import VidyaJeevanWarrior from "./components/vidyaJeevan/VidyaJeevanWarrior";
 import Devoted from "./components/devoted/Devoted";
 import Education from "./components/medicalEducation/Education";
 import EducationKnowMore from "./components/medicalEducation/EducationKnowMore";
 import Motivational from "./components/motivational/Motivational";
 import VidyaJeevan from "./components/vidyaJeevan/VidyaJeevan";
 import StudentsTestimonial from "./components/studentsTestimonial/StudentsTestimonial";
-// import Gallery from "./components/gallery/Gallery";
+import Gallery from "./components/gallery/Gallery";
 import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton";
 import Footer from "./components/footer/Footer";
 import MobileFooter from "./components/mobileFooter/MobileFooter";
@@ -49,9 +49,9 @@ function App() {
         <PatientsTestimonial />
       </section>
 
-      {/* <section id="vidya-jeevan-warrior">
+      <section id="vidya-jeevan-warrior">
         <VidyaJeevanWarrior />
-      </section> */}
+      </section>
 
       <section id="learning-and-leading">
         <Devoted />
@@ -77,9 +77,9 @@ function App() {
         <StudentsTestimonial />
       </section>
 
-      {/* <section id="gallery">
+      <section id="gallery">
         <Gallery />
-      </section> */}
+      </section>
 
       <ScrollToTopButton />
 

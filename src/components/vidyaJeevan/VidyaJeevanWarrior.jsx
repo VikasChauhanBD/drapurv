@@ -1,17 +1,17 @@
 import React, { useRef, useState } from "react";
 import "./VidyaJeevanWarrior.css";
-import Image1 from "../../assets/images/vidya-jeevan-images/warrior1.JPG";
+// import Image1 from "../../assets/images/vidya-jeevan-images/warrior1.JPG";
 import Image2 from "../../assets/images/vidya-jeevan-images/warrior2.JPG";
 import Image3 from "../../assets/images/vidya-jeevan-images/warrior3.JPG";
 import Image4 from "../../assets/images/vidya-jeevan-images/warrior4.JPG";
 import Image5 from "../../assets/images/vidya-jeevan-images/warrior5.JPG";
 
 const reelsData = [
-  {
-    id: 1,
-    thumbnail: Image1,
-    url: "https://www.youtube.com/embed/L0wKMQdOs5E",
-  },
+  //   {
+  //     id: 1,
+  //     thumbnail: Image1,
+  //     url: "https://www.youtube.com/embed/L0wKMQdOs5E",
+  //   },
   {
     id: 2,
     thumbnail: Image2,
