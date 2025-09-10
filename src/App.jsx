@@ -8,7 +8,7 @@ import Surgeon from "./components/surgeon/Surgeon";
 import VidyaJeevanClinic from "./components/vidyaJeevan/VidyaJeevanClinic";
 import Specialities from "./components/specialities/Specialities";
 import PatientsTestimonial from "./components/patientsTestimonial/PatientsTestimonial";
-import VidyaJeevanWarrior from "./components/vidyaJeevan/VidyaJeevanWarrior";
+// import VidyaJeevanWarrior from "./components/vidyaJeevan/VidyaJeevanWarrior";
 import Devoted from "./components/devoted/Devoted";
 import Education from "./components/medicalEducation/Education";
 import EducationKnowMore from "./components/medicalEducation/EducationKnowMore";
@@ -49,9 +49,9 @@ function App() {
         <PatientsTestimonial />
       </section>
 
-      <section id="vidya-jeevan-warrior">
+      {/* <section id="vidya-jeevan-warrior">
         <VidyaJeevanWarrior />
-      </section>
+      </section> */}
 
       <section id="learning-and-leading">
         <Devoted />
