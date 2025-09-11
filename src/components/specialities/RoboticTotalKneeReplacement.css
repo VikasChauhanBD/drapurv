@@ -1,0 +1,52 @@
+.robotic-main-container {
+  width: 100%;
+}
+
+.robotic-heading {
+  background-image: url(../../assets//images/Patients-BG.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 40px;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.robotic-sub-heading {
+  width: 80%;
+  font-size: 18px;
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.robotic-cards {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #e0edf8, #fae3eb);
+}
+
+.robotic-card {
+  width: 100%;
+  display: flex;
+  margin: 1rem 0;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.robotic-card-image {
+  width: 50%;
+  text-align: center;
+}
+
+.robotic-card-image img {
+  width: 80%;
+}
+
+.robotic-card-info {
+  width: 50%;
+  padding: 2rem;
+  align-content: center;
+}

@@ -12,7 +12,7 @@ function EducationKnowMore() {
   }, []);
 
   return (
-    <div id="education-know-more" className="educationKM-main-container">
+    <div className="educationKM-main-container">
       <div className="educationKM-content1">
         <div className="educationKM-hero-wrapper1">
           <div className="educationKM-para1">

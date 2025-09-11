@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Image from "../../assets/images/ec-cba.webp";
+import EducationKnowMore from "./EducationKnowMore";
 
 function Education() {
   useEffect(() => {
@@ -38,6 +39,8 @@ function Education() {
           </p>
         </div>
       </div>
+
+      <EducationKnowMore />
     </div>
   );
 }
