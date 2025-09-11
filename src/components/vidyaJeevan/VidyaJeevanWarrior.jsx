@@ -5,6 +5,9 @@ import Image2 from "../../assets/images/vidya-jeevan-images/warrior2.JPG";
 import Image3 from "../../assets/images/vidya-jeevan-images/warrior3.JPG";
 import Image4 from "../../assets/images/vidya-jeevan-images/warrior4.JPG";
 import Image5 from "../../assets/images/vidya-jeevan-images/warrior5.JPG";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const reelsData = [
   //   {
@@ -15,26 +18,30 @@ const reelsData = [
   {
     id: 2,
     thumbnail: Image2,
-    url: "https://www.youtube.com/embed/4MgO2rcY7io",
+    url: "https://www.youtube.com/embed/v7ssDNA51fk",
   },
   {
     id: 3,
     thumbnail: Image3,
-    url: "https://www.youtube.com/embed/dxxGFB208uE",
+    url: "https://www.youtube.com/embed/NTR6tllW4WE",
   },
   {
     id: 4,
     thumbnail: Image4,
-    url: "https://www.youtube.com/embed/BTF6rDAwN1U",
+    url: "https://www.youtube.com/embed/1NE_HSfbCEM",
   },
   {
     id: 5,
     thumbnail: Image5,
-    url: "https://www.youtube.com/embed/gBHSSXj3Y-I",
+    url: "https://www.youtube.com/embed/qZnKesoY5YY",
   },
 ];
 
 function VidyaJeevanWarrior() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, offset: 200 });
+  }, []);
+
   const scrollRef = useRef(null);
   const [activeVideo, setActiveVideo] = useState(null);
 
@@ -53,7 +60,7 @@ function VidyaJeevanWarrior() {
   };
 
   return (
-    <section id="vidya-jeevan-warrior" className="vjw-main-container">
+    <div id="vidya-jeevan-warrior" className="vjw-main-container">
       <h1>VIDYA JEEVAN WARRIOR</h1>
       <div className="vjw-wrapper">
         <button className="vjw-btn left" onClick={() => scroll("left")}>
@@ -96,7 +103,7 @@ function VidyaJeevanWarrior() {
           ❯
         </button>
       </div>
-    </section>
+    </div>
   );
 }
 
