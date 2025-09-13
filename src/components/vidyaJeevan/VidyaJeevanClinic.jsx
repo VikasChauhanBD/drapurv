@@ -28,7 +28,7 @@ function VidyaJeevanClinic() {
             <br />
             <br />
             Founded and led by <b>Dr. Apurv Mehra</b>, Vidya Jeevan is more than
-            just a clinic — it's a reflection of his lifelong commitment to
+            just a clinic - it's a reflection of his lifelong commitment to{" "}
             <b>ethical medical practice</b> and{" "}
             <b>compassionate orthopaedic care</b>. Here, every patient is
             treated not as a case, but as a human being with unique concerns,
@@ -36,17 +36,16 @@ function VidyaJeevanClinic() {
             <br />
             <br />
             Whether you’re dealing with{" "}
-            <b>chronic joint pain, injuries, trauma</b>, or are considering
+            <b>chronic joint pain, injuries, trauma</b>, or are considering{" "}
             <b>robotic or complex joint surgery</b>, you’ll find not just
-            advanced treatment options — but <b>clear, honest guidance</b> that
-            puts your well-being first. No unnecessary procedures. No pressure.
-            Just
-            <b>honest opinions, evidence-based solutions</b>, and{" "}
-            <b>heartfelt care.</b>
+            advanced treatment options - but <b>clear, honest guidance</b> that
+            puts your well - being first. No unnecessary procedures. No
+            pressure. Just <b>honest opinions, evidence - based solutions</b>,
+            and <b>heartfelt care.</b>
             <br />
             <br />
             What makes <b>Vidya Jeevan</b> special isn’t just the technology or
-            the credentials — it’s the <b>time taken to listen</b>, the{" "}
+            the credentials - it’s the <b>time taken to listen</b>, the{" "}
             <b>respect shown to every patient</b>, and the{" "}
             <b>ethical clarity</b> that guides every decision.
             <br />
@@ -58,8 +57,8 @@ function VidyaJeevanClinic() {
             <b>purpose and humanity.</b>
             <br />
             <br />
-            If you're looking for <b>world-class orthopaedic care</b> delivered
-            with integrity and compassion,{" "}
+            If you're looking for <b>world - class orthopaedic care</b>{" "}
+            delivered with integrity and compassion,{" "}
             <b>
               Vidya Jeevan Clinic is the place to begin your healing journey.
             </b>

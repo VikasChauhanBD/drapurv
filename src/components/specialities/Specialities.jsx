@@ -33,7 +33,7 @@ function Specialities() {
     },
     {
       image: Bone5,
-      topic: "Complex Trauma & Pelvic-Acetabular Surgeries",
+      topic: "Complex Trauma & Pelvic - Acetabular Surgeries",
     },
     {
       image: Bone6,
@@ -43,13 +43,13 @@ function Specialities() {
 
   return (
     <div id="specialities" className="specialities-main-container">
-      <h1>From Bones to Joints—Complete Orthopedic Solutions</h1>
+      <h1>From Bones to Joints - Complete Orthopedic Solutions</h1>
       <div className="specialities-cards">
         <p className="specialities-subtitle">
-          From Fractures to Robotic Joint Replacements—Complete Orthopedic
+          From Fractures to Robotic Joint Replacements - Complete Orthopedic
           Expertise <br /> Dr. Apurv Mehra combines years of surgical experience
           with advanced robotic technology to deliver precise care, faster
-          recovery, and long-term results you can rely on
+          recovery, and long - term results you can rely on
         </p>
         {specialitiesData.map((data, index) => (
           <div key={index} className="specialities-card">

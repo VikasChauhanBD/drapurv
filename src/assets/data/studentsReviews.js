@@ -12,17 +12,17 @@ const studentsData = [
     image: Anshika_Trivedi,
     name: "Anshika Trivedi",
     subReview:
-      " Vidya Jeewan – More Than Just a Place, An Experience. Some places change you, shape you, and fill you with the motivation you always ",
+      " Vidya Jeewan - More Than Just a Place, An Experience. Some places change you, shape you, and fill you with the motivation you always ",
     review:
-      " Vidya Jeewan – More Than Just a Place, An Experience. Some places change you, shape you, and fill you with the motivation you always longed for. For me, that place was Vidya Jeewan.Choosing to be a part of it was the best decision I ever made.very morning, Apurv Sir’s powerful words set the tone for the day—his motivation wasn’t just about pushing forward; it was about believing in yourself. ",
+      " Vidya Jeewan - More Than Just a Place, An Experience. Some places change you, shape you, and fill you with the motivation you always longed for. For me, that place was Vidya Jeewan.Choosing to be a part of it was the best decision I ever made.very morning, Apurv Sir’s powerful words set the tone for the day - his motivation wasn’t just about pushing forward; it was about believing in yourself. ",
   },
   {
     image: Saurabh_Dhamdhere,
     name: "Saurabh Dhamdhere",
     subReview:
-      " Early morning motivation sessions led by Dr Apurv Sir  have been particularly inspiring, helping me alot to start the day with a positive ",
+      " Early morning motivation sessions led by Dr Apurv Sir have been particularly inspiring, helping me alot to start the day with a positive ",
     review:
-      " Early morning motivation sessions led by Dr Apurv Sir  have been particularly inspiring, helping me alot to start the day with a positive mindset and renewed energy. The study materials and resources provided are comprehensive and up-to-date, which is best for NEET PG preparation. ",
+      " Early morning motivation sessions led by Dr Apurv Sir have been particularly inspiring, helping me alot to start the day with a positive mindset and renewed energy. The study materials and resources provided are comprehensive and up - to - date, which is best for NEET PG preparation. ",
   },
   {
     image: Shubh_Dahiya,
@@ -46,7 +46,7 @@ const studentsData = [
     subReview:
       " This is the best place to study. The teachers, the staff, the students everyone there is so good. I would like to thank Cerebellum Academy, Dr. ",
     review:
-      " This is the best place to study. The teachers, the staff, the students everyone there is so good. I would like to thank Cerebellum Academy, Dr. Gobind Rai Garg Sir (my favourite), Dr. Apurv Mehra Sir for making this beautiful place for us, Zainab Ma’am for everything she do for us to be better, and a big thanks to Dr. Ravi Sharma Sir for mentoring personally to whoever in self doubt. I can’t express how grateful I’m to be their student. Also I would like to thank Ashish Sir who manages everything so nicely, Mama ji for being so positive and always greeting us with smile. This place is literally my “Home away from home. ",
+      " This is the best place to study. The teachers, the staff, the students everyone there is so good. I would like to thank Cerebellum Academy, Dr. Gobind Rai Garg Sir (my favourite), Dr. Apurv Mehra Sir for making this beautiful place for us, Zainab Ma’am for everything she do for us to be better, and a big thanks to Dr. Ravi Sharma Sir for mentoring personally to whoever in self doubt. I can’t express how grateful I’m to be their student. Also I would like to thank Ashish Sir who manages everything so nicely, Mama ji for being so positive and always greeting us with smile. This place is literally my “Home away from home“. ",
   },
   {
     image: Sahil_Sharma,
@@ -60,9 +60,9 @@ const studentsData = [
     image: Male_Avatar,
     name: "Prajj",
     subReview:
-      " A big thank you to Zainab ma’am for tirelessly teaching us and inspiring us to reach greater heights. Supporting us in many ways. To Apurv sir ",
+      " A big thank you to Zainab Ma’am for tirelessly teaching us and inspiring us to reach greater heights. Supporting us in many ways. To Apurv sir ",
     review:
-      " A big thank you to Zainab ma’am for tirelessly teaching us and inspiring us to reach greater heights. Supporting us in many ways. To Apurv sir for constantly motivating us. Addressing our concerns and making us feel seen and heard. They are so understanding. They help you unlock your true potential, provided you learn from the wisdom they provide. A word of gratitude to the entire team as well - they relentlessly work hard to provide us with whatever we might need. ",
+      " A big thank you to Zainab Ma’am for tirelessly teaching us and inspiring us to reach greater heights. Supporting us in many ways. To Apurv sir for constantly motivating us. Addressing our concerns and making us feel seen and heard. They are so understanding. They help you unlock your true potential, provided you learn from the wisdom they provide. A word of gratitude to the entire team as well - they relentlessly work hard to provide us with whatever we might need. ",
   },
   {
     image: Kanishka_Singh,
@@ -70,7 +70,7 @@ const studentsData = [
     subReview:
       " Vidya jeevan is a gorgeous place. There are some places, some experiences that teach us a lot. This is one such place. Thankful that we had ",
     review:
-      " Vidya jeevan is a gorgeous place. There are some places, some experiences that teach us a lot. This is one such place. Thankful that we had great mentors, Dr Zainab ma'am, Dr Apoorv Sir and Dr Ravi Sir🙏 They have not only motivated us to be good doctors but to be good humans as well. I have never enjoyed learning as much as it was with Dr Zainab ma'am. She makes learning fun. Very wholesome and very gorgeous experience✨ ",
+      " Vidya jeevan is a gorgeous place. There are some places, some experiences that teach us a lot. This is one such place. Thankful that we had great mentors, Dr Zainab Ma'am, Dr Apoorv Sir and Dr Ravi Sir🙏 They have not only motivated us to be good doctors but to be good humans as well. I have never enjoyed learning as much as it was with Dr Zainab ma'am. She makes learning fun. Very wholesome and very gorgeous experience✨ ",
   },
   // {
   //   image: Female_Avatar,
@@ -82,9 +82,9 @@ const studentsData = [
     image: Female_Avatar,
     name: "Mansi Ahuja 73",
     subReview:
-      " Thank u so much to whole Vidya Jeevan team And special thanks to Dr Zainab ma’am Dr Ravi sir and Dr Apurv sir Who made best educational",
+      " Thank u so much to whole Vidya Jeevan team And special thanks to Dr Zainab Ma’am Dr Ravi sir and Dr Apurv sir Who made best educational",
     review:
-      " Thank u so much to whole Vidya Jeevan team And special thanks to Dr Zainab ma’am Dr Ravi sir and Dr Apurv sir Who made best educational institute for doctors Our real hero’s ",
+      " Thank u so much to whole Vidya Jeevan team And special thanks to Dr Zainab Ma’am Dr Ravi sir and Dr Apurv sir Who made best educational institute for doctors Our real hero’s ",
   },
 ];
 

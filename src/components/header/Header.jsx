@@ -47,8 +47,8 @@ function Header() {
           <h4>MBBS | MS | MD | DNB (Orthopaedics) | DIP.SCOT - Belgium</h4>
           <p>
             Leading Orthopedician & Robotic Joint Replacement Surgeon, Renowned
-            Educator, Founder eConceptual, Co-Founder Cerebellum, Founder Vidya
-            Jeevan Education Centre, Founder Vidya Jeevan Clinic for
+            Educator, Founder eConceptual, Co - Founder Cerebellum, Founder
+            Vidya Jeevan Education Centre, Founder Vidya Jeevan Clinic for
             Orthopedics, Bestselling Author of Medical PG Books & Motivational
             Speaker
           </p>

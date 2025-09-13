@@ -93,9 +93,11 @@ function SideMenu() {
           </NavLink>
 
           <NavLink
-            to="#ec-cba"
-            className={activeLink === "ec-cba"}
-            onClick={() => scrollToSection("ec-cba")}
+            to="#econceptual-and-cerebellum-academy"
+            className={activeLink === "econceptual-and-cerebellum-academy"}
+            onClick={() =>
+              scrollToSection("econceptual-and-cerebellum-academy")
+            }
           >
             Entrepreneur
           </NavLink>

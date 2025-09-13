@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaArrowUp, FaAngleDoubleUp } from "react-icons/fa";
+import { FaAngleDoubleUp } from "react-icons/fa";
 import "./ScrollToTopButton.css";
 
 const ScrollToTopButton = () => {
@@ -13,11 +13,18 @@ const ScrollToTopButton = () => {
     }
   };
 
+  // Custom scroll function with speed control
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    const scrollDuration = 2000; // adjust speed (ms) -> higher = slower
+    const scrollStep = -window.scrollY / (scrollDuration / 15);
+
+    const scrollInterval = setInterval(() => {
+      if (window.scrollY !== 0) {
+        window.scrollBy(0, scrollStep);
+      } else {
+        clearInterval(scrollInterval);
+      }
+    }, 15);
   };
 
   useEffect(() => {

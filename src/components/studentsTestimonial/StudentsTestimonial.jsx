@@ -57,9 +57,9 @@ function StudentsTestimonial() {
       <div className="studentTM-content">
         <h1>What Students Say ❤️</h1>
         <h2>
-          “You’ll come here expecting academic support — but you leave with
+          “You’ll come here expecting academic support - but you leave with
           mentorship, clarity, and belief in yourself.”
-          <br />— One of the many heartfelt reviews from students across India
+          <br />- One of the many heartfelt reviews from students across India
         </h2>
 
         <div className="studentTM-cards" ref={studentsListRef}>

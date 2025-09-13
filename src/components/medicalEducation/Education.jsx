@@ -12,7 +12,10 @@ function Education() {
   }, []);
 
   return (
-    <div id="ec-cba" className="education-main-container">
+    <div
+      id="econceptual-and-cerebellum-academy"
+      className="education-main-container"
+    >
       <h1>Legacy & Inspiration</h1>
       <h2>Built on Belief, Values & Purpose</h2>
 
@@ -26,11 +29,11 @@ function Education() {
           <h4>- A Legacy of Learning </h4>
           <p>
             For Dr. Apurv Mehra, being a doctor has never been just about
-            treating patients — it’s about{" "}
+            treating patients - it’s about{" "}
             <b>uplifting the entire medical community</b>, especially the next
             generation of doctors. Deeply influenced by the values instilled in
             him by his grandmother, Dr. Mehra has always believed that{" "}
-            <b>knowledge must be shared, not stored</b> — and that true success
+            <b>knowledge must be shared, not stored</b> - and that true success
             lies in giving back.
             <br />
             <br />

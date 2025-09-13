@@ -123,7 +123,6 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import ScrollProgressBar from "./components/scrollProgressBar/ScrollProgressBar";
 import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Surgeon from "./components/surgeon/Surgeon";
@@ -198,7 +197,7 @@ function Home() {
         <Devoted />
       </section>
 
-      <section id="ec-cba">
+      <section id="econceptual-and-cerebellum-academy">
         <Education />
       </section>
 
@@ -228,9 +227,6 @@ function Layout({ children, showSharedComponents = true }) {
 
   return (
     <>
-      {/* Show ScrollProgressBar for all pages */}
-      <ScrollProgressBar />
-
       {children}
 
       {/* Conditionally show shared components */}

@@ -11,16 +11,16 @@ const devotedData = [
     subContent:
       "Dr. Apurv Mehra is recognized both nationally and internationally as a leading faculty",
     content:
-      "Dr. Apurv Mehra is recognized both nationally and internationally as a leading faculty in orthopaedics. Known for his clarity, energy, and student-first approach, he has taught and mentored thousands of medical aspirants across India and beyond. His sessions go beyond theory — helping students believe in themselves, push their limits, and dream bigger.",
+      "Dr. Apurv Mehra is recognized both nationally and internationally as a leading faculty in orthopaedics. Known for his clarity, energy, and student - first approach, he has taught and mentored thousands of medical aspirants across India and beyond. His sessions go beyond theory - helping students believe in themselves, push their limits, and dream bigger.",
     image: Image1,
   },
   {
     id: 2,
     title: "Teaching with Heart & Humour",
     subContent:
-      "What truly sets Dr. Mehra apart is his <b>unique style of teaching</b> — a powerful",
+      "What truly sets Dr. Mehra apart is his <b>unique style of teaching</b> - a powerful",
     content:
-      "What truly sets Dr. Mehra apart is his <b>unique style of teaching</b> — a powerful mix of knowledge, humor, and heart. His legendary Ortho Dhoom Dhadaka lectures have become a rite of passage for PG aspirants, widely recommended by toppers year after year. He doesn’t just teach medicine — he inspires a mindset, a discipline, and a sense of purpose.",
+      "What truly sets Dr. Mehra apart is his <b>unique style of teaching</b> - a powerful mix of knowledge, humor, and heart. His legendary Ortho Dhoom Dhadaka lectures have become a rite of passage for PG aspirants, widely recommended by toppers year after year. He doesn’t just teach medicine - he inspires a mindset, a discipline, and a sense of purpose.",
     image: Image2,
   },
   {
@@ -38,16 +38,16 @@ const devotedData = [
     subContent:
       "As a visionary entrepreneur, Dr. Mehra co - founded <b>Cerebellum Academy</b> and",
     content:
-      "As a visionary entrepreneur, Dr. Mehra co - founded <b>Cerebellum Academy</b> and <b>eConceptual</b> — two platforms that have redefined how medical students learn in the digital age. These initiatives provide <b>cutting-edge content, real-world mentorship</b>, and a deeply <b>motivational learning environment</b>, bridging the gap between theory and clinical practice.",
+      "As a visionary entrepreneur, Dr. Mehra co - founded <b>Cerebellum Academy</b> and <b>eConceptual</b> - two platforms that have redefined how medical students learn in the digital age. These initiatives provide <b>cutting - edge content, real - world mentorship</b>, and a deeply <b>motivational learning environment</b>, bridging the gap between theory and clinical practice.",
     image: Image4,
   },
   {
     id: 5,
-    title: "More Than a Mentor — A Movement",
+    title: "More Than a Mentor - A Movement",
     subContent:
-      "For many students, Dr. Apurv Mehra is more than just a teacher — he’s a <b>mentor</b>",
+      "For many students, Dr. Apurv Mehra is more than just a teacher - he’s a <b>mentor</b>",
     content:
-      "For many students, Dr. Apurv Mehra is more than just a teacher — he’s a <b>mentor, a role model, and a spark that ignites change</b>. His ability to connect, uplift, and guide with sincerity has created a lasting impact that reaches far beyond classrooms and textbooks. His mission is simple yet profound: <b>to give back, through education, all that he has received.</b>",
+      "For many students, Dr. Apurv Mehra is more than just a teacher - he’s a <b>mentor, a role model, and a spark that ignites change</b>. His ability to connect, uplift, and guide with sincerity has created a lasting impact that reaches far beyond classrooms and textbooks. His mission is simple yet profound: <b>to give back, through education, all that he has received.</b>",
     image: Image5,
   },
 ];
