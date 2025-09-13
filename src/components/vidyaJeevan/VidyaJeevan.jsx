@@ -2,7 +2,6 @@ import { React, useEffect } from "react";
 import "./VidyaJeevan.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import VidyaImage from "../../assets/images/vidya-jeevan-images/vj-image.png";
 
 function VidyaJeevan() {
   useEffect(() => {
@@ -16,7 +15,10 @@ function VidyaJeevan() {
 
       <div className="vidya-content">
         <div className="vidya-image">
-          <img src={VidyaImage} alt="vidya image" />
+          <img
+            src="https://cdn.dribbble.com/userupload/44900639/file/89ff6369899675eb562f1a08026a429d.png"
+            alt="vidya image"
+          />
         </div>
 
         <div className="vidya-para">

@@ -1,10 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./VidyaJeevanWarrior.css";
 // import Image1 from "../../assets/images/vidya-jeevan-images/warrior1.JPG";
-import Image2 from "../../assets/images/vidya-jeevan-images/warrior2.JPG";
-import Image3 from "../../assets/images/vidya-jeevan-images/warrior3.JPG";
-import Image4 from "../../assets/images/vidya-jeevan-images/warrior4.JPG";
-import Image5 from "../../assets/images/vidya-jeevan-images/warrior5.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -17,22 +13,26 @@ const reelsData = [
   //   },
   {
     id: 2,
-    thumbnail: Image2,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/44900629/file/97500427b27ca6a3f1a6fb93ffe38494.jpg",
     url: "https://www.youtube.com/embed/v7ssDNA51fk",
   },
   {
     id: 3,
-    thumbnail: Image3,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/44900633/file/17e9fee612b3fbdb73407fe60f743fef.jpg",
     url: "https://www.youtube.com/embed/NTR6tllW4WE",
   },
   {
     id: 4,
-    thumbnail: Image4,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/44900641/file/81591d6d3c3f8d4cb14408cd744caa27.jpg",
     url: "https://www.youtube.com/embed/1NE_HSfbCEM",
   },
   {
     id: 5,
-    thumbnail: Image5,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/44900640/file/e07d1f0756b2a0c4ba57264d0d3ee0e5.jpg",
     url: "https://www.youtube.com/embed/qZnKesoY5YY",
   },
 ];
