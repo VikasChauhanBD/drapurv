@@ -4,11 +4,18 @@ import Image from "../../assets/images/about-image.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function About() {
   useEffect(() => {
     AOS.init({ duration: 1000, offset: 200 });
   }, []);
+
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/testing"); // 👈 navigate to testing page
+  };
 
   return (
     <div id="about" className="about-main-container">
@@ -55,9 +62,9 @@ function About() {
             He restores not just mobility, but <b>hope and dignity</b>.
           </p>
 
-          {/* <button className="about-btn" type="button">
+          <button className="about-btn" type="button" onClick={handleNavigate}>
             Know More..
-          </button> */}
+          </button>
         </div>
 
         <div className="about-image">
