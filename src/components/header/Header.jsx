@@ -1,10 +1,6 @@
 import React from "react";
 import "./Header.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import BG1 from "../../assets/images/banner1.webp";
-import BG2 from "../../assets/images/banner2.jpg";
-import BG3 from "../../assets/images/banner3.webp";
-import BG4 from "../../assets/images/banner4.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -37,10 +33,22 @@ function Header() {
       <SideMenu />
       <div className="header-banner">
         <Slider {...settings}>
-          <img src={BG1} alt="" />
-          <img src={BG2} alt="" />
-          <img src={BG3} alt="" />
-          <img src={BG4} alt="" />
+          <img
+            src="https://cdn.dribbble.com/userupload/44901582/file/b031112a040a6ec2b9785428a0b7ce06.webp"
+            alt="Banner1"
+          />
+          <img
+            src="https://cdn.dribbble.com/userupload/44901584/file/5588a002c9e935ea9d09b171b6f00f9c.jpg"
+            alt="Banner2"
+          />
+          <img
+            src="https://cdn.dribbble.com/userupload/44901581/file/38bba8b551c98ec2f8fe8af308a40875.webp"
+            alt="Banner3"
+          />
+          <img
+            src="https://cdn.dribbble.com/userupload/44901583/file/91dec966d33d81e8ab32b8f103348115.webp"
+            alt="Banner3"
+          />
         </Slider>
         <div className="header-banner-content">
           <h1>DR. APURV MEHRA</h1>

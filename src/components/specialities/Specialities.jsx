@@ -2,12 +2,6 @@ import { React, useEffect } from "react";
 import "./Specialities.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Bone1 from "../../assets/images/specialities-images/bone-1.png";
-import Bone2 from "../../assets/images/specialities-images/bone-2.png";
-import Bone3 from "../../assets/images/specialities-images/bone-3.png";
-import Bone4 from "../../assets/images/specialities-images/bone-4.png";
-import Bone5 from "../../assets/images/specialities-images/bone-5.png";
-import Bone6 from "../../assets/images/specialities-images/bone-6.png";
 
 function Specialities() {
   useEffect(() => {
@@ -16,27 +10,33 @@ function Specialities() {
 
   const specialitiesData = [
     {
-      image: Bone1,
+      image:
+        "https://cdn.dribbble.com/userupload/44901423/file/6ea6e354fcfdddf0ac33778ef41b3f38.png",
       topic: "Robotic Total Knee Replacement",
     },
     {
-      image: Bone2,
+      image:
+        "https://cdn.dribbble.com/userupload/44901425/file/6672e4ce71f578104490a74d4073d74b.png",
       topic: "Complex and Revision Joint Replacements",
     },
     {
-      image: Bone3,
+      image:
+        "https://cdn.dribbble.com/userupload/44901428/file/816383c7bfd9b86f7341e39525e10708.png",
       topic: "Arthroscopic ACL Reconstructions",
     },
     {
-      image: Bone4,
+      image:
+        "https://cdn.dribbble.com/userupload/44901427/file/24228b581b6eb5677a19e09e1b7739cb.png",
       topic: "Shoulder/Rotator Cuff Surgeries",
     },
     {
-      image: Bone5,
+      image:
+        "https://cdn.dribbble.com/userupload/44901424/file/5c00fb2c84df6f2b22baf70ae861e3de.png",
       topic: "Complex Trauma & Pelvic - Acetabular Surgeries",
     },
     {
-      image: Bone6,
+      image:
+        "https://cdn.dribbble.com/userupload/44901426/file/1b7ee0d0ea7c7e0ef1b70d94a17d103e.png",
       topic: "Limb Deformity Corrections & Spine Surgeries",
     },
   ];
