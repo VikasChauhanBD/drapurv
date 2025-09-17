@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import "./Motivational.css";
-import Image1 from "../../assets/images/motivational-images/motivational-image-1.png";
-import Image2 from "../../assets/images/motivational-images/motivational-image-2.png";
-import Image3 from "../../assets/images/motivational-images/motivational-image-3.png";
-import Image4 from "../../assets/images/motivational-images/motivational-image-4.png";
 import { NavLink } from "react-router-dom";
 
 function Motivational() {
@@ -11,22 +7,22 @@ function Motivational() {
 
   const imageData = [
     {
-      src: Image1,
+      src: "https://cdn.dribbble.com/userupload/44902162/file/723f3be7642571e62cbb650f1dba0810.png",
       isSecond: false,
       link: "https://www.youtube.com/watch?v=RgIzJ0XiIbo",
     },
     {
-      src: Image3,
+      src: "https://cdn.dribbble.com/userupload/44902165/file/7b72031d856c7eff42eef9eaa13a688f.png",
       isSecond: true,
       link: "https://www.youtube.com/watch?v=yYRgQCLVRZ0",
     },
     {
-      src: Image2,
+      src: "https://cdn.dribbble.com/userupload/44902163/file/1b1acc4bca832828c48b2eb8ad14997c.png",
       isSecond: false,
       link: "https://www.youtube.com/watch?v=VqVa2xmNErU",
     },
     {
-      src: Image4,
+      src: "https://cdn.dribbble.com/userupload/44902164/file/1a1d8bec625f2d929704eb6caf7a2a61.png",
       isSecond: true,
       link: "https://www.youtube.com/watch?v=4UepyNwl-ss",
     },

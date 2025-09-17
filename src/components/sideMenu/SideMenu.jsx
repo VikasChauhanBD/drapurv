@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./SideMenu.css";
 import Logo from "../../assets/images/logo.png";
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
-import { SiX } from "react-icons/si";
+// import { SiX } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink, useNavigate } from "react-router-dom";
 
@@ -137,12 +137,12 @@ function SideMenu() {
         </div>
 
         <div className="sidemenu-web-socials">
-          <NavLink
+          {/* <NavLink
             to="https://x.com/i/flow/login?redirect_after_login=%2FApurvDr"
             target="_blank"
           >
             <SiX />
-          </NavLink>
+          </NavLink> */}
           <NavLink to="https://www.facebook.com/drapurvmehra/" target="_blank">
             <FaFacebook />
           </NavLink>

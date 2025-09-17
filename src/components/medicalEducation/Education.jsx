@@ -3,7 +3,6 @@ import "./Education.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Image from "../../assets/images/ec-cba.webp";
 import EducationKnowMore from "./EducationKnowMore";
 
 function Education() {
@@ -21,7 +20,10 @@ function Education() {
 
       <div className="education-card">
         <div className="education-image">
-          <img src={Image} alt="" />
+          <img
+            src="https://cdn.dribbble.com/userupload/44903066/file/8033217dc7108f7d1f7c44b52caf620d.webp"
+            alt="ec-CBA Image"
+          />
         </div>
 
         <div className="education-content">

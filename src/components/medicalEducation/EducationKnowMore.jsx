@@ -2,8 +2,6 @@ import React from "react";
 import "./EducationKnowMore.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Education_EC from "../../assets/images/education_ec.webp";
-import phoneImg from "../../assets/images/new-mock-up.png";
 import { useEffect } from "react";
 
 function EducationKnowMore() {
@@ -44,13 +42,19 @@ function EducationKnowMore() {
         </div>
 
         <div className="educationKM-image1">
-          <img src={Education_EC} alt="education image" />
+          <img
+            src="https://cdn.dribbble.com/userupload/44903070/file/202b703b21a6133216fb7b79154a6ed9.webp"
+            alt="eConceptual platforms image"
+          />
         </div>
       </div>
 
       <div className="educationKM-content2">
         <div className="educationKM-image2">
-          <img src={phoneImg} alt="Cerebellum mobile app interface" />
+          <img
+            src="https://cdn.dribbble.com/userupload/44903068/file/7a5abeb3777fa5e4855dd5076a3b2906.png"
+            alt="Cerebellum mobile app interface"
+          />
         </div>
 
         <div className="educationKM-hero-wrapper2">

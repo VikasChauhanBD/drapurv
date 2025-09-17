@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Footer.css";
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
-import { SiX } from "react-icons/si";
+// import { SiX } from "react-icons/si";
 import { FaMapLocationDot } from "react-icons/fa6";
 import FooterIcon from "../../assets/images/logo.png";
 import { NavLink, useNavigate } from "react-router-dom";
@@ -105,13 +105,13 @@ function Footer() {
         <div className="footer-social-media">
           <h2>Social Media</h2>
           <div className="footer-social-media-links">
-            <NavLink
+            {/* <NavLink
               to="https://x.com/i/flow/login?redirect_after_login=%2FApurvDr"
               target="_blank"
             >
               <SiX />
               <span>X</span>
-            </NavLink>
+            </NavLink> */}
             <NavLink
               to="https://www.facebook.com/drapurvmehra/"
               target="_blank"
