@@ -1,39 +1,45 @@
 import React, { useRef, useState } from "react";
 import "./VidyaJeevanWarrior.css";
-// import Image1 from "../../assets/images/vidya-jeevan-images/warrior1.JPG";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const reelsData = [
-  //   {
-  //     id: 1,
-  //     thumbnail: Image1,
-  //     url: "https://www.youtube.com/embed/L0wKMQdOs5E",
-  //   },
+  {
+    id: 1,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/44900629/file/97500427b27ca6a3f1a6fb93ffe38494.jpg",
+    url: "https://www.youtube.com/embed/byd53DDwNcI",
+  },
   {
     id: 2,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44900629/file/97500427b27ca6a3f1a6fb93ffe38494.jpg",
-    url: "https://www.youtube.com/embed/v7ssDNA51fk",
+      "https://cdn.dribbble.com/userupload/44900633/file/17e9fee612b3fbdb73407fe60f743fef.jpg",
+    url: "https://www.youtube.com/embed/9oaHK5JQomc",
   },
   {
     id: 3,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44900633/file/17e9fee612b3fbdb73407fe60f743fef.jpg",
-    url: "https://www.youtube.com/embed/NTR6tllW4WE",
+      "https://cdn.dribbble.com/userupload/44900641/file/81591d6d3c3f8d4cb14408cd744caa27.jpg",
+    url: "https://www.youtube.com/embed/i7E_5LK7g50",
   },
   {
     id: 4,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44900641/file/81591d6d3c3f8d4cb14408cd744caa27.jpg",
-    url: "https://www.youtube.com/embed/1NE_HSfbCEM",
+      "https://cdn.dribbble.com/userupload/44900640/file/e07d1f0756b2a0c4ba57264d0d3ee0e5.jpg",
+    url: "https://www.youtube.com/embed/DYhwYaAL3n0",
   },
   {
     id: 5,
     thumbnail:
-      "https://cdn.dribbble.com/userupload/44900640/file/e07d1f0756b2a0c4ba57264d0d3ee0e5.jpg",
-    url: "https://www.youtube.com/embed/qZnKesoY5YY",
+      "https://cdn.dribbble.com/userupload/44958099/file/a74f3823fb43309a2123a636993e3c41.jpg",
+    url: "https://www.youtube.com/embed/hcj9zDQgl6E",
+  },
+  {
+    id: 6,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/44958123/file/7d350e03433b4d604459e6f8fe008a2f.jpg",
+    url: "https://www.youtube.com/embed/KlF1tYn7og4",
   },
 ];
 
