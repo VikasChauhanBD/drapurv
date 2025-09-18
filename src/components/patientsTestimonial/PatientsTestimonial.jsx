@@ -7,80 +7,90 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "./PatientsTestimonial.css";
-import EPS1 from "../../assets/images/patients-stories/english-ps-1.jpeg";
-import EPS2 from "../../assets/images/patients-stories/english-ps-2.jpeg";
-import EPS3 from "../../assets/images/patients-stories/english-ps-3.jpeg";
-import EPS4 from "../../assets/images/patients-stories/english-ps-4.jpeg";
-import EPS5 from "../../assets/images/patients-stories/english-ps-5.jpeg";
-import HPS1 from "../../assets/images/patients-stories/hindi-ps-1.jpeg";
-import HPS2 from "../../assets/images/patients-stories/hindi-ps-2.jpeg";
-import HPS3 from "../../assets/images/patients-stories/hindi-ps-3.jpeg";
-import HPS4 from "../../assets/images/patients-stories/hindi-ps-4.jpeg";
-import HPS5 from "../../assets/images/patients-stories/hindi-ps-5.jpeg";
 
 const patientsEnglishData = [
   {
-    image: EPS1,
+    image:
+      "https://cdn.dribbble.com/userupload/44967485/file/f3fd822dcfd489ad11d91a87f831b385.jpeg",
   },
   {
-    image: EPS2,
+    image:
+      "https://cdn.dribbble.com/userupload/44967500/file/612b699e67f9e72411d830241e7b1fca.jpeg",
   },
   {
-    image: EPS3,
+    image:
+      "https://cdn.dribbble.com/userupload/44967510/file/271e0310d8cdf85c65f638ba79d3e811.jpeg",
   },
   {
-    image: EPS4,
+    image:
+      "https://cdn.dribbble.com/userupload/44967459/file/a493f1f82f6e851154956da5f3b53138.jpeg",
   },
   {
-    image: EPS5,
+    image:
+      "https://cdn.dribbble.com/userupload/44967524/file/2b0915dddc0b2a1bbbccd04f17764e2c.jpeg",
   },
   {
-    image: EPS1,
+    image:
+      "https://cdn.dribbble.com/userupload/44967485/file/f3fd822dcfd489ad11d91a87f831b385.jpeg",
   },
   {
-    image: EPS2,
+    image:
+      "https://cdn.dribbble.com/userupload/44967500/file/612b699e67f9e72411d830241e7b1fca.jpeg",
   },
   {
-    image: EPS3,
+    image:
+      "https://cdn.dribbble.com/userupload/44967510/file/271e0310d8cdf85c65f638ba79d3e811.jpeg",
   },
   {
-    image: EPS4,
+    image:
+      "https://cdn.dribbble.com/userupload/44967459/file/a493f1f82f6e851154956da5f3b53138.jpeg",
   },
   {
-    image: EPS5,
+    image:
+      "https://cdn.dribbble.com/userupload/44967524/file/2b0915dddc0b2a1bbbccd04f17764e2c.jpeg",
   },
 ];
 
 const patientsHindiData = [
   {
-    image: HPS1,
+    image:
+      "https://cdn.dribbble.com/userupload/44967460/file/a1fea870de65f1ba28df0c9ad39af963.jpeg",
   },
   {
-    image: HPS2,
+    image:
+      "https://cdn.dribbble.com/userupload/44967461/file/22ecd0245766c00aeeb6634d4ba16888.jpeg",
   },
   {
-    image: HPS3,
+    image:
+      "https://cdn.dribbble.com/userupload/44967462/file/c25580a8865f0a50749b7f464c0e6c9e.jpeg",
   },
   {
-    image: HPS4,
+    image:
+      "https://cdn.dribbble.com/userupload/44967464/file/0484768f5e4a3f4fc76bff322b5862b8.jpeg",
   },
   {
-    image: HPS5,
+    image:
+      "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
   },
   {
-    image: HPS1,
+    image:
+      "https://cdn.dribbble.com/userupload/44967460/file/a1fea870de65f1ba28df0c9ad39af963.jpeg",
   },
   {
-    image: HPS2,
+    image:
+      "https://cdn.dribbble.com/userupload/44967461/file/22ecd0245766c00aeeb6634d4ba16888.jpeg",
   },
   {
-    image: HPS3,
+    image:
+      "https://cdn.dribbble.com/userupload/44967462/file/c25580a8865f0a50749b7f464c0e6c9e.jpeg",
   },
   {
-    image: HPS4,
+    image:
+      "https://cdn.dribbble.com/userupload/44967464/file/0484768f5e4a3f4fc76bff322b5862b8.jpeg",
   },
   {
-    image: HPS5,
+    image:
+      "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
   },
 ];
 

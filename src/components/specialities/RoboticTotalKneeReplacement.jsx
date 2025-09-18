@@ -2,11 +2,6 @@ import { React, useEffect } from "react";
 import "./RoboticTotalKneeReplacement.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import EPS1 from "../../assets/images/patients-stories/english-ps-1.jpeg";
-import EPS2 from "../../assets/images/patients-stories/english-ps-2.jpeg";
-import EPS3 from "../../assets/images/patients-stories/english-ps-3.jpeg";
-import EPS4 from "../../assets/images/patients-stories/english-ps-4.jpeg";
-import EPS5 from "../../assets/images/patients-stories/english-ps-5.jpeg";
 
 function RoboticTotalKneeReplacement() {
   useEffect(() => {
@@ -15,27 +10,33 @@ function RoboticTotalKneeReplacement() {
 
   const paitentData = [
     {
-      image: EPS1,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 1",
     },
     {
-      image: EPS2,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 2",
     },
     {
-      image: EPS3,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 3",
     },
     {
-      image: EPS4,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 4",
     },
     {
-      image: EPS5,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 5",
     },
     {
-      image: EPS1,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 1",
       topic: "Complex and Revision Joint Replacements",
       about:
@@ -43,14 +44,16 @@ function RoboticTotalKneeReplacement() {
     },
 
     {
-      image: EPS1,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 1",
       topic: "Arthroscopic ACL Reconstructions",
       about:
         "Arthroscopic ACL reconstruction is a minimally invasive surgical procedure that repairs a torn Anterior Cruciate Ligament (ACL) in the knee by using a graft from the patient's own body to replace the damaged ligament. A surgeon inserts a small camera (arthroscope) and instruments through tiny incisions to see the joint and perform the repair, which involves creating bone tunnels for the graft, securing it with screws or buttons, and allowing it to heal and integrate into the bone.",
     },
     {
-      image: EPS1,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 1",
       topic: "Shoulder/Rotator Cuff Surgeries",
       about:
@@ -58,14 +61,16 @@ function RoboticTotalKneeReplacement() {
     },
 
     {
-      image: EPS1,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 1",
       topic: "Complex Trauma & Pelvic-Acetabular Surgeries",
       about:
         "Complex trauma refers to severe, high-energy injuries, often involving pelvic and acetabular fractures, which are fractures of the pelvis and hip socket. These injuries, frequently caused by car accidents or falls, are serious and require immediate, specialized surgical treatment to stabilize the bones, restore alignment, and preserve function, according to drnikhilverma.com and Dr Nikhil Gadre. Surgeries may involve open reduction and internal fixation (ORIF) with plates and screws or, in severe cases, hip replacement.",
     },
     {
-      image: EPS1,
+      image:
+        "https://cdn.dribbble.com/userupload/44967463/file/e676b7a48426d16c0d0f87e208a86452.jpeg",
       name: "Patients 1",
       topic: "Limb Deformity Corrections & Spine Surgeries",
       about:

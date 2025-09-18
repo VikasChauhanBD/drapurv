@@ -1,9 +1,3 @@
-import Image1 from "../images/devoted-images/devoted-image-1.jpg";
-import Image2 from "../images/devoted-images/devoted-image-2.JPG";
-import Image3 from "../images/devoted-images/devoted-image-3.png";
-import Image4 from "../images/devoted-images/devoted-image-4.jpeg";
-import Image5 from "../images/devoted-images/devoted-image-5.JPG";
-
 const devotedData = [
   {
     id: 1,
@@ -12,7 +6,8 @@ const devotedData = [
       "Dr. Apurv Mehra is recognized both nationally and internationally as a leading faculty",
     content:
       "Dr. Apurv Mehra is recognized both nationally and internationally as a leading faculty in orthopaedics. Known for his clarity, energy, and student - first approach, he has taught and mentored thousands of medical aspirants across India and beyond. His sessions go beyond theory - helping students believe in themselves, push their limits, and dream bigger.",
-    image: Image1,
+    image:
+      "https://cdn.dribbble.com/userupload/44967690/file/fa0b3d1bf25193b5c34b57e778e34021.jpg",
   },
   {
     id: 2,
@@ -21,7 +16,8 @@ const devotedData = [
       "What truly sets Dr. Mehra apart is his <b>unique style of teaching</b> - a powerful",
     content:
       "What truly sets Dr. Mehra apart is his <b>unique style of teaching</b> - a powerful mix of knowledge, humor, and heart. His legendary Ortho Dhoom Dhadaka lectures have become a rite of passage for PG aspirants, widely recommended by toppers year after year. He doesn’t just teach medicine - he inspires a mindset, a discipline, and a sense of purpose.",
-    image: Image2,
+    image:
+      "https://cdn.dribbble.com/userupload/44967691/file/aaa65f0681322ae5cb2262771b3100a0.jpg",
   },
   {
     id: 3,
@@ -30,7 +26,8 @@ const devotedData = [
       "A gifted communicator on and off the stage, Dr. Mehra is also the author of several",
     content:
       "A gifted communicator on and off the stage, Dr. Mehra is also the author of several <b>international bestsellers</b>, including Orthopedics Quick Review, NEET PG: The Next Level, and AIIMS: The Precise Version. These books are valued by students across South-East Asia for their clarity, precision, and exam relevance.",
-    image: Image3,
+    image:
+      "https://cdn.dribbble.com/userupload/44967693/file/3b1262376360db7e54d0e632da024c6c.png",
   },
   {
     id: 4,
@@ -39,7 +36,8 @@ const devotedData = [
       "As a visionary entrepreneur, Dr. Mehra co - founded <b>Cerebellum Academy</b> and",
     content:
       "As a visionary entrepreneur, Dr. Mehra co - founded <b>Cerebellum Academy</b> and <b>eConceptual</b> - two platforms that have redefined how medical students learn in the digital age. These initiatives provide <b>cutting - edge content, real - world mentorship</b>, and a deeply <b>motivational learning environment</b>, bridging the gap between theory and clinical practice.",
-    image: Image4,
+    image:
+      "https://cdn.dribbble.com/userupload/44967692/file/dd03184f7bb1a7a565e8b1b486cdd704.jpeg",
   },
   {
     id: 5,
@@ -48,7 +46,8 @@ const devotedData = [
       "For many students, Dr. Apurv Mehra is more than just a teacher - he’s a <b>mentor</b>",
     content:
       "For many students, Dr. Apurv Mehra is more than just a teacher - he’s a <b>mentor, a role model, and a spark that ignites change</b>. His ability to connect, uplift, and guide with sincerity has created a lasting impact that reaches far beyond classrooms and textbooks. His mission is simple yet profound: <b>to give back, through education, all that he has received.</b>",
-    image: Image5,
+    image:
+      "https://cdn.dribbble.com/userupload/44967694/file/de9d6f203980144207bb10d42172aca9.jpg",
   },
 ];
 
