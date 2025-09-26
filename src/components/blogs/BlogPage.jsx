@@ -1,30 +1,40 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useMemo } from "react";
 import "./BlogPage.css";
 import blogData from "../../assets/data/blogData";
-import { useParams, Link, useNavigate, NavLink } from "react-router-dom";
+import { useParams, Link, NavLink } from "react-router-dom";
 
 function BlogPage() {
   const carouselRef = useRef(null);
-  const navigate = useNavigate();
-
-  const handleScroll = (direction) => {
-    if (carouselRef.current) {
-      const card = carouselRef.current.querySelector(".recommended-blog-card");
-      if (card) {
-        const cardWidth = card.offsetWidth;
-        const gap = 30; // Adjust based on your CSS
-        const scrollAmount = cardWidth + gap;
-
-        carouselRef.current.scrollBy({
-          left: direction === "next" ? scrollAmount : -scrollAmount,
-          behavior: "smooth",
-        });
-      }
-    }
-  };
 
   const { blogId } = useParams();
   const blog = blogData.find((b) => b.id === blogId);
+
+  // ✅ Like / Dislike state
+  // const [likes, setLikes] = useState(0);
+  // const [dislikes, setDislikes] = useState(0);
+
+  // ✅ Estimate reading time
+  const readingTime = useMemo(() => {
+    if (!blog?.para) return "0 min read";
+    const words = blog.para.split(/\s+/).length;
+    const minutes = Math.ceil(words / 200); // average 200 WPM
+    return `${minutes} min read`;
+  }, [blog]);
+
+  // ✅ Share function
+  const handleShare = () => {
+    const url = window.location.href;
+    if (navigator.share) {
+      navigator.share({
+        title: blog.metaTitle,
+        text: blog.metaDesc,
+        url,
+      });
+    } else {
+      navigator.clipboard.writeText(url);
+      alert("Blog link copied to clipboard!");
+    }
+  };
 
   if (!blog) {
     return <h2>Blog not found</h2>;
@@ -49,6 +59,22 @@ function BlogPage() {
     });
   };
 
+  const handleScroll = (direction) => {
+    if (carouselRef.current) {
+      const card = carouselRef.current.querySelector(".recommended-blog-card");
+      if (card) {
+        const cardWidth = card.offsetWidth;
+        const gap = 30; // Adjust based on your CSS
+        const scrollAmount = cardWidth + gap;
+
+        carouselRef.current.scrollBy({
+          left: direction === "next" ? scrollAmount : -scrollAmount,
+          behavior: "smooth",
+        });
+      }
+    }
+  };
+
   return (
     <div>
       <section className="blog-page-section">
@@ -57,7 +83,18 @@ function BlogPage() {
           Back To Blogs
         </NavLink>
         <h1>{blog.metaTitle}</h1>
+
+        <span className="blog-read-time">Estimated Time:- {readingTime}</span>
+
         <div className="blog-content">{formatContent(blog.para)}</div>
+
+        <div className="blog-actions">
+          {/* <button onClick={() => setLikes(likes + 1)}>👍 {likes}</button>
+          <button onClick={() => setDislikes(dislikes + 1)}>
+            👎 {dislikes}
+          </button> */}
+          <button onClick={handleShare}>🔗 Share</button>
+        </div>
       </section>
 
       <section className="recommended-blog">
@@ -68,9 +105,13 @@ function BlogPage() {
           {blogData.map((data, index) => (
             <article key={index} className="recommended-blog-card">
               <Link to={`/blog/${data.id}`}>
-                <img src={data.image} alt={data.metaTitle} />
-                <h6>{data.metaTitle}</h6>
+                <div className="recommended-blog-card-images">
+                  <img src={data.image} alt={data.metaTitle} />
+                </div>
+
+                <span>{data.metaTitle}</span>
                 <h3>{data.metaDesc}</h3>
+                <p>Read More</p>
               </Link>
             </article>
           ))}

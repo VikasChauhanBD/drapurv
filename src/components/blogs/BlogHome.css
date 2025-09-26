@@ -68,6 +68,7 @@
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .blogs-card a {
@@ -75,32 +76,70 @@
   color: inherit;
 }
 
+/* Image hover overlay */
+.blogs-card-images {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
 .blogs-card-images img {
   width: 100%;
-  height: 250px;
   object-fit: cover;
-  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.blogs-card-images::after {
+  content: "Read More";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.blogs-card:hover .blogs-card-images::after {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.blogs-card:hover .blogs-card-images img {
+  transform: scale(1.05);
 }
 
 .blogs-card-content {
   padding: 0.5rem 0;
 }
 
-.blogs-card-category {
-  font-size: 0.6rem;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
+.blogs-card-content span {
+  font-size: 16px;
   color: #414042;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .blogs-card-content h3 {
-  font-size: 1.1rem;
+  font-size: 20px;
   font-weight: 300;
   color: #414042;
-  line-height: 1.3;
-  letter-spacing: 0.01em;
+  line-height: 1.4;
+}
+
+.blogs-card-content p {
+  color: blue;
+  padding: 10px 0;
+}
+
+.blogs-card-content p:hover {
+  text-decoration: underline;
 }
 
 /* ------------------------------------ Responsive Style ------------------------- */

@@ -20,11 +20,12 @@ const BlogHome = () => {
             <article key={index} className="blogs-card">
               <NavLink to={`/blog/${data.id}`}>
                 <div className="blogs-card-images">
-                  <img src={data.image} alt="Project Avenue interior" />
+                  <img src={data.image} alt={data.metaTitle} />
                 </div>
                 <div className="blogs-card-content">
-                  <span className="blogs-card-category">{data.metaTitle}</span>
+                  <span>{data.metaTitle}</span>
                   <h3>{data.metaDesc}</h3>
+                  <p>Read More</p>
                 </div>
               </NavLink>
             </article>
