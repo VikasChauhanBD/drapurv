@@ -1,6 +1,7 @@
 const blogData = [
   {
     id: "the-childhood-lesson-that-changed-my-life-dr-apurv-mehra-motivation-for-neet-pg-&-inicet",
+    blogDate: "September 26, 2025",
     image:
       "https://cdn.dribbble.com/userupload/45072309/file/63aba84cee6b17d14dfc896ff55bdd11.jpeg",
     metaTitle:
@@ -93,6 +94,7 @@ Give your 99%. Let God hold the water still for the final 1%. And when you final
   },
   {
     id: "neet-pg-motivation-rank-respect-&-your-future-by-dr-apurv-mehra",
+    blogDate: "September 19, 2025",
     image:
       "https://cdn.dribbble.com/userupload/45072308/file/aba7fa5db2132b15467fe8b6f9fd61a7.jpeg",
     metaTitle:

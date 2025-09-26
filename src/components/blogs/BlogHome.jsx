@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./BlogHome.css";
 import blogData from "../../assets/data/blogData";
+import { BiCalendar } from "react-icons/bi";
 
 const BlogHome = () => {
   return (
@@ -24,6 +25,7 @@ const BlogHome = () => {
                 </div>
                 <div className="blogs-card-content">
                   <span>{data.metaTitle}</span>
+                  <h4>🗓️ {data.blogDate}</h4>
                   <h3>{data.metaDesc}</h3>
                   <p>Read More</p>
                 </div>

@@ -110,6 +110,7 @@ function BlogPage() {
                 </div>
 
                 <span>{data.metaTitle}</span>
+                <h4>🗓️ {data.blogDate}</h4>
                 <h3>{data.metaDesc}</h3>
                 <p>Read More</p>
               </Link>
