@@ -134,6 +134,14 @@ function SideMenu() {
           >
             Gallery
           </NavLink>
+
+          <NavLink
+            to="/blogs"
+            // className={activeLink === "gallery"}
+            // onClick={() => scrollToSection("gallery")}
+          >
+            Blogs
+          </NavLink>
         </div>
 
         <div className="sidemenu-web-socials">
