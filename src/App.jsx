@@ -21,7 +21,7 @@ import RoboticTotalKneeReplacement from "./components/specialities/RoboticTotalK
 import useSectionRoute from "./hooks/useSectionRoute";
 import BlogHome from "./components/blogs/BlogHome";
 import BlogPage from "./components/blogs/BlogPage";
-// import BlogCategory from "./components/blogs/BlogCategory";
+// import MarqueeLine from "./components/marqueeLine/MarqueeLine";
 
 // ---------- Home Page ----------
 function Home() {
@@ -132,6 +132,7 @@ function App() {
           path="/"
           element={
             <Layout>
+              {/* <MarqueeLine /> */}
               <Home />
             </Layout>
           }
@@ -161,6 +162,7 @@ function App() {
           path="/blogs"
           element={
             <Layout showSharedComponents={false}>
+              {/* <MarqueeLine /> */}
               <BlogHome />
             </Layout>
           }
@@ -170,6 +172,7 @@ function App() {
           path="/blog/:blogId"
           element={
             <Layout showSharedComponents={false}>
+              {/* <MarqueeLine /> */}
               <BlogPage />
             </Layout>
           }

@@ -1,0 +1,18 @@
+.marquee-container {
+  width: 100%;
+  background-color: #fbbf24;
+
+  overflow: hidden;
+}
+
+.marquee-content {
+  white-space: nowrap;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee-text {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000000;
+}
