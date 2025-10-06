@@ -1,44 +1,227 @@
+// import React, { useState, useEffect } from "react";
+// import "./SideMenu.css";
+// import Logo from "../../assets/images/logo.png";
+// import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+// // import { SiX } from "react-icons/si";
+// import { GiHamburgerMenu } from "react-icons/gi";
+// import { NavLink, useNavigate } from "react-router-dom";
+
+// function SideMenu() {
+//   const [showNav, setShowNav] = useState(false);
+//   const navigate = useNavigate();
+
+//   const handleButtonToggle = () => {
+//     setShowNav(!showNav);
+//   };
+
+//   const handleCloseNav = () => {
+//     setShowNav(false);
+//   };
+
+//   const scrollToSection = (sectionId) => {
+//     const section = document.getElementById(sectionId);
+//     if (section) {
+//       const sectionPosition =
+//         section.getBoundingClientRect().top + window.scrollY;
+//       const offsetPosition = sectionPosition - 80; // 80 for navbar
+//       window.scrollTo({
+//         top: offsetPosition,
+//         behavior: "smooth",
+//       });
+//     }
+
+//     handleCloseNav();
+//   };
+
+//   const [activeLink, setActiveLink] = useState("");
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       const sections = document.querySelectorAll("section[id]");
+//       const scrollPosition = window.scrollY;
+//       const windowHeight = window.innerHeight;
+//       sections.forEach((section) => {
+//         const top = section.getBoundingClientRect().top + scrollPosition;
+//         const height = section.offsetHeight;
+//         if (
+//           scrollPosition >= top - windowHeight * 0.5 &&
+//           scrollPosition < top + height - windowHeight * 0.5
+//         ) {
+//           setActiveLink(section.id);
+//         }
+//       });
+//     };
+//     window.addEventListener("scroll", handleScroll);
+//     return () => window.removeEventListener("scroll", handleScroll);
+//   }, []);
+
+//   useEffect(() => {
+//     if (activeLink) {
+//       navigate(`/${activeLink}`);
+//     }
+//   }, [activeLink, navigate]);
+
+//   return (
+//     <div className="sidemenu-container">
+//       <div className="sidemenu-logo">
+//         <img src={Logo} alt="website logo" />
+//       </div>
+
+//       <nav className={showNav ? "mobile-nav-content" : "sidemenu-web"}>
+//         <div className="sidemenu-web-content">
+//           <NavLink
+//             to="#about"
+//             className={activeLink === "about"}
+//             onClick={() => scrollToSection("about")}
+//           >
+//             About
+//           </NavLink>
+
+//           <NavLink
+//             to="#leading-surgeon"
+//             className={activeLink === "leading-surgeon"}
+//             onClick={() => scrollToSection("leading-surgeon")}
+//           >
+//             Leading Surgeon
+//           </NavLink>
+
+//           <NavLink
+//             to="#specialities"
+//             className={activeLink === "specialities"}
+//             onClick={() => scrollToSection("specialities")}
+//           >
+//             Educator
+//           </NavLink>
+
+//           <NavLink
+//             to="#econceptual-and-cerebellum-academy"
+//             className={activeLink === "econceptual-and-cerebellum-academy"}
+//             onClick={() =>
+//               scrollToSection("econceptual-and-cerebellum-academy")
+//             }
+//           >
+//             Entrepreneur
+//           </NavLink>
+
+//           <NavLink
+//             to="#motivational"
+//             className={activeLink === "motivational"}
+//             onClick={() => scrollToSection("motivational")}
+//           >
+//             Best Selling Author
+//           </NavLink>
+
+//           <NavLink
+//             to="#vidya-jeevan-clinic"
+//             className={activeLink === "vidya-jeevan-clinic"}
+//             onClick={() => scrollToSection("vidya-jeevan-clinic")}
+//             style={{ paddingTop: "1rem" }}
+//           >
+//             Vidya Jeevan Clinic
+//           </NavLink>
+
+//           <NavLink
+//             to="#vidya-jeevan-experience-center"
+//             className={activeLink === "vidya-jeevan-experience-center"}
+//             onClick={() => scrollToSection("vidya-jeevan-experience-center")}
+//           >
+//             Vidya Jeevan Experience Center
+//           </NavLink>
+
+//           <NavLink
+//             to="#gallery"
+//             className={activeLink === "gallery"}
+//             onClick={() => scrollToSection("gallery")}
+//           >
+//             Gallery
+//           </NavLink>
+
+//           <NavLink
+//             to="/blogs"
+//             // className={activeLink === "gallery"}
+//             // onClick={() => scrollToSection("gallery")}
+//           >
+//             Blogs
+//           </NavLink>
+//         </div>
+
+//         <div className="sidemenu-web-socials">
+//           {/* <NavLink
+//             to="https://x.com/i/flow/login?redirect_after_login=%2FApurvDr"
+//             target="_blank"
+//           >
+//             <SiX />
+//           </NavLink> */}
+//           <NavLink to="https://www.facebook.com/drapurvmehra/" target="_blank">
+//             <FaFacebook />
+//           </NavLink>
+//           <NavLink
+//             to="https://www.linkedin.com/in/dr-apurv-mehra-22998917a/%20"
+//             target="_blank"
+//           >
+//             <FaLinkedin />
+//           </NavLink>
+//           <NavLink
+//             to="https://www.youtube.com/channel/UCGwlKO8kzkcc6Bt1u-wsppQ"
+//             target="_blank"
+//           >
+//             <FaYoutube />
+//           </NavLink>
+//           <NavLink
+//             to="https://www.instagram.com/apurv.mehra/?hl=en"
+//             target="_blank"
+//           >
+//             <FaInstagram />
+//           </NavLink>
+//         </div>
+//       </nav>
+
+//       <div className="hamburger">
+//         <button className="hamburger-btn" onClick={handleButtonToggle}>
+//           <GiHamburgerMenu />
+//         </button>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default SideMenu;
+
 import React, { useState, useEffect } from "react";
 import "./SideMenu.css";
 import Logo from "../../assets/images/logo.png";
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
-// import { SiX } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function SideMenu() {
   const [showNav, setShowNav] = useState(false);
-  const navigate = useNavigate();
+  const [activeLink, setActiveLink] = useState("");
 
-  const handleButtonToggle = () => {
-    setShowNav(!showNav);
-  };
+  const handleButtonToggle = () => setShowNav(!showNav);
+  const handleCloseNav = () => setShowNav(false);
 
-  const handleCloseNav = () => {
-    setShowNav(false);
-  };
-
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId, e) => {
+    e.preventDefault(); // 🔥 prevent NavLink from changing the URL
     const section = document.getElementById(sectionId);
     if (section) {
       const sectionPosition =
         section.getBoundingClientRect().top + window.scrollY;
-      const offsetPosition = sectionPosition - 80; // 80 for navbar
+      const offsetPosition = sectionPosition - 80; // adjust for navbar
       window.scrollTo({
         top: offsetPosition,
         behavior: "smooth",
       });
     }
-
     handleCloseNav();
   };
 
-  const [activeLink, setActiveLink] = useState("");
+  // Detect active section while scrolling
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll("section[id]");
       const scrollPosition = window.scrollY;
       const windowHeight = window.innerHeight;
+
       sections.forEach((section) => {
         const top = section.getBoundingClientRect().top + scrollPosition;
         const height = section.offsetHeight;
@@ -50,15 +233,10 @@ function SideMenu() {
         }
       });
     };
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  useEffect(() => {
-    if (activeLink) {
-      navigate(`/${activeLink}`);
-    }
-  }, [activeLink, navigate]);
 
   return (
     <div className="sidemenu-container">
@@ -70,33 +248,37 @@ function SideMenu() {
         <div className="sidemenu-web-content">
           <NavLink
             to="#about"
-            className={activeLink === "about"}
-            onClick={() => scrollToSection("about")}
+            className={activeLink === "about" ? "active" : ""}
+            onClick={(e) => scrollToSection("about", e)}
           >
             About
           </NavLink>
 
           <NavLink
             to="#leading-surgeon"
-            className={activeLink === "leading-surgeon"}
-            onClick={() => scrollToSection("leading-surgeon")}
+            className={activeLink === "leading-surgeon" ? "active" : ""}
+            onClick={(e) => scrollToSection("leading-surgeon", e)}
           >
             Leading Surgeon
           </NavLink>
 
           <NavLink
             to="#specialities"
-            className={activeLink === "specialities"}
-            onClick={() => scrollToSection("specialities")}
+            className={activeLink === "specialities" ? "active" : ""}
+            onClick={(e) => scrollToSection("specialities", e)}
           >
             Educator
           </NavLink>
 
           <NavLink
             to="#econceptual-and-cerebellum-academy"
-            className={activeLink === "econceptual-and-cerebellum-academy"}
-            onClick={() =>
-              scrollToSection("econceptual-and-cerebellum-academy")
+            className={
+              activeLink === "econceptual-and-cerebellum-academy"
+                ? "active"
+                : ""
+            }
+            onClick={(e) =>
+              scrollToSection("econceptual-and-cerebellum-academy", e)
             }
           >
             Entrepreneur
@@ -104,16 +286,16 @@ function SideMenu() {
 
           <NavLink
             to="#motivational"
-            className={activeLink === "motivational"}
-            onClick={() => scrollToSection("motivational")}
+            className={activeLink === "motivational" ? "active" : ""}
+            onClick={(e) => scrollToSection("motivational", e)}
           >
             Best Selling Author
           </NavLink>
 
           <NavLink
             to="#vidya-jeevan-clinic"
-            className={activeLink === "vidya-jeevan-clinic"}
-            onClick={() => scrollToSection("vidya-jeevan-clinic")}
+            className={activeLink === "vidya-jeevan-clinic" ? "active" : ""}
+            onClick={(e) => scrollToSection("vidya-jeevan-clinic", e)}
             style={{ paddingTop: "1rem" }}
           >
             Vidya Jeevan Clinic
@@ -121,41 +303,33 @@ function SideMenu() {
 
           <NavLink
             to="#vidya-jeevan-experience-center"
-            className={activeLink === "vidya-jeevan-experience-center"}
-            onClick={() => scrollToSection("vidya-jeevan-experience-center")}
+            className={
+              activeLink === "vidya-jeevan-experience-center" ? "active" : ""
+            }
+            onClick={(e) =>
+              scrollToSection("vidya-jeevan-experience-center", e)
+            }
           >
             Vidya Jeevan Experience Center
           </NavLink>
 
           <NavLink
             to="#gallery"
-            className={activeLink === "gallery"}
-            onClick={() => scrollToSection("gallery")}
+            className={activeLink === "gallery" ? "active" : ""}
+            onClick={(e) => scrollToSection("gallery", e)}
           >
             Gallery
           </NavLink>
 
-          <NavLink
-            to="/blogs"
-            // className={activeLink === "gallery"}
-            // onClick={() => scrollToSection("gallery")}
-          >
-            Blogs
-          </NavLink>
+          <NavLink to="/blogs">Blogs</NavLink>
         </div>
 
         <div className="sidemenu-web-socials">
-          {/* <NavLink
-            to="https://x.com/i/flow/login?redirect_after_login=%2FApurvDr"
-            target="_blank"
-          >
-            <SiX />
-          </NavLink> */}
           <NavLink to="https://www.facebook.com/drapurvmehra/" target="_blank">
             <FaFacebook />
           </NavLink>
           <NavLink
-            to="https://www.linkedin.com/in/dr-apurv-mehra-22998917a/%20"
+            to="https://www.linkedin.com/in/dr-apurv-mehra-22998917a/"
             target="_blank"
           >
             <FaLinkedin />
