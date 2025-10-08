@@ -10,20 +10,23 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://drapurv.com/blogs</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://drapurv.com/blog/neet-pg-motivation-rank-respect-&-your-future-by-dr-apurv-mehra</loc>
+    <loc>https://drapurv.com/blog/neet-pg-motivation-rank-respect-&amp;-your-future-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://drapurv.com/blog/the-childhood-lesson-that-changed-my-life-dr-apurv-mehra-motivation-for-neet-pg-&-inicet</loc>
+    <loc>https://drapurv.com/blog/the-childhood-lesson-that-changed-my-life-dr-apurv-mehra-motivation-for-neet-pg-&amp;-inicet</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  <!-- Add more blog URLs manually -->
+
 </urlset>
