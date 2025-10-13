@@ -1,5 +1,93 @@
 const blogData = [
   {
+    id: "mcqs-mindset-and-the-30-day-formula-to-crack-ini-cet-by-dr-apurv-mehra",
+    blogDate: "October 13, 2025",
+    image:
+      "https://cdn.dribbble.com/userupload/45287513/file/f101749acf6cacb7a94b3568c5af2e67.jpg",
+    metaTitle:
+      "MCQs, Mindset, and the 30-Day Formula to Crack INI-CET By Dr. Apurv Mehra",
+    metaDesc:
+      "Boost your INI-CET prep with Dr. Apurv Mehra’s 30-Day Formula! Master MCQs, sharpen your mindset, and crack the exam with smart, focused learning.",
+
+    para: `As the countdown to <b>INI-CET November 2025</b> begins, anxiety and excitement are at their peak. With only a month left, every student finds themselves questioning—<b>should I focus on new topics or master MCQs?</b></br>
+    
+    This blog draws insights from Dr. Apurv Mehra’s motivational talk, helping you navigate the last days with focus, clarity, and control.
+
+    <h4>Understanding the Real Value of INI-CET</h4>
+
+    The beauty of <b>INI-CET</b> lies in its exclusivity. It’s not about the college tag—AIIMS or PGI doesn’t define your worth as a clinician. Some of the finest doctors in India didn’t study there, yet they excel in their fields.
+
+    Rank and marks may seem like everything right now, but in the long run, no one will ask where you studied or how many marks you scored. What truly matters is your skill, decision-making ability, and perseverance.
+
+    So, instead of chasing prestige, focus on becoming capable—because capability always creates opportunity.
+
+<h4>Why MCQs Exist in Medical Exams</h4>
+
+Ever wondered why medical entrance exams focus on <b>MCQs</b> instead of long answers?
+Because medicine isn’t just about knowledge—it’s about <b>decision-making under pressure.</b>
+
+A written answer tests your knowledge. But an MCQ tests your <b>ability to apply knowledge quickly</b>. Every doctor’s real-world decision is time-bound. You don’t get unlimited time to think while treating a patient. That’s why exams are designed this way—to check if you can make the right call in a limited time.
+
+Research even shows that a doctor who makes correct decisions more than 50% of the time can save over 80% of lives. That’s why exams have a 50% qualifying cutoff—it reflects real-life competence.
+
+
+<h4>The Three Hidden Lessons MCQs Teach You</h4>
+
+<b>1. MCQs Expose Your Weaknesses</b>
+
+• Every wrong answer tells you exactly where you lack. The beauty of MCQs is brutal honesty—if you don’t know a topic, it shows instantly.
+
+• Most students ignore this and keep revising what they already know. But the real growth happens when you focus on the gaps. The fewer your weak zones, the stronger your preparation becomes.
+
+<b>2. MCQs Test Your Skill</b>
+
+• In any question, there are four options—but the real game is in <b>ruling out</b> the wrong ones.
+
+• If you can eliminate one option, your chances of being right increase. Eliminate two, and your odds improve drastically. Eliminate three, and you’re absolutely correct.
+
+• This exam is not just about knowing; it’s about <b>eliminating confusion</b>. That’s why practicing MCQs daily is crucial. Learn to trust your first instinct—because your first answer often comes from months of hard work.
+
+• Most students lose marks not because they didn’t know the answer, but because they <b>changed it</b>. Once you’ve marked your choice, stay with it. Confidence is half the battle won.
+
+<b>3. MCQs Train Your Time Management</b>
+
+• The final and perhaps the most crucial skill is <b>time control</b>.
+
+• If your exam finishes too soon, it means you rushed. If you can’t complete it, it means your pacing is off. The goal is to balance both accuracy and speed.
+
+• Dr. Apurv Mehra often reminds students: “You just need to be the best for those three hours.” That’s all that matters.
+
+• Learn to move on from tough questions. Nobody scores 100%. Don’t waste minutes regretting one mistake; instead, use them to secure the next correct answer.
+
+<h4>The Power of Mindset</h4>
+
+Dr. Apurv Mehra beautifully ends his talk with a lesson from Japanese research on water crystals. Positive words created beautiful patterns when the water was frozen, while negative ones created chaos.
+
+Our bodies are 70% water—meaning our thoughts shape our energy. So, what you tell yourself matters.
+
+Every day, look in the mirror and say: </br>
+<b>“I will play. I will perform. I will win.”</b>
+
+Your thoughts crystallise your success.
+
+<h4>Final Words: Don’t Just Study—Play the Game</h4>
+
+INI-CET isn’t just an exam—it’s a test of balance, clarity, and emotional strength. You’ve already done the hard part by coming this far. Now it’s about staying calm, practising smartly, and trusting your instincts.
+
+Keep these three rules close as you enter the final month:
+
+1. Don’t change your answers.
+
+2. Don’t dwell on mistakes—move on.
+
+3. Believe in yourself till the last question.
+
+The seat you want is already waiting for you. You just need to earn it with composure and confidence.
+
+<b>Play your best game in these 30 days—and make it count.</b>
+`,
+  },
+  {
     id: "the-childhood-lesson-that-changed-my-life-dr-apurv-mehra-motivation-for-neet-pg-&-inicet",
     blogDate: "September 26, 2025",
     image:

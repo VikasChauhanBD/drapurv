@@ -41,6 +41,18 @@ const reelsData = [
       "https://cdn.dribbble.com/userupload/44958123/file/7d350e03433b4d604459e6f8fe008a2f.jpg",
     url: "https://www.youtube.com/embed/KlF1tYn7og4",
   },
+  {
+    id: 7,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/45288468/file/70b01a47f7be2fa2639fa8e09f35f9ea.jpg",
+    url: "https://www.youtube.com/embed/8sAYfL1ZjHc",
+  },
+  {
+    id: 8,
+    thumbnail:
+      "https://cdn.dribbble.com/userupload/45288452/file/48d5e654a08e106a49f5361be55f67ea.jpg",
+    url: "https://www.youtube.com/embed/75FqG7uNCjA",
+  },
 ];
 
 function VidyaJeevanWarrior() {
