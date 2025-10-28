@@ -229,17 +229,17 @@ function App() {
             </Layout>
           }
         />
-        <Route
+        {/* <Route
           path="/:sectionId"
           element={
             <Layout>
               <Home />
             </Layout>
           }
-        />
+        /> */}
 
         {/* Testing page without shared components (or with custom layout) */}
-        <Route
+        {/* <Route
           path="/testing"
           element={
             <Layout showSharedComponents={false}>
@@ -248,7 +248,7 @@ function App() {
               <MobileFooter />
             </Layout>
           }
-        />
+        /> */}
 
         <Route
           path="/blogs"
