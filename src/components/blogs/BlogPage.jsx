@@ -43,6 +43,8 @@ function BlogPage() {
   const formatContent = (content) => {
     if (!content) return null;
     const paragraphs = content.split("\n\n").filter((p) => p.trim());
+    let headingIndex = 0;
+
     return paragraphs.map((paragraph, index) => {
       if (paragraph.trim().startsWith("—")) {
         return (
@@ -53,6 +55,21 @@ function BlogPage() {
           />
         );
       }
+
+      // Check if paragraph contains an h4 tag
+      if (paragraph.includes("<h4>")) {
+        const modifiedParagraph = paragraph.replace(
+          /<h4>/g,
+          () => `<h4 id="section-${headingIndex++}">`
+        );
+        return (
+          <div
+            key={index}
+            dangerouslySetInnerHTML={{ __html: modifiedParagraph }}
+          />
+        );
+      }
+
       return (
         <div key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
       );

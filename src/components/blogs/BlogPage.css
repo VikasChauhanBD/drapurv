@@ -83,6 +83,7 @@ html {
   font-weight: 600;
   margin: 20px 0;
   color: #1a1a1a;
+  scroll-margin-top: 50px;
 }
 
 .blog-article-content ul,
