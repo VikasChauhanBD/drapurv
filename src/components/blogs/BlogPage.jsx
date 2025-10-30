@@ -1,17 +1,19 @@
-import React, { useRef, useState, useMemo } from "react";
+import React, { useRef, useMemo, useEffect } from "react";
 import "./BlogPage.css";
 import blogData from "../../assets/data/blogData";
-import { useParams, Link, NavLink } from "react-router-dom";
+import { useParams, Link, NavLink, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 function BlogPage() {
   const carouselRef = useRef(null);
   const { blogId } = useParams();
+  const location = useLocation();
   const blog = blogData.find((b) => b.id === blogId);
 
-  const [views] = useState(3381);
-  const [likes] = useState(268);
-  const [comments] = useState(31);
+  // Scroll to top when blog changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [blogId, location.pathname]);
 
   const readingTime = useMemo(() => {
     if (!blog?.para) return "2 min read";
