@@ -2,48 +2,44 @@ import React, { useRef, useState, useMemo } from "react";
 import "./BlogPage.css";
 import blogData from "../../assets/data/blogData";
 import { useParams, Link, NavLink } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function BlogPage() {
   const carouselRef = useRef(null);
-
   const { blogId } = useParams();
   const blog = blogData.find((b) => b.id === blogId);
 
-  // ✅ Like / Dislike state
-  // const [likes, setLikes] = useState(0);
-  // const [dislikes, setDislikes] = useState(0);
+  const [views] = useState(3381);
+  const [likes] = useState(268);
+  const [comments] = useState(31);
 
-  // ✅ Estimate reading time
   const readingTime = useMemo(() => {
-    if (!blog?.para) return "0 min read";
+    if (!blog?.para) return "2 min read";
     const words = blog.para.split(/\s+/).length;
-    const minutes = Math.ceil(words / 200); // average 200 WPM
+    const minutes = Math.ceil(words / 200);
     return `${minutes} min read`;
   }, [blog]);
 
-  // ✅ Share function
-  const handleShare = () => {
+  const handleShare = async () => {
     const url = window.location.href;
     if (navigator.share) {
-      navigator.share({
-        title: blog.metaTitle,
-        text: blog.metaDesc,
-        url,
-      });
+      try {
+        await navigator.share({
+          title: blog.metaTitle,
+          text: blog.metaDesc,
+          url,
+        });
+      } catch (err) {
+        console.log("Share cancelled");
+      }
     } else {
       navigator.clipboard.writeText(url);
       alert("Blog link copied to clipboard!");
     }
   };
 
-  if (!blog) {
-    return <h2>Blog not found</h2>;
-  }
-
-  // ✅ Function to format content with HTML rendering
   const formatContent = (content) => {
     if (!content) return null;
-
     const paragraphs = content.split("\n\n").filter((p) => p.trim());
     return paragraphs.map((paragraph, index) => {
       if (paragraph.trim().startsWith("—")) {
@@ -55,77 +51,146 @@ function BlogPage() {
           />
         );
       }
-      return <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />;
+      return (
+        <div key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
+      );
     });
   };
 
+  const tableOfContents = useMemo(() => {
+    const headings = [];
+    const temp = document.createElement("div");
+    temp.innerHTML = blog?.para || "";
+    const h4Elements = temp.querySelectorAll("h4");
+    h4Elements.forEach((h4, index) => {
+      headings.push({
+        id: `section-${index}`,
+        title: h4.textContent,
+      });
+    });
+    return headings;
+  }, [blog]);
+
   const handleScroll = (direction) => {
     if (carouselRef.current) {
-      const card = carouselRef.current.querySelector(".recommended-blog-card");
-      if (card) {
-        const cardWidth = card.offsetWidth;
-        const gap = 30; // Adjust based on your CSS
-        const scrollAmount = cardWidth + gap;
-
-        carouselRef.current.scrollBy({
-          left: direction === "next" ? scrollAmount : -scrollAmount,
-          behavior: "smooth",
-        });
-      }
+      const scrollAmount = 400;
+      carouselRef.current.scrollBy({
+        left: direction === "next" ? scrollAmount : -scrollAmount,
+        behavior: "smooth",
+      });
     }
   };
 
-  return (
-    <div>
-      <section className="blog-page-section">
-        <img src={blog.image} alt={blog.metaTitle} />
-        <NavLink to="/blogs" className="blogs-btn">
-          Back To Blogs
+  if (!blog) {
+    return (
+      <div className="blog-not-found">
+        <h2>Blog not found</h2>
+        <NavLink to="/blogs" className="back-btn">
+          Back to Blogs
         </NavLink>
-        <h1>{blog.metaTitle}</h1>
+      </div>
+    );
+  }
 
-        <span className="blog-read-time">Estimated Time:- {readingTime}</span>
+  return (
+    <>
+      <Helmet>
+        <title>{blog.metaTitle}</title>
+        <meta name="description" content={blog.metaDesc} />
+        <meta property="og:title" content={blog.metaTitle} />
+        <meta property="og:description" content={blog.metaDesc} />
+        <meta property="og:image" content={blog.image} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={window.location.href} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={blog.metaTitle} />
+        <meta name="twitter:description" content={blog.metaDesc} />
+        <meta name="twitter:image" content={blog.image} />
+        <link rel="canonical" href={window.location.href} />
+      </Helmet>
 
-        <div className="blog-content">{formatContent(blog.para)}</div>
+      <div className="blog-page">
+        {/* Breadcrumb */}
+        <nav className="blog-breadcrumb">
+          <span>›</span>
+          <Link to="/">Home</Link>
+          <span>›</span>
+          <Link to="/blogs">Blogs</Link>
+          <span>›</span>
+          <span className="blog-breadcrumb-current">
+            {blog.metaTitle.substring(0, 50)}...
+          </span>
+        </nav>
 
-        <div className="blog-actions">
-          {/* <button onClick={() => setLikes(likes + 1)}>👍 {likes}</button>
-          <button onClick={() => setDislikes(dislikes + 1)}>
-            👎 {dislikes}
-          </button> */}
-          <button onClick={handleShare}>🔗 Share</button>
+        {/* Main Container */}
+        <div className="blog-container">
+          <article className="blog-main-article">
+            <div className="blog-hero-image">
+              <img src={blog.image} alt={blog.metaTitle} />
+            </div>
+
+            <div className="blog-meta-info">
+              <span>📅 {blog.blogDate}</span>
+              <span>⏱️ {readingTime}</span>
+            </div>
+
+            <h1 className="blog-article-title">{blog.metaTitle}</h1>
+
+            <div className="blog-article-content">
+              {formatContent(blog.para)}
+            </div>
+
+            <button className="blog-share-btn" onClick={handleShare}>
+              🔗 Share
+            </button>
+          </article>
+
+          {/* Sidebar */}
+          <aside className="blog-sidebar">
+            <div className="blog-sidebar-widget">
+              <h3>Table of Contents</h3>
+              <ul className="blog-toc-list">
+                {tableOfContents.map((item, index) => (
+                  <li key={index}>
+                    <a href={`#${item.id}`}>{item.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </aside>
         </div>
-      </section>
 
-      <section className="recommended-blog">
-        <h6>KEEP EXPLORING</h6>
-        <h1>Recommended Reads - Just for You</h1>
+        {/* Recommended Section */}
+        <section className="recommended-blog">
+          <h6>KEEP EXPLORING</h6>
+          <h1>Recommended Reads - Just for You</h1>
 
-        <section className="recommended-blog-cards" ref={carouselRef}>
-          {blogData.map((data, index) => (
-            <article key={index} className="recommended-blog-card">
-              <Link to={`/blog/${data.id}`}>
-                <div className="recommended-blog-card-images">
-                  <img src={data.image} alt={data.metaTitle} />
-                </div>
+          <section className="recommended-blog-cards" ref={carouselRef}>
+            {blogData.map((data, index) => (
+              <article key={index} className="recommended-blog-card">
+                <Link to={`/blog/${data.id}`}>
+                  <div className="recommended-blog-card-images">
+                    <img src={data.image} alt={data.metaTitle} />
+                  </div>
 
-                <span>{data.metaTitle}</span>
-                <h4>🗓️ {data.blogDate}</h4>
-                <h3>{data.metaDesc}</h3>
-                <p>Read More</p>
-              </Link>
-            </article>
-          ))}
+                  <span>{data.metaTitle}</span>
+                  <h4>🗓️ {data.blogDate}</h4>
+                  <h3>{data.metaDesc}</h3>
+                  <p>Read More</p>
+                </Link>
+              </article>
+            ))}
+          </section>
+
+          <hr />
+
+          <div className="recommended-blog-buttons">
+            <p onClick={() => handleScroll("prev")}>← Previous Blog</p>
+            <p onClick={() => handleScroll("next")}>Next Blog →</p>
+          </div>
         </section>
-
-        <hr />
-
-        <div className="recommended-blog-buttons">
-          <p onClick={() => handleScroll("prev")}>Previous Blog</p>
-          <p onClick={() => handleScroll("next")}>Next Blog</p>
-        </div>
-      </section>
-    </div>
+      </div>
+    </>
   );
 }
 
