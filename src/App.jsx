@@ -194,6 +194,7 @@ import RoboticTotalKneeReplacement from "./components/specialities/RoboticTotalK
 import BlogHome from "./components/blogs/BlogHome";
 import BlogPage from "./components/blogs/BlogPage";
 import Home from "./components/home/Home";
+import Error404 from "./components/error404/Error404";
 
 // Layout wrapper component to conditionally render shared components
 function Layout({ children, showSharedComponents = true }) {
@@ -229,26 +230,6 @@ function App() {
             </Layout>
           }
         />
-        {/* <Route
-          path="/:sectionId"
-          element={
-            <Layout>
-              <Home />
-            </Layout>
-          }
-        /> */}
-
-        {/* Testing page without shared components (or with custom layout) */}
-        {/* <Route
-          path="/testing"
-          element={
-            <Layout showSharedComponents={false}>
-              <RoboticTotalKneeReplacement />
-              <Footer />
-              <MobileFooter />
-            </Layout>
-          }
-        /> */}
 
         <Route
           path="/blogs"
@@ -267,6 +248,25 @@ function App() {
             </Layout>
           }
         />
+
+        <Route
+          path="/error-404"
+          element={
+            <Layout showSharedComponents={false}>
+              <Error404 />
+            </Layout>
+          }
+        />
+
+        {/* For testing */}
+        {/* <Route
+          path="/testing"
+          element={
+            <Layout showSharedComponents={false}>
+              <Error404 />
+            </Layout>
+          }
+        /> */}
       </Routes>
     </BrowserRouter>
   );

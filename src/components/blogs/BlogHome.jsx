@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./BlogHome.css";
 import blogData from "../../assets/data/blogData";
-import { BiCalendar } from "react-icons/bi";
+import BlogBanner from "../../assets/images/blog-banner.jpg";
 
 const BlogHome = () => {
   const navigate = useNavigate();
@@ -29,7 +29,7 @@ const BlogHome = () => {
       </div>
 
       <div className="blogs-header">
-        <h1>Blogs</h1>
+        <img src={BlogBanner} alt="Blog Banner" />
       </div>
 
       <main className="blogs-inner-container">
