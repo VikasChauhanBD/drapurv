@@ -1,20 +1,41 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./BlogHome.css";
 import blogData from "../../assets/data/blogData";
 import { BiCalendar } from "react-icons/bi";
 
 const BlogHome = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="blogs-main-container">
+      {/* Breadcrumb */}
+      <div className="blogs-nav">
+        <nav className="blogs-breadcrumb">
+          <button
+            className="blogs-breadcrumb-btn"
+            onClick={() => navigate("/")}
+          >
+            Home
+          </button>
+
+          <div className="blogs-breadcrumb-content">
+            <span>›</span>
+            <Link to="/">Home</Link>
+            <span>›</span>
+            <span className="blogs-breadcrumb-current">Blogs</span>
+          </div>
+        </nav>
+      </div>
+
       <div className="blogs-header">
         <h1>Blogs</h1>
       </div>
 
       <main className="blogs-inner-container">
-        <NavLink to="/" className="blogs-back-btn">
+        {/* <NavLink to="/" className="blogs-back-btn">
           Back To Home
-        </NavLink>
+        </NavLink> */}
 
         <section className="blogs-grid">
           {blogData.map((data, index) => (
@@ -27,7 +48,7 @@ const BlogHome = () => {
                   <span>{data.metaTitle}</span>
                   <h4>🗓️ {data.blogDate}</h4>
                   <h3>{data.metaDesc}</h3>
-                  <p>Read More</p>
+                  <p>Read More →</p>
                 </div>
               </NavLink>
             </article>

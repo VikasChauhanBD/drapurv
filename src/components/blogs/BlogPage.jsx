@@ -1,10 +1,17 @@
 import React, { useRef, useMemo, useEffect } from "react";
 import "./BlogPage.css";
 import blogData from "../../assets/data/blogData";
-import { useParams, Link, NavLink, useLocation } from "react-router-dom";
+import {
+  useParams,
+  Link,
+  NavLink,
+  useLocation,
+  useNavigate,
+} from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 function BlogPage() {
+  const navigate = useNavigate();
   const carouselRef = useRef(null);
   const { blogId } = useParams();
   const location = useLocation();
@@ -130,16 +137,35 @@ function BlogPage() {
 
       <div className="blog-page">
         {/* Breadcrumb */}
-        <nav className="blog-breadcrumb">
-          <span>›</span>
-          <Link to="/">Home</Link>
-          <span>›</span>
-          <Link to="/blogs">Blogs</Link>
-          <span>›</span>
-          <span className="blog-breadcrumb-current">
-            {blog.metaTitle.substring(0, 50)}...
-          </span>
-        </nav>
+        <div className="blog-nav">
+          <nav className="blog-breadcrumb">
+            <div className="blog-breadcrumb-btn-div">
+              <button
+                className="blog-breadcrumb-btn"
+                onClick={() => navigate("/")}
+              >
+                Home
+              </button>
+              <button
+                className="blog-breadcrumb-btn"
+                onClick={() => navigate("/blogs")}
+              >
+                Blogs
+              </button>
+            </div>
+
+            <div className="blog-breadcrumb-content">
+              <span>›</span>
+              <Link to="/">Home</Link>
+              <span>›</span>
+              <Link to="/blogs">Blogs</Link>
+              <span>›</span>
+              <span className="blog-breadcrumb-current">
+                {blog.metaTitle.substring(0, 50)}...
+              </span>
+            </div>
+          </nav>
+        </div>
 
         {/* Main Container */}
         <div className="blog-container">

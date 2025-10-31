@@ -3,30 +3,84 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Breadcrumb */
+/* Blog nav */
+.blog-nav {
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #97caeb;
+  display: flex;
+  align-content: center;
+}
+
 .blog-breadcrumb {
   width: 70%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 10px;
   display: flex;
-  align-items: center;
+  align-items: end;
+  justify-content: space-between;
   gap: 8px;
-  font-size: 14px;
-  color: #666;
+  background: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(8px) saturate(1.05);
+  -webkit-backdrop-filter: blur(8px) saturate(1.05);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(15, 15, 15, 0.08);
+  border-radius: 18px;
 }
 
-.blog-breadcrumb a {
+.blog-breadcrumb-btn-div {
+  display: flex;
+  gap: 10px;
+}
+
+.blog-breadcrumb-btn {
+  color: #333333;
+  background: #ffffff;
+  padding: 10px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  border: none;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-breadcrumb-btn:hover {
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.blog-breadcrumb-content {
+  display: flex;
+  gap: 5px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(8px) saturate(1.05);
+  -webkit-backdrop-filter: blur(8px) saturate(1.05);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(15, 15, 15, 0.08);
+  border-radius: 18px;
+}
+
+.blog-breadcrumb-content a {
   color: #666;
   text-decoration: none;
   transition: color 0.2s;
+  font-size: 12px;
+  color: #666;
 }
 
-.blog-breadcrumb a:hover {
+.blog-breadcrumb-content a:hover {
   color: #3b82f6;
 }
 
 .blog-breadcrumb-current {
-  font-size: 16px;
+  font-size: 14px;
+  color: #666;
   font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
@@ -310,12 +364,15 @@ html {
   }
 }
 
-@media (max-width: 768px) {
-  .blog-breadcrumb,
+@media (max-width: 840px) {
   .blog-container,
   .recommended-blog-cards,
   .recommended-blog-buttons {
     width: 95%;
+  }
+
+  .blog-breadcrumb {
+    width: 100%;
   }
 
   .blog-main-article {
@@ -348,6 +405,20 @@ html {
 }
 
 @media (max-width: 580px) {
+  .blog-nav {
+    height: 80px;
+    padding: 8px;
+  }
+
+  .blog-breadcrumb-btn {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+
+  .blog-breadcrumb-content {
+    display: none;
+  }
+
   .blog-article-title {
     font-size: 24px;
   }
