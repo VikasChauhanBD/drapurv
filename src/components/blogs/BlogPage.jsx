@@ -156,9 +156,9 @@ function BlogPage() {
 
             <div className="blog-breadcrumb-content">
               <span>›</span>
-              <Link to="/">Home</Link>
+              <span>Home</span>
               <span>›</span>
-              <Link to="/blogs">Blogs</Link>
+              <span>Blogs</span>
               <span>›</span>
               <span className="blog-breadcrumb-current">
                 {blog.metaTitle.substring(0, 50)}...

@@ -21,7 +21,7 @@ const BlogHome = () => {
 
           <div className="blogs-breadcrumb-content">
             <span>›</span>
-            <Link to="/">Home</Link>
+            <span>Home</span>
             <span>›</span>
             <span className="blogs-breadcrumb-current">Blogs</span>
           </div>
