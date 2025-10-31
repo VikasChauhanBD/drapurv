@@ -139,6 +139,17 @@ function BlogPage() {
         {/* Breadcrumb */}
         <div className="blog-nav">
           <nav className="blog-breadcrumb">
+            <div className="blog-breadcrumb-content">
+              <span>›</span>
+              <span>Home</span>
+              <span>›</span>
+              <span>Blogs</span>
+              <span>›</span>
+              <span className="blog-breadcrumb-current">
+                {blog.metaTitle.substring(0, 50)}...
+              </span>
+            </div>
+
             <div className="blog-breadcrumb-btn-div">
               <button
                 className="blog-breadcrumb-btn"
@@ -152,17 +163,6 @@ function BlogPage() {
               >
                 Blogs
               </button>
-            </div>
-
-            <div className="blog-breadcrumb-content">
-              <span>›</span>
-              <span>Home</span>
-              <span>›</span>
-              <span>Blogs</span>
-              <span>›</span>
-              <span className="blog-breadcrumb-current">
-                {blog.metaTitle.substring(0, 50)}...
-              </span>
             </div>
           </nav>
         </div>
@@ -221,7 +221,7 @@ function BlogPage() {
                   <span>{data.metaTitle}</span>
                   <h4>🗓️ {data.blogDate}</h4>
                   <h3>{data.metaDesc}</h3>
-                  <p>Read More</p>
+                  <p>Read More →</p>
                 </Link>
               </article>
             ))}

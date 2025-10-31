@@ -12,19 +12,19 @@ const BlogHome = () => {
       {/* Breadcrumb */}
       <div className="blogs-nav">
         <nav className="blogs-breadcrumb">
-          <button
-            className="blogs-breadcrumb-btn"
-            onClick={() => navigate("/")}
-          >
-            Home
-          </button>
-
           <div className="blogs-breadcrumb-content">
             <span>›</span>
             <span>Home</span>
             <span>›</span>
             <span className="blogs-breadcrumb-current">Blogs</span>
           </div>
+
+          <button
+            className="blogs-breadcrumb-btn"
+            onClick={() => navigate("/")}
+          >
+            Home
+          </button>
         </nav>
       </div>
 

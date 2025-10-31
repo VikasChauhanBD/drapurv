@@ -65,13 +65,8 @@
 
 .blogs-breadcrumb-current {
   font-size: 14px;
-  color: #555;
+  color: #0099ff !important;
   font-weight: 600;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-  display: inline-block;
 }
 
 .blogs-header {
@@ -214,7 +209,7 @@
 }
 
 .blogs-card-content p:hover {
-  text-decoration: underline;
+  color: #0099ff;
 }
 
 /* ------------------------------------ Responsive Style ------------------------- */
