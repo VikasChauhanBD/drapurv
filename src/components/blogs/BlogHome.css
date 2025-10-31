@@ -76,6 +76,7 @@
 
 .blogs-header img {
   width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 
@@ -178,6 +179,7 @@
 
 @media (max-width: 1440px) {
   .blogs-breadcrumb,
+  .blogs-header,
   .blogs-inner-container {
     width: 90%;
   }
@@ -195,6 +197,15 @@
     padding: 8px;
   }
 
+  .blogs-header {
+    width: 100%;
+    height: 150px;
+  }
+
+  .blogs-inner-container {
+    padding-top: 0;
+  }
+
   .blogs-breadcrumb-btn {
     padding: 8px 12px;
     font-size: 16px;
@@ -202,10 +213,6 @@
 
   .blogs-breadcrumb {
     width: 100%;
-  }
-
-  .blogs-header {
-    padding: 6rem 0;
   }
 
   .blogs-grid {
