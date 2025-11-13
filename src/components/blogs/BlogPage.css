@@ -143,6 +143,15 @@ html {
   margin: 10px 10px 10px 20px;
 }
 
+.blog-article-content h5 {
+  padding: 1rem 0;
+}
+
+.blog-article-content a {
+  text-decoration: none;
+  color: rgb(1, 161, 161);
+}
+
 .blog-share-btn {
   padding: 8px 16px;
   background-color: #f3f4f6;

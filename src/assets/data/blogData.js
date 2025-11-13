@@ -1,5 +1,57 @@
 const blogData = [
   {
+    id: "being-a-doctor-isnt-easy-but-nothing-is-more-beautiful-a-message-by-dr-apurv-mehra",
+    blogDate: "November 13, 2025",
+    image:
+      "https://cdn.dribbble.com/userupload/45680701/file/deabb8a9c31bb2b7ebaa9b7b768f4342.jpeg",
+    metaTitle:
+      "Being a Doctor Isn't Easy, But Nothing Is More Beautiful - A Message by Dr. Apurv Mehra",
+    metaDesc:
+      "Dr. Apurv Mehra shares a heartfelt message on the challenges and unmatched beauty of being a doctor, inspiring medical aspirants to keep moving forward.",
+    author: "Dr. Apurv Mehra",
+    tags: ["Medical Journey", "Motivation", "MBBS", "Doctor Life"],
+    para: `Every doctor has a story - one that begins with dreams, doubts, and determination. Some joined MBBS because their parents wished for it, some were drawn to the respect the profession commands, and others hoped for a stable future. But as you move through sleepless nights, endless duties, and that first moment when a patient smiles because of you, you realise something deeper.
+
+<h4>The Firsts You Never Forget</h4>
+
+Every doctor carries memories of their early experiences - that first IV cannula, the first Foleys, the first time they touched someone's life in a small yet meaningful way. And those moments remind you why you chose this path or why you are here.
+
+See, medical life is unpredictable. You don't just treat patients; you learn compassion, patience, and resilience. And slowly, you realise that while money may not always follow immediately, <b>respect always does.</b>
+
+<h4>Breaking the Myth: Postgraduate Degree Isn't Everything</h4>
+
+In India, there's often a belief that only postgraduates succeed in medicine. Dr. Apurv Mehra firmly disagrees. He shares that many MBBS doctors are doing exceptionally well as physicians and community health experts, while some specialists struggle despite advanced degrees.
+
+The reason is simple - <b>success in medicine isn't about titles; it's about connection.</b>
+
+<h4>The Real Power: Earning Trust</h4>
+
+Knowledge can be read. Skills can be practised. But trust can only be earned through honesty. Dr. Mehra beautifully explains that a doctor should be as transparent as glass - someone a patient can look through and instantly trust.
+
+He admits that even after years in orthopedics, there are things he doesn't know - and he's not afraid to say it. In a city full of surgeons, he chooses to do what's right for his patients rather than what's profitable.
+
+Because one well-treated patient can bring you a hundred more, but one wrongly treated patient can stop your growth forever.
+
+<h4>The Everyday Question You Must Answer</h4>
+
+Each day in this profession is a test - not written on paper, but lived through your choices. The question is simple: Are you doing this for yourself or for your patient?
+
+If your intentions are pure, everything else falls into place. True success in medicine comes when you reduce suffering, restore hope, and earn the kind of respect that no money can buy.
+
+<h4>Conclusion: Remember Why You Began</h4>
+
+As Dr. Apurv Mehra says, <b>"Doctor banna asaan nahi hai, par isse khoobsurat kuch nahi."</b>
+
+He reminds every doctor to hold onto the same passion they had when they first wore their white coat.
+
+Each night, tell yourself - <b>I became a doctor to make a difference.</b>
+
+Because in the end, <b>there's nothing more beautiful than healing another human being.</b>
+
+<h5>Click Here to Watch: <a href="https://youtu.be/ki6aS97Y4vM?si=i4oqI4lw5BXmfL6X" target="_blank">Doctor Banna Asaan Nahi Hai, Par Isse Khoobsurat Kuch Nahi | Dr. Apurv Mehra</a></h5>
+`,
+  },
+  {
     id: "mcqs-mindset-and-the-30-day-formula-to-crack-ini-cet-by-dr-apurv-mehra",
     blogDate: "October 13, 2025",
     image:
