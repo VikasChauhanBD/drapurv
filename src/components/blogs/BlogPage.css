@@ -126,11 +126,15 @@ html {
 }
 
 .blog-article-content h4 {
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 600;
   margin: 20px 0;
   color: #1a1a1a;
   scroll-margin-top: 50px;
+}
+
+.blog-article-content p {
+  padding-top: 16px;
 }
 
 .blog-article-content ul,

@@ -16,27 +16,27 @@ const blogData = [
 
 Every doctor carries memories of their early experiences - that first IV cannula, the first Foleys, the first time they touched someone's life in a small yet meaningful way. And those moments remind you why you chose this path or why you are here.
 
-See, medical life is unpredictable. You don't just treat patients; you learn compassion, patience, and resilience. And slowly, you realise that while money may not always follow immediately, <b>respect always does.</b>
+<p>See, medical life is unpredictable. You don't just treat patients; you learn compassion, patience, and resilience. And slowly, you realise that while money may not always follow immediately, <b>respect always does.</b></p>
 
 <h4>Breaking the Myth: Postgraduate Degree Isn't Everything</h4>
 
 In India, there's often a belief that only postgraduates succeed in medicine. Dr. Apurv Mehra firmly disagrees. He shares that many MBBS doctors are doing exceptionally well as physicians and community health experts, while some specialists struggle despite advanced degrees.
 
-The reason is simple - <b>success in medicine isn't about titles; it's about connection.</b>
+<p>The reason is simple - <b>success in medicine isn't about titles; it's about connection.</b></p>
 
 <h4>The Real Power: Earning Trust</h4>
 
 Knowledge can be read. Skills can be practised. But trust can only be earned through honesty. Dr. Mehra beautifully explains that a doctor should be as transparent as glass - someone a patient can look through and instantly trust.
 
-He admits that even after years in orthopedics, there are things he doesn't know - and he's not afraid to say it. In a city full of surgeons, he chooses to do what's right for his patients rather than what's profitable.
+<p>He admits that even after years in orthopedics, there are things he doesn't know - and he's not afraid to say it. In a city full of surgeons, he chooses to do what's right for his patients rather than what's profitable.</p>
 
-Because one well-treated patient can bring you a hundred more, but one wrongly treated patient can stop your growth forever.
+<p>Because one well-treated patient can bring you a hundred more, but one wrongly treated patient can stop your growth forever.</p>
 
 <h4>The Everyday Question You Must Answer</h4>
 
 Each day in this profession is a test - not written on paper, but lived through your choices. The question is simple: Are you doing this for yourself or for your patient?
 
-If your intentions are pure, everything else falls into place. True success in medicine comes when you reduce suffering, restore hope, and earn the kind of respect that no money can buy.
+<p>If your intentions are pure, everything else falls into place. True success in medicine comes when you reduce suffering, restore hope, and earn the kind of respect that no money can buy.</p>
 
 <h4>Conclusion: Remember Why You Began</h4>
 
@@ -44,9 +44,9 @@ As Dr. Apurv Mehra says, <b>"Doctor banna asaan nahi hai, par isse khoobsurat ku
 
 He reminds every doctor to hold onto the same passion they had when they first wore their white coat.
 
-Each night, tell yourself - <b>I became a doctor to make a difference.</b>
+<p>Each night, tell yourself - <b>I became a doctor to make a difference.</b></p>
 
-Because in the end, <b>there's nothing more beautiful than healing another human being.</b>
+<p>Because in the end, <b>there's nothing more beautiful than healing another human being.</b></p>
 
 <h5>Click Here to Watch: <a href="https://youtu.be/ki6aS97Y4vM?si=i4oqI4lw5BXmfL6X" target="_blank">Doctor Banna Asaan Nahi Hai, Par Isse Khoobsurat Kuch Nahi | Dr. Apurv Mehra</a></h5>
 `,
@@ -64,25 +64,24 @@ Because in the end, <b>there's nothing more beautiful than healing another human
     tags: ["INI-CET", "Medical Exam Prep", "MCQs", "Mindset"],
     para: `As the countdown to <b>INI-CET November 2025</b> begins, anxiety and excitement are at their peak. With only a month left, every student finds themselves questioning-<b>should I focus on new topics or master MCQs?</b></br>
     
-    This blog draws insights from Dr. Apurv Mehra's motivational talk, helping you navigate the last days with focus, clarity, and control.
+    <p>This blog draws insights from Dr. Apurv Mehra's motivational talk, helping you navigate the last days with focus, clarity, and control.</p>
 
     <h4>Understanding the Real Value of INI-CET</h4>
 
     The beauty of <b>INI-CET</b> lies in its exclusivity. It's not about the college tag-AIIMS or PGI doesn't define your worth as a clinician. Some of the finest doctors in India didn't study there, yet they excel in their fields.
 
-    Rank and marks may seem like everything right now, but in the long run, no one will ask where you studied or how many marks you scored. What truly matters is your skill, decision-making ability, and perseverance.
+    <p>Rank and marks may seem like everything right now, but in the long run, no one will ask where you studied or how many marks you scored. What truly matters is your skill, decision-making ability, and perseverance.</p>
 
-    So, instead of chasing prestige, focus on becoming capable-because capability always creates opportunity.
+    <p>So, instead of chasing prestige, focus on becoming capable-because capability always creates opportunity.</p>
 
 <h4>Why MCQs Exist in Medical Exams</h4>
 
 Ever wondered why medical entrance exams focus on <b>MCQs</b> instead of long answers?
 Because medicine isn't just about knowledge-it's about <b>decision-making under pressure.</b>
 
-A written answer tests your knowledge. But an MCQ tests your <b>ability to apply knowledge quickly</b>. Every doctor's real-world decision is time-bound. You don't get unlimited time to think while treating a patient. That's why exams are designed this way-to check if you can make the right call in a limited time.
+<p>A written answer tests your knowledge. But an MCQ tests your <b>ability to apply knowledge quickly</b>. Every doctor's real-world decision is time-bound. You don't get unlimited time to think while treating a patient. That's why exams are designed this way-to check if you can make the right call in a limited time.</p>
 
-Research even shows that a doctor who makes correct decisions more than 50% of the time can save over 80% of lives. That's why exams have a 50% qualifying cutoff-it reflects real-life competence.
-
+<p>Research even shows that a doctor who makes correct decisions more than 50% of the time can save over 80% of lives. That's why exams have a 50% qualifying cutoff-it reflects real-life competence.</p>
 
 <h4>The Three Hidden Lessons MCQs Teach You</h4>
 
@@ -116,10 +115,10 @@ Research even shows that a doctor who makes correct decisions more than 50% of t
 
 Dr. Apurv Mehra beautifully ends his talk with a lesson from Japanese research on water crystals. Positive words created beautiful patterns when the water was frozen, while negative ones created chaos.
 
-Our bodies are 70% water-meaning our thoughts shape our energy. So, what you tell yourself matters.
+<p>Our bodies are 70% water-meaning our thoughts shape our energy. So, what you tell yourself matters.</p>
 
-Every day, look in the mirror and say: </br>
-<b>"I will play. I will perform. I will win."</b>
+<p>Every day, look in the mirror and say: </br>
+<b>"I will play. I will perform. I will win."</b><p>
 
 Your thoughts crystallise your success.
 
@@ -127,7 +126,7 @@ Your thoughts crystallise your success.
 
 INI-CET isn't just an exam-it's a test of balance, clarity, and emotional strength. You've already done the hard part by coming this far. Now it's about staying calm, practising smartly, and trusting your instincts.
 
-Keep these three rules close as you enter the final month:
+<p>Keep these three rules close as you enter the final month:</p>
 
 <li>1. Don't change your answers.</li>
 
@@ -155,17 +154,17 @@ The seat you want is already waiting for you. You just need to earn it with comp
 
     I often say I belong to a very rich family-not because of money, but because of love and values. We lived in a single room where my grandparents slept on the bed and the rest of us around them. Owning even a bed of my own felt like a distant dream.
 
-    I still remember how strange it felt to see someone eat an entire fruit. We would wonder in awe-how could someone have a whole fruit to themselves? I promised myself that if God ever blessed me, I would one day eat a fruit without sharing it. That small dream taught me a big lesson: <b>richness isn't about wealth, it's about the richness of upbringing, love, and values.</b>
+    <p>I still remember how strange it felt to see someone eat an entire fruit. We would wonder in awe-how could someone have a whole fruit to themselves? I promised myself that if God ever blessed me, I would one day eat a fruit without sharing it. That small dream taught me a big lesson: <b>richness isn't about wealth, it's about the richness of upbringing, love, and values.</b></p>
 
 <h4>The Balloon Battle</h4>
 
 When I was six, my father took me to the Bada market in Gwalior. There was a balloon seller with bright blue fish-shaped balloons and red heart-shaped ones. I was obsessed.
 
-But balloons were expensive. Each time I asked, my father would say, "Tomorrow." I didn't understand "tomorrow." I wanted them now. I fought, rolled in mud, pulled the balloon seller's cycle, and refused to give up. Finally, after 20 minutes of chaos, I walked home like a king-muddy, clothes torn, clutching a blue and a red balloon.
+<p>But balloons were expensive. Each time I asked, my father would say, "Tomorrow." I didn't understand "tomorrow." I wanted them now. I fought, rolled in mud, pulled the balloon seller's cycle, and refused to give up. Finally, after 20 minutes of chaos, I walked home like a king-muddy, clothes torn, clutching a blue and a red balloon.</p>
 
-That day I learned something that shaped my life: <b>if you're ready to give it everything-your comfort, your pride-you'll get your balloon.</b>
+<p>That day I learned something that shaped my life: <b>if you're ready to give it everything-your comfort, your pride-you'll get your balloon.</b></p>
 
-In life, balloons change shape. They become your dream college, the car you want to drive, the hospital you wish to build, the exam you want to crack. But the rule remains the same: <b>you must fight for it, no matter how dirty you get or who laughs at you.</b>
+<p>In life, balloons change shape. They become your dream college, the car you want to drive, the hospital you wish to build, the exam you want to crack. But the rule remains the same: <b>you must fight for it, no matter how dirty you get or who laughs at you.</b></p>
 
 
 <h4>Dreamers vs. Doers</h4>
@@ -184,7 +183,7 @@ If you promise yourself to improve-even a little-every day, your dreams will tur
 
 Many students forget to thank their parents when they succeed. But trust me, nothing matters more than their blessings. Call them. Talk to them. Your mental strength, especially during exams like NEET PG or INICET, often comes from their unwavering belief in you.
 
-Remember this: human beings define institutions, not the other way around. Your rank, not the coaching centre, defines your success.
+<p>Remember this: human beings define institutions, not the other way around. Your rank, not the coaching centre, defines your success.</p>
 
 <h4>The Equation of Effort</h4>
 
@@ -251,7 +250,7 @@ Give your 99%. Let God hold the water still for the final 1%. And when you final
 
 Even if I have a fever, someone somewhere is still reading. That thought has always stayed with me. You may feel tired or distracted, but remember: someone is working while you pause. On exam day, that person might come back like a boomerang and stand right in front of you. You will not even see it coming.
 
-The real fight is not inside the exam hall; it is in the hours you choose to give, even when it is uncomfortable.
+<p>The real fight is not inside the exam hall; it is in the hours you choose to give, even when it is uncomfortable.</p>
 
 <h4>No One Scores 100%</h4>
 
@@ -299,7 +298,7 @@ You are not known by how much money you earn. You are known by the difference yo
 
 The winner is not the one who never falls, but the one who refuses to stop playing the game.
 
--Dr. Apurv Mehra`,
+<p>-Dr. Apurv Mehra</p>`,
   },
 ];
 
