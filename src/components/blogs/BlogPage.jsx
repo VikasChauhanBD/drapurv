@@ -11,17 +11,18 @@ import {
 import { Helmet } from "react-helmet";
 
 function BlogPage() {
-  const navigate = useNavigate();
-  const carouselRef = useRef(null);
   const { blogId } = useParams();
+  const blog = blogData.find((b) => String(b.id) === String(blogId));
+  const navigate = useNavigate();
   const location = useLocation();
-  const blog = blogData.find((b) => b.id === blogId);
+  const carouselRef = useRef(null);
 
-  // Scroll to top when blog changes
+  // Scroll to top on blog change
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [blogId, location.pathname]);
 
+  // Calculate reading time
   const readingTime = useMemo(() => {
     if (!blog?.para) return "2 min read";
     const words = blog.para.split(/\s+/).length;
@@ -29,24 +30,19 @@ function BlogPage() {
     return `${minutes} min read`;
   }, [blog]);
 
-  const handleShare = async () => {
-    const url = window.location.href;
-    if (navigator.share) {
-      try {
-        await navigator.share({
-          title: blog.metaTitle,
-          text: blog.metaDesc,
-          url,
-        });
-      } catch (err) {
-        console.log("Share cancelled");
-      }
-    } else {
-      navigator.clipboard.writeText(url);
-      alert("Blog link copied to clipboard!");
-    }
-  };
+  // Table of Contents
+  const tableOfContents = useMemo(() => {
+    const headings = [];
+    const temp = document.createElement("div");
+    temp.innerHTML = blog?.para || "";
+    const h4Elements = temp.querySelectorAll("h4");
+    h4Elements.forEach((h4, index) => {
+      headings.push({ id: `section-${index}`, title: h4.textContent });
+    });
+    return headings;
+  }, [blog]);
 
+  // Format blog content
   const formatContent = (content) => {
     if (!content) return null;
     const paragraphs = content.split("\n\n").filter((p) => p.trim());
@@ -63,7 +59,6 @@ function BlogPage() {
         );
       }
 
-      // Check if paragraph contains an h4 tag
       if (paragraph.includes("<h4>")) {
         const modifiedParagraph = paragraph.replace(
           /<h4>/g,
@@ -83,20 +78,26 @@ function BlogPage() {
     });
   };
 
-  const tableOfContents = useMemo(() => {
-    const headings = [];
-    const temp = document.createElement("div");
-    temp.innerHTML = blog?.para || "";
-    const h4Elements = temp.querySelectorAll("h4");
-    h4Elements.forEach((h4, index) => {
-      headings.push({
-        id: `section-${index}`,
-        title: h4.textContent,
-      });
-    });
-    return headings;
-  }, [blog]);
+  // Share blog
+  const handleShare = async () => {
+    const url = window.location.href;
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: blog.metaTitle,
+          text: blog.metaDesc,
+          url,
+        });
+      } catch (err) {
+        console.log("Share cancelled");
+      }
+    } else {
+      navigator.clipboard.writeText(url);
+      alert("Blog link copied to clipboard!");
+    }
+  };
 
+  // Carousel scroll
   const handleScroll = (direction) => {
     if (carouselRef.current) {
       const scrollAmount = 400;
@@ -107,9 +108,14 @@ function BlogPage() {
     }
   };
 
+  // Blog not found
   if (!blog) {
     return (
       <div className="blog-not-found">
+        <Helmet>
+          <title>Blog Not Found | Dr. Apurv Mehra</title>
+          <meta name="description" content="Blog not found." />
+        </Helmet>
         <h2>Blog not found</h2>
         <NavLink to="/blogs" className="back-btn">
           Back to Blogs
@@ -121,7 +127,7 @@ function BlogPage() {
   return (
     <>
       <Helmet>
-        <title>{blog.metaTitle}</title>
+        <title>{blog.metaTitle} | Dr. Apurv Mehra</title>
         <meta name="description" content={blog.metaDesc} />
         <meta property="og:title" content={blog.metaTitle} />
         <meta property="og:description" content={blog.metaDesc} />
@@ -205,14 +211,14 @@ function BlogPage() {
           </aside>
         </div>
 
-        {/* Recommended Section */}
+        {/* Recommended Blogs */}
         <section className="recommended-blog">
           <h6>KEEP EXPLORING</h6>
           <h1>Recommended Reads - Just for You</h1>
 
           <section className="recommended-blog-cards" ref={carouselRef}>
-            {blogData.map((data, index) => (
-              <article key={index} className="recommended-blog-card">
+            {blogData.map((data) => (
+              <article key={data.id} className="recommended-blog-card">
                 <Link to={`/blog/${data.id}`}>
                   <div className="recommended-blog-card-images">
                     <img src={data.image} alt={data.metaTitle} />

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Header from "../header/Header";
 import About from "../about/About";
 import Surgeon from "../surgeon/Surgeon";
@@ -15,7 +16,15 @@ import Gallery from "../gallery/Gallery";
 
 function Home() {
   return (
-    <div>
+    <>
+      <Helmet>
+        <title>Dr. Apurv Mehra - The Orthopedic Surgeon</title>
+        <meta
+          name="description"
+          content="Dr. Apurv Mehra is a renowned Robotic Orthopedics joint replacement surgeon. Known for creating excellence worldwide in education for medico aspirants."
+        />
+      </Helmet>
+
       <Header />
       <About />
       <Surgeon />
@@ -29,7 +38,7 @@ function Home() {
       <VidyaJeevan />
       <StudentsTestimonial />
       <Gallery />
-    </div>
+    </>
   );
 }
 
