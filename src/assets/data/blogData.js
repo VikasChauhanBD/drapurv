@@ -1,5 +1,57 @@
 const blogData = [
   {
+    id: "spine-surgery-success-story-at-vidya-jeevan-from-immobility-to-walking-again",
+    blogDate: "November 29, 2025",
+    image:
+      "https://cdn.dribbble.com/userupload/45878407/file/0cd76c90f3a0d4b4fe3a4a8eac4bbf4e.jpeg",
+    metaTitle:
+      "Spine Surgery Success Story at Vidya Jeevan | From Immobility to Walking Again",
+    metaDesc:
+      "A remarkable journey of recovery showing how expert spine care at Vidya Jeevan helped a patient regain movement and hope.",
+    author: "Dr. Apurv Mehra",
+    tags: ["Spine Surgery", "Patient Story", "Recovery Journey", "Healthcare"],
+    para: `Patient Name: Rohit Kumar Bhatnani
+
+<p>Rohit Kumar Bhatnani shared that about 6–7 months ago, while doing yoga, he suddenly developed pain in his back. At that time, he didn’t understand the seriousness of the pain.</p>
+
+<p>However, as days passed, the pain increased so much that it became unbearable. He took medicines and underwent physiotherapy, which gave him temporary relief.</p>
+
+<p>Around 15–20 days ago, the same pain returned, this time much more severely. When he visited the doctor, he was in such a bad condition that he couldn’t even walk on his own. Someone had to support him and take him to the clinic. His condition kept worsening, which scared him even more.</p>
+
+<h5>Interview Link: 
+<a href="https://www.youtube.com/watch?v=t8I30qDjQEI" target="_blank">https://www.youtube.com/watch?v=t8I30qDjQEI</a>
+</h5>
+
+<h4>The Decision for Surgery: Tough but Required</h4>
+
+<p>The doctor advised surgery. This created fear among everyone around him because they felt the surgery could be risky. They worried that anything could happen -</p>
+
+<p>He might become permanently bedridden, or the problem might worsen.</p>
+
+<p>But Rohit had no other option.</p>
+
+<p>He decided to trust the doctor, who assured him that he would be fine. With full faith, Rohit went ahead and got the surgery done.</p>
+
+<h4>Recovery: Walking Again Within Days</h4>
+
+<p>After the surgery, Rohit reported remarkable improvement.</p>
+
+<p>He is now able to walk on his own for 24–30 hours, and the severe back pain that once troubled him is completely gone.</p>
+
+<p>Only slight wound pain remains, which is expected and will heal with time.</p>
+
+<p>Just 2–3 days after surgery, he was already walking independently. He had been scared that he might never walk again, but the surgery completely changed his condition.</p>
+
+<h4>Words of Gratitude</h4>
+
+<p>Thank you, doctor. His team is very supportive and helpful. I would like to say thank you to the doctor.</p>
+
+<p>Thank you, doctor. Thank you very much. I was in a lot of pain.</p>
+
+<p>I didn't expect that I would be able to walk again. Your support and guidance cured me completely.</p>
+`,
+  },
+  {
     id: "being-a-doctor-isnt-easy-but-nothing-is-more-beautiful-a-message-by-dr-apurv-mehra",
     blogDate: "November 13, 2025",
     image:

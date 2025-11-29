@@ -29,14 +29,20 @@
     <priority>0.7</priority>
   </url>
 
-   <url>
+  <url>
     <loc>https://drapurv.com/blog/mcqs-mindset-and-the-30-day-formula-to-crack-ini-cet-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
-<url>
+  <url>
     <loc>https://drapurv.com/blog/being-a-doctor-isnt-easy-but-nothing-is-more-beautiful-a-message-by-dr-apurv-mehra</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://drapurv.com/blog/spine-surgery-success-story-at-vidya-jeevan-from-immobility-to-walking-again</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
