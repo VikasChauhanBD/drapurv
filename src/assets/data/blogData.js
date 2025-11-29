@@ -12,15 +12,22 @@ const blogData = [
     tags: ["Spine Surgery", "Patient Story", "Recovery Journey", "Healthcare"],
     para: `Patient Name: Rohit Kumar Bhatnani
 
-<p>Rohit Kumar Bhatnani shared that about 6–7 months ago, while doing yoga, he suddenly developed pain in his back. At that time, he didn’t understand the seriousness of the pain.</p>
+<p>Rohit Kumar Bhatnani shared that about 6-7 months ago, while doing yoga, he suddenly developed pain in his back. At that time, he didn’t understand the seriousness of the pain.</p>
 
 <p>However, as days passed, the pain increased so much that it became unbearable. He took medicines and underwent physiotherapy, which gave him temporary relief.</p>
 
-<p>Around 15–20 days ago, the same pain returned, this time much more severely. When he visited the doctor, he was in such a bad condition that he couldn’t even walk on his own. Someone had to support him and take him to the clinic. His condition kept worsening, which scared him even more.</p>
+<p>Around 15-20 days ago, the same pain returned, this time much more severely. When he visited the doctor, he was in such a bad condition that he couldn’t even walk on his own. Someone had to support him and take him to the clinic. His condition kept worsening, which scared him even more.</p>
 
-<h5>Interview Link: 
-<a href="https://www.youtube.com/watch?v=t8I30qDjQEI" target="_blank">https://www.youtube.com/watch?v=t8I30qDjQEI</a>
-</h5>
+<p>
+<iframe
+  src="https://www.youtube.com/embed/t8I30qDjQEI"
+  width="100%"
+  height="400"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+  frameBorder="0"
+></iframe>
+</p>
 
 <h4>The Decision for Surgery: Tough but Required</h4>
 
@@ -36,11 +43,11 @@ const blogData = [
 
 <p>After the surgery, Rohit reported remarkable improvement.</p>
 
-<p>He is now able to walk on his own for 24–30 hours, and the severe back pain that once troubled him is completely gone.</p>
+<p>He is now able to walk on his own for 24-30 hours, and the severe back pain that once troubled him is completely gone.</p>
 
 <p>Only slight wound pain remains, which is expected and will heal with time.</p>
 
-<p>Just 2–3 days after surgery, he was already walking independently. He had been scared that he might never walk again, but the surgery completely changed his condition.</p>
+<p>Just 2-3 days after surgery, he was already walking independently. He had been scared that he might never walk again, but the surgery completely changed his condition.</p>
 
 <h4>Words of Gratitude</h4>
 
@@ -241,7 +248,7 @@ Many students forget to thank their parents when they succeed. But trust me, not
 
 Life is like Bhaskaracharya's famous equation from the Mahabharata, which calculates how many arrows Arjuna needed to defeat Karna.
 
-<li>- <b>50%</b> of arrows stop Karna's attacks – that's you fighting your own laziness.</li>
+<li>- <b>50%</b> of arrows stop Karna's attacks - that's you fighting your own laziness.</li>
 
 <li>- <b>40%</b> control your senses and distractions.</li>
 
