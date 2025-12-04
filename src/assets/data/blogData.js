@@ -1,5 +1,110 @@
 const blogData = [
   {
+    id: "understanding-knee-implants-best-options-materials-&-robotic-compatibility-explained-by-dr-apurv-mehra",
+    blogDate: "November 29, 2025",
+    image:
+      "https://cdn.dribbble.com/userupload/45939323/file/d60095c3b32fd8fe62d5f63fa9acefa8.jpeg",
+    metaTitle:
+      "Understanding Knee Implants: Best Options, Materials & Robotic Compatibility - Explained by Dr. Apurv Mehra",
+    metaDesc:
+      "Dr. Apurv Mehra breaks down knee implants, top materials, and robotic-ready options to help patients choose safer, long-lasting joint solutions.",
+    author: "Dr. Apurv Mehra",
+    tags: [
+      "Knee Replacement",
+      "Knee Implants",
+      "Robotic Surgery",
+      "Orthopaedics",
+      "Joint Replacement",
+    ],
+    para: `Knee replacement is one of the most successful surgeries performed worldwide over the last three decades. Yet patients and families often struggle with one big question: <b>Which knee implant is the best?</b>
+
+<p>Dr. Apurv Mehra breaks down this complex topic with clarity-explaining quality, materials, robotic compatibility, and why choosing the right implant can transform a patient’s quality of life.</p>
+
+<h4>Why the ‘Best’ Implant Is Not Always the Same for Everyone</h4>
+
+<p>The word best is relative-but the goal is constant: <b>Give the patient the safest, most durable, and most natural-feeling knee possible.</b></p>
+
+<p>When Dr. Apurv Mehra began his surgical practice, he chose implants from one of the world’s oldest and most trusted companies. Years later, the same company launched a robotic system that was directly compatible with those implants. This synergy allowed him to evolve naturally into robotic-assisted surgery-something patients now actively ask for because they want the latest, safest, and most precise option.</p>
+
+<h4>What Makes an Implant Truly High-Quality?</h4>
+
+<h4>1. Materials That Match the Human Body</h4>
+
+Long-term studies show that the closer an implant mimics the natural joint, the better the movement and feel.
+
+<p>Most high-quality knee implants use:</p>
+
+<li>• Cobalt</li>
+<li>• Chromium</li>
+<li>• Molybdenum</li>
+
+<p>These materials have been tested for decades and offer high durability.</p>
+
+<h4>2. Polyethene for Smooth Movement</h4>
+
+Since the thigh component and leg component are metal, a metallic interface cannot provide smooth movement-metal-on-metal erosion is proven to be harmful.
+
+<p>A <b>highly cross-linked polyethene</b> is used between the two metal parts.</br> One globally trusted version of this is called <b>Cavonox.</b></p>
+
+<p>This material is engineered for longevity and smoother movement.</p>
+
+<h4>Size Options & Customisation Matter More Than You Think</h4>
+
+A good implant should offer multiple size options.</br> Why?
+
+<p>Because <b>every millimetre affects years of longevity.</b></p>
+
+<p>A better fit → more natural feel → better range of motion → better surgical precision.</p>
+
+<p>While standard implants claim around <b>20 years</b> of life, the newer generation-designed to better mimic the human joint-claims up to <b>24 years</b>, the highest ever reported.</p>
+
+<h4>How Robotic Assistance Enhances Knee Replacement</h4>
+
+Robotic surgery adds several advantages:
+
+<li>• Higher precision</li>
+<li>• Less bone loss</li>
+<li>• Less blood loss</li>
+<li>• Potentially smaller incisions</li>
+<li>• Less post-operative pain</li>
+<li>• Faster recovery</li>
+<li>• Better bone conservation</li>
+
+<p>But the most important point is this: <b>Your implant must be robot-compatible.</b></p>
+
+<p>Unlike mobile services, where you can switch networks anytime, implants and robots work as one system. Once you choose an implant, it stays with that robot’s ecosystem.</p>
+
+<h4>The Importance of US FDA Approval</h4>
+
+Dr. Apurv Mehra emphasises that any implant used on human beings must have <b>US FDA approval.</b> This ensures:
+
+<li>• Safety</li>
+<li>• Quality</li>
+<li>• Long-term reliability</li>
+
+<p>Without this approval, an implant should never be used for surgical procedures.</p>
+
+<h4>What Truly Matters: Patient Function & Quality of Life</h4>
+
+A knee replacement is done for one simple reason: <b>The knee has become an obstacle to normal daily living.<b>
+
+<p>A high-quality implant, combined with advanced technology like robotics, aims to:</p>
+
+<li>• Restore natural movement</li>
+<li>• Reduce pain</li>
+<li>• Provide long-term function</li>
+<li>• Improve overall quality of life</li>
+
+<p>Technology exists to guide the surgeon precisely, just like using Google Maps instead of asking for directions. When navigation improves, outcomes improve.</p>
+
+<h4>Final Thoughts: Welcome to the Next Generation of Knee Replacement</h4>
+
+Why not offer patients the best, the safest, the most natural, and the most advanced option? </br> With modern implants, robotic precision, and years of research backing the materials, the future of knee replacement is already here.
+
+<p><b>Welcome to the world of next-generation knee surgery.</b></p>
+`,
+  },
+  {
     id: "spine-surgery-success-story-at-vidya-jeevan-from-immobility-to-walking-again",
     blogDate: "November 29, 2025",
     image:
