@@ -6,25 +6,11 @@ const ScrollToTopButton = () => {
   const [visible, setVisible] = useState(false);
 
   const toggleVisibility = () => {
-    if (window.scrollY > 300) {
-      setVisible(true);
-    } else {
-      setVisible(false);
-    }
+    setVisible(window.scrollY > 300);
   };
 
-  // Custom scroll function with speed control
   const scrollToTop = () => {
-    const scrollDuration = 2000; // adjust speed (ms) -> higher = slower
-    const scrollStep = -window.scrollY / (scrollDuration / 15);
-
-    const scrollInterval = setInterval(() => {
-      if (window.scrollY !== 0) {
-        window.scrollBy(0, scrollStep);
-      } else {
-        clearInterval(scrollInterval);
-      }
-    }, 15);
+    window.scrollTo(0, 0); // instantly scroll to top
   };
 
   useEffect(() => {
