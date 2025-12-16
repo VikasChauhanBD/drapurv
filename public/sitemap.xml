@@ -47,8 +47,14 @@
     <priority>0.7</priority>
   </url>
 
-   <url>
+  <url>
     <loc>https://drapurv.com/blog/understanding-knee-implants-best-options-materials-&amp;-robotic-compatibility-explained-by-dr-apurv-mehra</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://drapurv.com/blog/30-days-to-fmge-a-practical-no-fluff-plan-by-dr-apurv-mehra</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

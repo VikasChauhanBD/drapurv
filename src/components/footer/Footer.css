@@ -118,6 +118,10 @@
   padding: 10px 0;
 }
 
+.lower-footer a {
+  color: #ffffff;
+}
+
 /* ------------------------------------ Responsive Style ------------------------- */
 
 @media (max-width: 1440px) {

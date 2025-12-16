@@ -1,5 +1,109 @@
 const blogData = [
   {
+    id: "30-days-to-fmge-a-practical-no-fluff-plan-by-dr-apurv-mehra",
+    blogDate: "December 16, 2025",
+    image:
+      "https://cdn.dribbble.com/userupload/46075414/file/e3cce26149fdb5cd96689ddcac50c70b.jpeg",
+    metaTitle: "30 Days to FMGE: A Practical, No-Fluff Plan By Dr. Apurv Mehra",
+    metaDesc:
+      "30 days to FMGE made simple. Dr. Apurv Mehra shares a practical, no-fluff plan focused on revision, MCQs, weak areas, and exam-day strategy.",
+    author: "Dr. Apurv Mehra",
+    tags: [
+      "Knee Replacement",
+      "Knee Implants",
+      "Robotic Surgery",
+      "Orthopaedics",
+      "Joint Replacement",
+    ],
+    para: `Thirty days left. That’s short - and it’s enough. If you’re sitting with nerves, scattered notes and a stubborn to-do list, this is for you.<br/>Dr. Apurv Mehra shared a tight 30-day plan you can actually follow.
+
+<h4>First: the mindset that wins</h4>
+
+<li>• <b>Decide to fight.</b> Talent helps, but persistence wins. The person who refuses to give up is the one who gets through. Promise yourself: “I will fight.”</li>
+<li>• <b>Value every 15 minutes.</b> Tiny chunks add up. Wasted minutes become lost rank.</li>
+<li>• <b>Remember why you started.</b> Remind yourself daily of your goal - whether it’s a license, a seat, or simply proving you can.</li>
+<li>• <b>Stay calm and humble-quiet,</b> steady effort > loud panic.</li>
+
+<h4>What really matters in the last 30 days</h4>
+
+<li>1. <b>Revision, not reinvention.</b> This month is for consolidating, not learning from scratch.</li>
+
+<li>2. <b>Practice MCQs every day.</b> FMGE is an MCQ game - practice the art of elimination and option reading.</li>
+
+<li>3. <b>Cover all subjects.</b> Being strong in 5 subjects won’t save you; being average in 19 might win the exam.</li>
+
+<li>4. <b>Read every option.</b> Never mark without reading all four choices.</li>
+
+<li>5. <b>Isolate for focused work.</b> Surroundings and company matter - choose positive people and limited distractions.</li>
+
+<li>6. <b>Use base material.</b> Pick one good book or source per subject and revise it thoroughly - depth beats scattered breadth now.</li>
+
+<h4>30-Day FMGE Plan - week by week (practical + repeatable)</h4>
+
+<h4>Weeks 1 & 2 - Build the base & daily MCQ habit</h4>
+
+<li>• <b>Goal:</b> Finish 2 full revisions of your chosen core notes/books for high-yield topics; start daily timed MCQs.</li>
+<li>• <b>Daily routine (6-8 hours study):</b></li>
+<li>• <b>Weekly:</b> Do one full subject-wise mock (2-3 hours) and analyse errors. Note recurring weak topics.</li>
+
+<h4>Week 3 - Consolidate weaknesses & exam-craft</h4>
+
+<li>• <b>Goal:</b> Turn weak topics into “manageable” topics; sharpen MCQ techniques.</li>
+<li>• <b>Daily routine:</b>
+  <ul>
+    <li><b>Morning:</b> Weak topic revision + active recall (teach it aloud).</li>
+    <li><b>Midday:</b> Timed full-length MCQ test (simulate exam timing).</li>
+    <li><b>Afternoon:</b> Error log - list mistakes and the reason (concept / careless / option trap).</li>
+    <li><b>Evening:</b> Rapid revision of what you studied in the morning.</li>
+  </ul>
+</li>
+<li>• <b>Focus:</b> Technique - ruling out wrong options, recognizing trap patterns, and time management.</li>
+
+<h4>Week 4 (final 7 days) - Memory anchors & exam simulation</h4>
+
+<li>• <b>Goal:</b> Fix high-yield facts and mental map of where things are in your resources.</li>
+<li>• <b>Daily routine:</b>
+  <ul>
+    <li><b>Morning:</b> Rapid revision (pick a single booklet/topic to run through).</li>
+    <li><b>Midday:</b> One full mock exam (simulate exam conditions).</li>
+    <li><b>Afternoon:</b> Review only the mistakes from that mock; avoid learning new blocks.</li>
+    <li><b>Evening:</b> Light relaxation + short, confident recall (flashcards/one-page cheat sheets).</li>
+  </ul>
+</li>
+<li>• Last 48 hours: No cramming. Light review, sleep well, eat properly. Visualize: “I will play.”</li>
+
+<h4>Concrete exam tactics (the craft)</h4>
+
+<li>• <b>Read the stem carefully.</b> Identify what the question really asks.</li>
+<li>• <b>Read ALL options before choosing.</b> Don’t autoskip.</li>
+<li>• <b>Rule out confidently.</b> Eliminate the obviously wrong first; then choose between the best two.</li>
+<li>• <b>If unsure, move on - then return.</b> Don’t burn time on a single question early on.</li>
+<li>• <b>Accept that you’ll lose some points.</b> Like tennis: you may lose more points overall but still win the match. Prioritize high-value questions.</li>
+<li>• <b>Use time blocks in the paper.</b> Allocate time per section and stick to it.</li>
+
+<h4>Daily micro-promises (build these habits)</h4>
+
+<li>• Study the first hour of your day - your best energy belongs to study.</li>
+<li>• Do at least one timed MCQ block daily.</li>
+<li>• Spend 15 minutes reviewing yesterday’s mistakes - do this every day.</li>
+<li>• Speak to your two positive people (parents or mentors) - share feelings, not distractions.</li>
+<li>• End each day with a one-line note: “Today I improved on ___.” Small wins matter.</li>
+
+<h4>Practical checklist (pin this somewhere)</h4>
+
+<li>• Choose 1 core book per subject and stick with it.</li>
+<li>• Daily MCQ practice: 50-150 Qs (timed).</li>
+<li>• Weekly full mock + error analysis.</li>
+<li>• Error log maintained and revised.</li>
+<li>• Sleep 7-8 hours in last week.</li>
+<li>• Pack exam day essentials 2 days before.</li>
+
+<h4>Final note</h4>
+
+<p>Thirty days will fly. Use them with purpose: revise deeply, practice MCQs like it’s an art, protect your time, and keep your spirit. If you stay consistent, focused, and calm, you’ll change your position in ways you can’t imagine today.</p>
+`,
+  },
+  {
     id: "understanding-knee-implants-best-options-materials-&-robotic-compatibility-explained-by-dr-apurv-mehra",
     blogDate: "December 04, 2025",
     image:

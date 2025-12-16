@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./BlogHome.css";
 import blogData from "../../assets/data/blogData";
@@ -6,6 +6,35 @@ import { Helmet } from "react-helmet";
 
 const BlogHome = () => {
   const navigate = useNavigate();
+  const [currentPage, setCurrentPage] = useState(1);
+  const blogsPerPage = 6;
+
+  // Calculate pagination values
+  const indexOfLastBlog = currentPage * blogsPerPage;
+  const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
+  const currentBlogs = blogData.slice(indexOfFirstBlog, indexOfLastBlog);
+  const totalPages = Math.ceil(blogData.length / blogsPerPage);
+
+  // Scroll to top when page changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage]);
+
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const handlePrevious = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const handleNext = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
 
   return (
     <>
@@ -45,12 +74,8 @@ const BlogHome = () => {
         </div>
 
         <main className="blogs-inner-container">
-          {/* <NavLink to="/" className="blogs-back-btn">
-          Back To Home
-        </NavLink> */}
-
           <section className="blogs-grid">
-            {blogData.map((data, index) => (
+            {currentBlogs.map((data, index) => (
               <article key={index} className="blogs-card">
                 <NavLink to={`/blog/${data.id}`}>
                   <div className="blogs-card-images">
@@ -66,6 +91,41 @@ const BlogHome = () => {
               </article>
             ))}
           </section>
+
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="pagination-container">
+              <button
+                className="pagination-btn"
+                onClick={handlePrevious}
+                disabled={currentPage === 1}
+              >
+                ← Previous
+              </button>
+
+              <div className="pagination-numbers">
+                {[...Array(totalPages)].map((_, index) => (
+                  <button
+                    key={index}
+                    className={`pagination-number ${
+                      currentPage === index + 1 ? "active" : ""
+                    }`}
+                    onClick={() => handlePageChange(index + 1)}
+                  >
+                    {index + 1}
+                  </button>
+                ))}
+              </div>
+
+              <button
+                className="pagination-btn"
+                onClick={handleNext}
+                disabled={currentPage === totalPages}
+              >
+                Next →
+              </button>
+            </div>
+          )}
         </main>
       </div>
     </>
