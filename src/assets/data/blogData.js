@@ -1,5 +1,122 @@
 const blogData = [
   {
+    id: "what-i-learned-when-i-was-the-only-one-without-a-rank-at-maulana-azad-medical-college",
+    blogDate: "December 30, 2025",
+    image:
+      "https://cdn.dribbble.com/userupload/46216136/file/a03d82a0f88ff8228e4b48daa3393c69.jpeg",
+    metaTitle:
+      "What I Learned When I Was the Only One Without a Rank at Maulana Azad Medical College: Motivational Story of Dr. Apurv Mehra",
+    metaDesc:
+      "A powerful story of resilience and self belief, showing how failure at MAMC shaped Dr Apurv Mehra's mindset, growth, and long term success in medicine.",
+    author: "Dr. Apurv Mehra",
+    tags: [
+      "Medical Education",
+      "NEET PG",
+      "Motivation",
+      "Resilience",
+      "Orthopaedics",
+    ],
+    para: `There are moments in a doctor's life that quietly shape everything that follows. They don't come with applause or certificates. They come with silence, self-doubt, and a lot of unanswered questions. One such moment came for me when I was at <b>Maulana Azad Medical College</b>  -  the day the results were declared, and I was the only one without a rank.
+
+<h4>When Everyone Else Moves Forward - and You Don't</h4>
+
+<p>The result day was brutal, not because I failed, but because everyone around me succeeded.</p>
+
+<li>• My roommate got an All India Rank.</li>
+<li>• My closest friends were selected.</li>
+
+<p>And I was left staring at an old rank on the screen.</p>
+
+<p>It's easier to cope when everyone fails together. You cry, hug each other, and move on. But when everyone around you moves ahead, and you don't - it hurts differently.</p>
+
+<p>That number stayed stuck in my head. Numbers chase you. Numbers don't lie.</p>
+
+<h4>A Father's Words That Hurt - and Helped</h4>
+
+<p>When my father looked at the result, he said something that hurt more than the rank itself:</p>
+
+<p><b>"You didn't work hard."</b></p>
+
+<p>Coming from a father who wasn't a doctor, that line felt unbearable. I argued, I resisted, I felt misunderstood. At one point, I even said I didn't want to stay in a house where I felt I had lost respect.</p>
+
+<p>But what I didn't understand then was this: <b>When results are bad, you don't need knowledge - you need calmness.</b></p>
+
+<p>And my father was calm.</p>
+
+<h4>The Wall That Was Empty</h4>
+
+<p>Years ago, when I was preparing for MBBS, I had written my goal on the wall at home - <b>Maulana Azad Medical College.</b> I believed it, committed to it, and achieved it.</p>
+
+<p>This time, the wall was empty.</p>
+
+<p>My father pointed it out quietly:</p>
+
+<p><b>"This time, nothing is written. You didn't decide what you wanted."</b></p>
+
+<p>That was the turning point.</p>
+
+<h4>The Power of Writing Your Belief</h4>
+
+<p>He asked me to look at the first page of a book - blank.</p>
+
+<p><br>"First believe.</br> Then write what you want.</br> And see what commitment does."</br></p>
+
+<p>That night, I wrote: <b>Delhi Ortho.</b></p>
+
+<p>No confusion. No alternatives. Just one clear goal.</p>
+
+<h4>Commitment Changes Everything</h4>
+
+<p>From that day:</p>
+
+<li>• I studied with focus, not panic.</li>
+<li>• I followed one teacher till the end.</li>
+<li>• I stopped comparing my journey with others.</li>
+<li>• I focused only on making today better than yesterday.</li>
+
+<p>Six months later, there was only <b>one seat</b> in the general category.</p>
+
+<p>My father said:</p>
+
+<p><b>"Do what you've been doing for six months - do it for four more. If you've worked honestly, the seat will come."</b></p>
+
+<p>And it did.</p>
+
+<h4>What This Experience Taught Me</h4>
+
+<p>This journey taught me lessons far bigger than any rank:</p>
+
+<li>• An experience is when you can laugh at something that once broke you</li>
+<li>• Comparison destroys clarity</li>
+<li>• Doctors should never measure their worth by paychecks or ranks</li>
+<li>• Saving a human life has no price tag</li>
+<li>• Respect for doctors exists everywhere - don't let social media fool you</li>
+<li>• Your brain that thinks only of the patient, and your heart that feels for them, make you priceless</li>
+
+<h4>You Are a Kohinoor - Don't Forget That</h4>
+
+<p>No exam, no rank, no failure can reduce your value.</p>
+
+<p>Doctors are 24-carat gold. Your worth doesn't change with results.</p>
+
+<p>As long as human life exists, doctors will always matter.</p>
+
+<h4>Final Thought</h4>
+
+<p>If you're reading this and feeling stuck, disappointed, or left behind - remember this:</p>
+
+<li>• Write your goal.</li>
+<li>• Believe in it.</li>
+<li>• Commit to it.</li>
+<li>• Follow the rules of the game.</li>
+<li>• And stay honest with your effort.</li>
+
+<p>Because the journey you truly believe in <b>always finds its destination.</b></p>
+
+<p><b>You are not behind. You are just being prepared.</b></p>
+`,
+  },
+  {
     id: "30-days-to-fmge-a-practical-no-fluff-plan-by-dr-apurv-mehra",
     blogDate: "December 16, 2025",
     image:

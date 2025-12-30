@@ -59,4 +59,10 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://drapurv.com/blog/what-i-learned-when-i-was-the-only-one-without-a-rank-at-maulana-azad-medical-college</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
